@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>NetSuite</Author>
+<LastAuthor>NetSuite</LastAuthor>
+<Company>NetSuite</Company>
+</DocumentProperties>
+<Styles>
+<Style ss:ID="company">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="error">
+<Alignment ss:Horizontal="Center"/>
+<Interior ss:Color="#d04040" ss:Pattern="Solid"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="header">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Size="7" ss:Bold="1"/>
+<Interior ss:Color="#d0d0d0" ss:Pattern="Solid"/>
+</Style> <Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font ss:FontName="Arial" ss:Size="8"/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="s__TIMEOFDAY"><NumberFormat ss:Format="Medium Time"/></Style>
+<Style ss:ID="s__DATETIME"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATETIMETZ"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATE"><NumberFormat ss:Format="Short Date"/>
+</Style><Style ss:ID="s__text"></Style><Style ss:ID="s__currency"><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__percent"><NumberFormat ss:Format="Percent"/></Style>
+<Style ss:ID="s1_b_text"><Alignment ss:Indent="1"/><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s_b_text"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s2__text"><Alignment ss:Indent="2"/></Style>
+<Style ss:ID="s_b_currency"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s_currency_nosymbol"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" /><NumberFormat ss:Format="#,##0.00_);[Red]\(#,##0.00\)"/></Style>
+<Style ss:ID="s1__text"><Alignment ss:Indent="1"/></Style>
+<Style ss:ID="s_b_currency_X"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><Interior ss:Color="#f0e0e0" ss:Pattern="Solid"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__currency_en_CA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;Can$&quot;#,##0.00_);(&quot;Can$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_US"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;$&quot;#,##0.00_);(&quot;$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_IN"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00_);(&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_fr_FR_EURO"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;€&quot;#,##0.00_);(&quot;€&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_GB"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;£&quot;#,##0.00_);(&quot;£&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_ar_SA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;SRl&quot;#,##0.00_);(&quot;SRl&quot;#,##0.00)"/></Style>
+</Styles>
+<Worksheet ss:Name="ItemswitResults">
+<Table><Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Name</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Display Name</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Base Price</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Income Account</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">35</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">11166</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - LF</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - LF</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">11170</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - LS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - LS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">34</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - Lumpsum</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - LS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">13189</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - LY</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">11168</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - PCS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - PCS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">6356</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - SF</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - SF</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">11167</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - SY</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - SY</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">11165</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - Y</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - YARDS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">6355</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - YARDS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item - YARDS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">25099</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item-SQ.M</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Contract Item-SQ.M</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">31151</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Delivery Charges for Arabia</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Delivery Charges for Arabia</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">31559</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Engineering Fee / Drafting Fee</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Engineering Fee / Drafting Fee</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Engineering Fee / Drafting Fee</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">27332</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Equipment Rental</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Equipment Rental</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Equipment Rental</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">21453</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">18613</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication &amp; Installation</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication &amp; Installation</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">26282</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication (For Resale)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication (For Resale)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">24545</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Cutting</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Cutting</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Cutting</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">24548</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Keil Undercut Drilling</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Keil Undercut Drilling</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Keil Undercut Drilling</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">24547</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Meshing</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Meshing</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Meshing</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">24549</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Packaging</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Packaging</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Packaging</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">24546</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Rectification</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Rectification</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fabrication - Rectification</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">25932</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">FF&amp;E Installation</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">FF&amp;E Installation</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">FF&amp;E Installation</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">21471</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV-DR-GEN</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Door</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">29620</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GVA System</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GVA Ventilation Façade - Rainscreen Substructure : Aluminum substructure, system with wall brackets, mill finished vertical T-and L-profiles black anodized screws st/st grade 300 Series.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">31554</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GVM System</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GVM Ventilation Façade - Rainscreen Substructure: Aluminum substructure, system with wall brackets, mill finished vertical T- and L-Profiles black anodized, screws st/st grade 300 series.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">31561</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hotel Accommodations</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hotel Accommodations</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hotel Accommodations</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Other Charge</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">29621</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Installation</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Installation only - does nol include hotel accommodations or equipment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Service</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">21436</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">J85881- London Fog Brick</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">RONDINE BRICK 2 FOG 6x25cm 3x10 Inches</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">RONDINE BRICK 2 FOG 6x25cm 3x10 Inches</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">25317</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mirage OV00 QR 02 Nat. 20mm.  24x24</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mirage OV00 QR 02 Nat. 20mm.  24x24</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">12362</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MRGUK69-GC-10 NAT SQ_12x24- CA4</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MRGUK69-GC-10 NAT SQ_12x24- CA4</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mirage GC 10 WAT 12x24</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">11572</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Placeholder Item - EA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">11571</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Placeholder Item - LS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">13521</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SF-HFBA-9.5-001.2</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">HEAD FLASHING (Stick #1) L:9.5 feet T:0.063 Black Anodized</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">HEAD FLASHING (Stick #1) L:9.5 feet T:0.063 Black Anodized</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">13448</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">TL-JW16-026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MIRAGE JW 16 LUC SQ 53X320 ST 53X320 ST6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MIRAGE JW 16 LUC SQ 53X320 ST 53X320 ST6</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">13466</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">TL-OU4-044</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MIRAGE OU 04 - 24X110 INCHES</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MIRAGE OU 4 - 24X110 INCHES</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">13467</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">TL-OU5-045</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MIRAGE OU 05 - 24X110 INCHES</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MIRAGE OU 05 - 24X110 INCHES</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">13801</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Window Installation Charges</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Window Installation Charges</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">13802</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Window Installation Trip Charges</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Window Installation Trip Charges</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Non-inventory Item</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Revenue</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

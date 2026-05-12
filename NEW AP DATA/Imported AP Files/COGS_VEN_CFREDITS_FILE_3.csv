@@ -1,0 +1,303 @@
+External ID,Item,Item ID,Party Name,vendor ID,Invoice #,length,Invoice Date,New date,Balance Due,Memo,Subsidiary Id,Subsidiary,Account,BIN,BIN ID,LOCATION,serial/lot number
+VENDOR_CR_30001,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30001,12,03-07-2024,03/07/2024,8186.00,PrePayment - - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10299
+VENDOR_CR_30002,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30002,6,04-29-2024,04/29/2024,157.17,W-0429 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10301
+VENDOR_CR_30003,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30003,6,05-29-2024,05/29/2024,8690.33,W-0529 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10303
+VENDOR_CR_30004,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30004,17,06-18-2024,06/18/2024,12170.74,W-0618 $105602.53 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10305
+VENDOR_CR_30005,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30005,17,06-18-2024,06/18/2024,317.56,W-0618 $105602.53 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10307
+VENDOR_CR_30006,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30006,17,06-18-2024,06/18/2024,211.45,W-0618 $105602.53 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10309
+VENDOR_CR_30007,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30007,17,06-18-2024,06/18/2024,181.59,W-0618 $105602.53 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10311
+VENDOR_CR_30008,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30008,17,06-18-2024,06/18/2024,159.59,W-0618 $105602.53 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10313
+VENDOR_CR_30009,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30009,17,06-18-2024,06/18/2024,108.40,W-0618 $105602.53 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10019
+VENDOR_CR_30010,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30010,12,07-17-2024,07/17/2024,687.01,PrePayment - - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10025
+VENDOR_CR_30011,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30011,6,10-08-2024,10/08/2024,1024.50,W-1008 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10027
+VENDOR_CR_30012,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30012,6,10-08-2024,10/08/2024,45.12,W-1008 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10034
+VENDOR_CR_30013,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30013,6,11-04-2024,11/04/2024,4306.34,W-1104 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10036
+VENDOR_CR_30014,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30014,6,11-04-2024,11/04/2024,55.08,W-1104 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10043
+VENDOR_CR_30015,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30015,6,11-13-2024,11/13/2024,6027.84,W-1113 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10047
+VENDOR_CR_30016,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30016,6,11-13-2024,11/13/2024,3338.31,W-1113 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10052
+VENDOR_CR_30017,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30017,6,12-17-2024,12/17/2024,1336.89,W-1217 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10054
+VENDOR_CR_30018,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30018,6,12-24-2024,12/24/2024,163599.07,W-1224 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10056
+VENDOR_CR_30019,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30019,6,12-24-2024,12/24/2024,63945.84,W-1224 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10058
+VENDOR_CR_30020,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30020,6,12-24-2024,12/24/2024,45155.40,W-1224 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10063
+VENDOR_CR_30021,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30021,6,12-24-2024,12/24/2024,13814.17,W-1224 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10065
+VENDOR_CR_30022,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30022,6,04-02-2025,04/02/2025,3380.02,W-0402 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10069
+VENDOR_CR_30023,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30023,6,04-02-2025,04/02/2025,2019.55,W-0402 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10074
+VENDOR_CR_30024,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30024,6,04-02-2025,04/02/2025,1462.96,W-0402 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10078
+VENDOR_CR_30025,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30025,6,04-09-2025,04/09/2025,20102.10,W-0409 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10188
+VENDOR_CR_30026,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30026,6,04-09-2025,04/09/2025,7812.45,W-0409 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10190
+VENDOR_CR_30027,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30027,6,04-09-2025,04/09/2025,145.10,W-0409 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10192
+VENDOR_CR_30028,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30028,6,04-09-2025,04/09/2025,2.86,W-0409 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10194
+VENDOR_CR_30029,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30029,6,04-14-2025,04/14/2025,2442.00,W-0414 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10196
+VENDOR_CR_30030,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30030,6,04-14-2025,04/14/2025,2442.00,W-0414 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10198
+VENDOR_CR_30031,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30031,6,04-22-2025,04/22/2025,23549.40,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10200
+VENDOR_CR_30032,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30032,6,04-22-2025,04/22/2025,10751.59,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10202
+VENDOR_CR_30033,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30033,6,04-22-2025,04/22/2025,3900.00,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10203
+VENDOR_CR_30034,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30034,6,04-22-2025,04/22/2025,2699.53,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10204
+VENDOR_CR_30035,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30035,6,04-22-2025,04/22/2025,1725.83,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10205
+VENDOR_CR_30036,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30036,6,04-22-2025,04/22/2025,1197.18,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10215
+VENDOR_CR_30037,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30037,6,04-22-2025,04/22/2025,800.00,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10216
+VENDOR_CR_30038,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30038,6,04-22-2025,04/22/2025,590.90,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10217
+VENDOR_CR_30039,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30039,6,04-22-2025,04/22/2025,318.70,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10218
+VENDOR_CR_30040,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30040,6,04-22-2025,04/22/2025,293.63,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10219
+VENDOR_CR_30041,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30041,6,04-22-2025,04/22/2025,263.67,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10222
+VENDOR_CR_30042,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30042,6,04-22-2025,04/22/2025,110.23,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10224
+VENDOR_CR_30043,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30043,6,05-06-2025,05/06/2025,200000.00,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10230
+VENDOR_CR_30044,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30044,6,05-06-2025,05/06/2025,2027.27,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10233
+VENDOR_CR_30045,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30045,6,05-08-2025,05/08/2025,192555.65,W-0508 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10235
+VENDOR_CR_30046,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30046,6,05-08-2025,05/08/2025,110766.60,W-0508 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10237
+VENDOR_CR_30047,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30047,6,05-08-2025,05/08/2025,107972.49,W-0508 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10239
+VENDOR_CR_30048,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30048,6,05-08-2025,05/08/2025,53312.26,W-0508 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10250
+VENDOR_CR_30049,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30049,6,05-08-2025,05/08/2025,23786.52,W-0508 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10252
+VENDOR_CR_30050,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30050,6,05-08-2025,05/08/2025,23756.54,W-0508 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10254
+VENDOR_CR_30051,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30051,6,05-08-2025,05/08/2025,18303.16,W-0508 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10256
+VENDOR_CR_30052,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30052,6,05-22-2025,05/22/2025,200000.00,W-0522 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10261
+VENDOR_CR_30053,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30053,6,05-27-2025,05/27/2025,400000.00,W-0522 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10263
+VENDOR_CR_30054,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30054,6,05-27-2025,05/27/2025,4396.00,W-0527 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10266
+VENDOR_CR_30055,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30055,6,06-10-2025,06/10/2025,894.20,W-0610 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10268
+VENDOR_CR_30056,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30056,6,06-16-2025,06/16/2025,109264.55,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10271
+VENDOR_CR_30057,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30057,6,06-16-2025,06/16/2025,20767.42,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10273
+VENDOR_CR_30058,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30058,6,06-16-2025,06/16/2025,16322.14,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10351
+VENDOR_CR_30059,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30059,6,06-16-2025,06/16/2025,9299.70,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10369
+VENDOR_CR_30060,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30060,6,06-16-2025,06/16/2025,8988.30,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10377
+VENDOR_CR_30061,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30061,6,06-16-2025,06/16/2025,7983.06,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10382
+VENDOR_CR_30062,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30062,6,06-16-2025,06/16/2025,7800.00,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10387
+VENDOR_CR_30063,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30063,6,06-16-2025,06/16/2025,7757.08,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10389
+VENDOR_CR_30064,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30064,6,06-16-2025,06/16/2025,7602.03,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10391
+VENDOR_CR_30065,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30065,6,06-16-2025,06/16/2025,7448.60,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10393
+VENDOR_CR_30066,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30066,6,06-16-2025,06/16/2025,7313.33,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10395
+VENDOR_CR_30067,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30067,6,06-16-2025,06/16/2025,7094.04,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,1731
+VENDOR_CR_30068,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30068,6,06-16-2025,06/16/2025,5241.86,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10152
+VENDOR_CR_30069,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30069,6,06-16-2025,06/16/2025,4754.05,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10156
+VENDOR_CR_30070,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30070,6,06-16-2025,06/16/2025,4190.76,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10154
+VENDOR_CR_30071,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30071,6,06-16-2025,06/16/2025,3799.52,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10158
+VENDOR_CR_30072,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30072,6,06-16-2025,06/16/2025,3695.64,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10160
+VENDOR_CR_30073,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30073,6,06-16-2025,06/16/2025,3480.38,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10162
+VENDOR_CR_30074,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30074,6,06-16-2025,06/16/2025,3360.69,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10287
+VENDOR_CR_30075,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30075,6,06-16-2025,06/16/2025,3247.78,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10289
+VENDOR_CR_30076,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30076,6,06-16-2025,06/16/2025,3117.09,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10291
+VENDOR_CR_30077,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30077,6,06-16-2025,06/16/2025,1915.81,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10296
+VENDOR_CR_30078,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30078,6,06-16-2025,06/16/2025,1750.70,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10298
+VENDOR_CR_30079,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30079,6,06-16-2025,06/16/2025,1738.69,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10300
+VENDOR_CR_30080,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30080,6,06-16-2025,06/16/2025,1682.13,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10302
+VENDOR_CR_30081,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30081,6,06-16-2025,06/16/2025,1587.02,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10304
+VENDOR_CR_30082,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30082,6,06-16-2025,06/16/2025,1541.04,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10306
+VENDOR_CR_30083,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30083,6,06-16-2025,06/16/2025,1505.92,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10308
+VENDOR_CR_30084,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30084,6,06-16-2025,06/16/2025,1485.68,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10310
+VENDOR_CR_30085,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30085,6,06-16-2025,06/16/2025,1400.08,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10312
+VENDOR_CR_30086,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30086,6,06-16-2025,06/16/2025,1323.79,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10314
+VENDOR_CR_30087,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30087,6,06-16-2025,06/16/2025,1278.87,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10317
+VENDOR_CR_30088,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30088,6,06-16-2025,06/16/2025,1270.97,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10320
+VENDOR_CR_30089,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30089,6,06-16-2025,06/16/2025,1197.97,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10322
+VENDOR_CR_30090,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30090,6,06-16-2025,06/16/2025,1133.20,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10324
+VENDOR_CR_30091,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30091,6,06-16-2025,06/16/2025,1122.18,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10326
+VENDOR_CR_30092,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30092,6,06-16-2025,06/16/2025,1089.51,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10336
+VENDOR_CR_30093,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30093,6,06-16-2025,06/16/2025,995.89,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10006
+VENDOR_CR_30094,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30094,6,06-16-2025,06/16/2025,864.40,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10283
+VENDOR_CR_30095,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30095,6,06-16-2025,06/16/2025,822.33,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10285
+VENDOR_CR_30096,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30096,6,06-16-2025,06/16/2025,815.50,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10248
+VENDOR_CR_30097,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30097,6,06-16-2025,06/16/2025,799.09,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10221
+VENDOR_CR_30098,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30098,6,06-16-2025,06/16/2025,789.52,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10223
+VENDOR_CR_30099,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30099,6,06-16-2025,06/16/2025,768.72,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10225
+VENDOR_CR_30100,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30100,6,06-16-2025,06/16/2025,742.16,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10232
+VENDOR_CR_30101,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30101,6,06-16-2025,06/16/2025,736.62,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10234
+VENDOR_CR_30102,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30102,6,06-16-2025,06/16/2025,731.76,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10236
+VENDOR_CR_30103,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30103,6,06-16-2025,06/16/2025,718.77,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10238
+VENDOR_CR_30104,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30104,6,06-16-2025,06/16/2025,660.12,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10240
+VENDOR_CR_30105,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30105,6,06-16-2025,06/16/2025,647.12,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10242
+VENDOR_CR_30106,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30106,6,06-16-2025,06/16/2025,629.19,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10244
+VENDOR_CR_30107,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30107,6,06-16-2025,06/16/2025,559.23,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10246
+VENDOR_CR_30108,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30108,6,06-16-2025,06/16/2025,500.73,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10248
+VENDOR_CR_30109,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30109,6,06-16-2025,06/16/2025,473.69,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10250
+VENDOR_CR_30110,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30110,6,06-16-2025,06/16/2025,450.83,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10252
+VENDOR_CR_30111,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30111,6,06-16-2025,06/16/2025,440.00,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10254
+VENDOR_CR_30112,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30112,6,06-16-2025,06/16/2025,435.98,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10256
+VENDOR_CR_30113,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30113,6,06-16-2025,06/16/2025,424.31,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10258
+VENDOR_CR_30114,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30114,6,06-16-2025,06/16/2025,420.31,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10260
+VENDOR_CR_30115,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30115,6,06-16-2025,06/16/2025,400.00,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10262
+VENDOR_CR_30116,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30116,6,06-16-2025,06/16/2025,381.10,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10264
+VENDOR_CR_30117,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30117,6,06-16-2025,06/16/2025,371.84,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10266
+VENDOR_CR_30118,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30118,6,06-16-2025,06/16/2025,357.91,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10268
+VENDOR_CR_30119,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30119,6,06-16-2025,06/16/2025,292.37,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10270
+VENDOR_CR_30120,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30120,6,06-16-2025,06/16/2025,274.92,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10272
+VENDOR_CR_30121,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30121,6,06-16-2025,06/16/2025,269.67,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10274
+VENDOR_CR_30122,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30122,6,06-16-2025,06/16/2025,245.23,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10276
+VENDOR_CR_30123,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30123,6,06-16-2025,06/16/2025,227.55,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10278
+VENDOR_CR_30124,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30124,6,06-16-2025,06/16/2025,180.46,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10280
+VENDOR_CR_30125,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30125,6,06-16-2025,06/16/2025,147.32,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10282
+VENDOR_CR_30126,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30126,6,06-16-2025,06/16/2025,129.86,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10284
+VENDOR_CR_30127,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30127,6,06-16-2025,06/16/2025,76.41,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10286
+VENDOR_CR_30128,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30128,6,06-16-2025,06/16/2025,55.15,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10288
+VENDOR_CR_30129,cogs,40391,"Jasfer Industry Co., Limited",137,CR_30129,8,06-30-2025,06/30/2025,17851.55,20250630 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10290
+VENDOR_CR_30130,cogs,40391,Juniper Design Group,2395,CR_30130,6,04-15-2025,04/15/2025,4842.61,W-0415 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10292
+VENDOR_CR_30131,cogs,40391,"MileStone Florim USA, Inc.",1962,CR_30131,6,05-29-2025,05/29/2025,6350.40,W-0529 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10294
+VENDOR_CR_30132,cogs,40391,"MileStone Florim USA, Inc.",1962,CR_30132,6,05-29-2025,05/29/2025,2440.80,W-0529 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10296
+VENDOR_CR_30133,cogs,40391,Momentum Group,1971,CR_30133,6,04-03-2025,04/03/2025,1220.47,W-0403 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10298
+VENDOR_CR_30134,cogs,40391,Oriental Weavers International Egypt,2326,CR_30134,6,06-10-2025,06/10/2025,18334.15,W-0610 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10300
+VENDOR_CR_30135,cogs,40391,Pantarei S.R.L,1280,CR_30135,6,07-10-2024,07/10/2024,13403.00,W-0710 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10302
+VENDOR_CR_30136,cogs,40391,Pantarei S.R.L,1280,CR_30136,6,07-10-2024,07/10/2024,45313.00,W-0710 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10304
+VENDOR_CR_30137,cogs,40391,Pantarei S.R.L,1280,CR_30137,6,07-10-2024,07/10/2024,20851.09,W-0710 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10306
+VENDOR_CR_30138,cogs,40391,Pantarei S.R.L,1280,CR_30138,6,07-19-2024,07/19/2024,81745.99,W-0719 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10308
+VENDOR_CR_30139,cogs,40391,Pantarei S.R.L,1280,CR_30139,6,07-19-2024,07/19/2024,26402.52,W-0719 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10310
+VENDOR_CR_30140,cogs,40391,Pantarei S.R.L,1280,CR_30140,6,07-19-2024,07/19/2024,16973.20,W-0719 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10312
+VENDOR_CR_30141,cogs,40391,PIERMARIA NEW FORM SRL,1281,CR_30141,6,11-13-2024,11/13/2024,3221.76,W-1113 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10314
+VENDOR_CR_30142,cogs,40391,Quartz America LLC,1690,CR_30142,3,06-26-2025,06/26/2025,858.80,664 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10316
+VENDOR_CR_30143,cogs,40391,"Raytop Industry Co., LTD",1284,CR_30143,6,03-16-2022,03/16/2022,177.50,W-0316 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10318
+VENDOR_CR_30144,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30144,6,05-29-2024,05/29/2024,9.16,W-0529 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10320
+VENDOR_CR_30145,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30145,6,10-30-2024,10/30/2024,4659.12,W-1030 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10322
+VENDOR_CR_30146,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30146,6,10-30-2024,10/30/2024,1550.70,W-1030 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10324
+VENDOR_CR_30147,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30147,6,11-08-2024,11/08/2024,8281.00,W-1108 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10326
+VENDOR_CR_30148,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30148,6,11-08-2024,11/08/2024,5806.45,W-1108 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10328
+VENDOR_CR_30149,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30149,6,11-08-2024,11/08/2024,1562.40,W-1108 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10330
+VENDOR_CR_30150,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30150,6,11-13-2024,11/13/2024,16925.30,W-1113 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10332
+VENDOR_CR_30151,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30151,6,11-13-2024,11/13/2024,4594.85,W-1113 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10334
+VENDOR_CR_30152,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30152,6,11-18-2024,11/18/2024,5938.02,W-1118 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10336
+VENDOR_CR_30153,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30153,6,11-18-2024,11/18/2024,6230.70,W-1118 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10338
+VENDOR_CR_30154,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30154,6,11-18-2024,11/18/2024,1139.70,W-1118 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10340
+VENDOR_CR_30155,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30155,6,02-05-2025,02/05/2025,1562.48,W-0205 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10342
+VENDOR_CR_30156,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30156,6,02-05-2025,02/05/2025,1773.67,W-0205 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10344
+VENDOR_CR_30157,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30157,6,02-05-2025,02/05/2025,2998.26,W-0205 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10346
+VENDOR_CR_30158,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30158,6,03-07-2025,03/07/2025,176268.73,W-0307 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10348
+VENDOR_CR_30159,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30159,6,03-07-2025,03/07/2025,26400.97,W-0307 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10350
+VENDOR_CR_30160,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30160,6,03-18-2025,03/18/2025,1954.08,W-0318 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10352
+VENDOR_CR_30161,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30161,6,03-18-2025,03/18/2025,2563.65,W-0318 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10354
+VENDOR_CR_30162,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30162,6,03-18-2025,03/18/2025,1561.50,W-0318 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10356
+VENDOR_CR_30163,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30163,6,03-18-2025,03/18/2025,12664.37,W-0318 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10358
+VENDOR_CR_30164,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30164,6,03-18-2025,03/18/2025,190.20,W-0318 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10360
+VENDOR_CR_30165,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30165,6,03-18-2025,03/18/2025,1606.92,W-0318 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10362
+VENDOR_CR_30166,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30166,6,03-18-2025,03/18/2025,618.00,W-0318 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10364
+VENDOR_CR_30167,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30167,6,03-20-2025,03/20/2025,17569.79,W-0320 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10366
+VENDOR_CR_30168,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30168,6,03-20-2025,03/20/2025,20063.70,W-0320 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10368
+VENDOR_CR_30169,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30169,6,03-20-2025,03/20/2025,18648.00,W-0320 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10370
+VENDOR_CR_30170,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30170,6,04-02-2025,04/02/2025,1170.00,W-0402 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10372
+VENDOR_CR_30171,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30171,6,04-03-2025,04/03/2025,5781.58,W-0403 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10374
+VENDOR_CR_30172,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30172,6,04-03-2025,04/03/2025,3038.35,W-0403 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10376
+VENDOR_CR_30173,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30173,6,04-03-2025,04/03/2025,143.22,W-0403 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10378
+VENDOR_CR_30174,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30174,6,04-03-2025,04/03/2025,4559.52,W-0403 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10380
+VENDOR_CR_30175,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30175,6,04-03-2025,04/03/2025,1840.15,W-0403 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10382
+VENDOR_CR_30176,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30176,6,04-15-2025,04/15/2025,1647.08,W-0415 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10384
+VENDOR_CR_30177,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30177,6,04-22-2025,04/22/2025,2873.03,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10386
+VENDOR_CR_30178,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30178,6,04-22-2025,04/22/2025,2610.50,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10388
+VENDOR_CR_30179,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30179,6,04-22-2025,04/22/2025,1903.00,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10390
+VENDOR_CR_30180,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30180,6,04-22-2025,04/22/2025,3337.04,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10392
+VENDOR_CR_30181,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30181,6,04-22-2025,04/22/2025,24232.00,W-0422 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10394
+VENDOR_CR_30182,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30182,6,05-06-2025,05/06/2025,12513.00,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10396
+VENDOR_CR_30183,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30183,6,05-06-2025,05/06/2025,452.15,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10398
+VENDOR_CR_30184,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30184,6,05-06-2025,05/06/2025,751.30,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10400
+VENDOR_CR_30185,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30185,6,05-06-2025,05/06/2025,13919.63,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10402
+VENDOR_CR_30186,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30186,6,05-06-2025,05/06/2025,1333.31,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10404
+VENDOR_CR_30187,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30187,6,05-06-2025,05/06/2025,378.54,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10406
+VENDOR_CR_30188,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30188,6,05-06-2025,05/06/2025,25208.70,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10408
+VENDOR_CR_30189,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30189,6,05-06-2025,05/06/2025,3381.86,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10410
+VENDOR_CR_30190,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30190,6,05-06-2025,05/06/2025,3038.10,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10412
+VENDOR_CR_30191,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30191,6,05-06-2025,05/06/2025,21574.00,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10414
+VENDOR_CR_30192,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30192,6,05-06-2025,05/06/2025,914.61,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10416
+VENDOR_CR_30193,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30193,6,05-06-2025,05/06/2025,926.40,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10418
+VENDOR_CR_30194,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30194,6,05-06-2025,05/06/2025,2610.76,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10420
+VENDOR_CR_30195,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30195,6,05-06-2025,05/06/2025,36666.31,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10422
+VENDOR_CR_30196,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30196,6,05-06-2025,05/06/2025,10096.26,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10424
+VENDOR_CR_30197,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30197,6,05-06-2025,05/06/2025,3862.80,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10426
+VENDOR_CR_30198,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30198,6,05-06-2025,05/06/2025,41.20,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10428
+VENDOR_CR_30199,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30199,6,05-06-2025,05/06/2025,1264.50,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10430
+VENDOR_CR_30200,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30200,6,05-06-2025,05/06/2025,10806.00,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10432
+VENDOR_CR_30201,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30201,6,05-06-2025,05/06/2025,8708.58,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10434
+VENDOR_CR_30202,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30202,6,05-06-2025,05/06/2025,1140.00,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10436
+VENDOR_CR_30203,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30203,6,05-06-2025,05/06/2025,1216.27,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10438
+VENDOR_CR_30204,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30204,6,05-06-2025,05/06/2025,3854.10,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10440
+VENDOR_CR_30205,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30205,6,05-06-2025,05/06/2025,726.40,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10442
+VENDOR_CR_30206,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30206,6,05-06-2025,05/06/2025,716.00,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10444
+VENDOR_CR_30207,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30207,6,05-06-2025,05/06/2025,7248.98,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10446
+VENDOR_CR_30208,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30208,6,05-06-2025,05/06/2025,156.00,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10448
+VENDOR_CR_30209,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30209,6,05-06-2025,05/06/2025,9720.17,W-0506 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10450
+VENDOR_CR_30210,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30210,6,05-08-2025,05/08/2025,5844.00,W-0508 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10452
+VENDOR_CR_30211,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30211,6,05-09-2025,05/09/2025,10.00,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10454
+VENDOR_CR_30212,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30212,6,05-09-2025,05/09/2025,16781.49,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10456
+VENDOR_CR_30213,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30213,6,05-09-2025,05/09/2025,898.00,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10458
+VENDOR_CR_30214,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30214,6,05-09-2025,05/09/2025,2338.71,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10460
+VENDOR_CR_30215,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30215,6,05-09-2025,05/09/2025,45646.11,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10462
+VENDOR_CR_30216,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30216,6,05-09-2025,05/09/2025,2392.65,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10464
+VENDOR_CR_30217,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30217,6,05-09-2025,05/09/2025,2200.00,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10466
+VENDOR_CR_30218,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30218,6,05-09-2025,05/09/2025,673.08,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10468
+VENDOR_CR_30219,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30219,6,05-09-2025,05/09/2025,9851.01,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10470
+VENDOR_CR_30220,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30220,6,05-09-2025,05/09/2025,3959.16,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10472
+VENDOR_CR_30221,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30221,6,05-09-2025,05/09/2025,33513.00,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10474
+VENDOR_CR_30222,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30222,6,05-09-2025,05/09/2025,9443.22,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10476
+VENDOR_CR_30223,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30223,6,05-09-2025,05/09/2025,685.07,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10478
+VENDOR_CR_30224,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30224,6,05-09-2025,05/09/2025,221.63,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10480
+VENDOR_CR_30225,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30225,6,05-09-2025,05/09/2025,10972.41,W-0509 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10482
+VENDOR_CR_30226,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30226,6,05-14-2025,05/14/2025,9250.00,W-0514 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10484
+VENDOR_CR_30227,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30227,6,05-14-2025,05/14/2025,14389.01,W-0514 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10486
+VENDOR_CR_30228,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30228,6,05-14-2025,05/14/2025,1270.00,W-0514 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10488
+VENDOR_CR_30229,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30229,6,05-14-2025,05/14/2025,6699.02,W-0514 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10490
+VENDOR_CR_30230,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30230,6,05-23-2025,05/23/2025,16477.94,W-0523 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10492
+VENDOR_CR_30231,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30231,6,05-23-2025,05/23/2025,13648.48,W-0523 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10494
+VENDOR_CR_30232,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30232,6,05-23-2025,05/23/2025,666.06,W-0523 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10496
+VENDOR_CR_30233,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30233,6,05-23-2025,05/23/2025,4761.87,W-0523 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10498
+VENDOR_CR_30234,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30234,6,05-23-2025,05/23/2025,17744.22,W-0523 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10500
+VENDOR_CR_30235,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30235,6,05-23-2025,05/23/2025,19262.05,W-0523 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10502
+VENDOR_CR_30236,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30236,6,05-27-2025,05/27/2025,20128.00,W-0527 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10504
+VENDOR_CR_30237,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30237,6,05-30-2025,05/30/2025,2835.65,W-0530 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10506
+VENDOR_CR_30238,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30238,6,06-16-2025,06/16/2025,22521.01,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10508
+VENDOR_CR_30239,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30239,6,06-16-2025,06/16/2025,38448.52,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10510
+VENDOR_CR_30240,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30240,6,06-16-2025,06/16/2025,2222.44,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10512
+VENDOR_CR_30241,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30241,6,06-16-2025,06/16/2025,31846.45,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10514
+VENDOR_CR_30242,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30242,6,06-16-2025,06/16/2025,11023.00,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10516
+VENDOR_CR_30243,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30243,6,06-16-2025,06/16/2025,5137.88,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10518
+VENDOR_CR_30244,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30244,6,06-16-2025,06/16/2025,5080.20,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10520
+VENDOR_CR_30245,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30245,6,06-16-2025,06/16/2025,10367.06,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10522
+VENDOR_CR_30246,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30246,6,06-16-2025,06/16/2025,2477.66,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10524
+VENDOR_CR_30247,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30247,6,06-16-2025,06/16/2025,5781.19,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10526
+VENDOR_CR_30248,cogs,40391,Richwood Hospitality Co. LTD,1285,CR_30248,6,06-18-2025,06/18/2025,32394.27,W-0618 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10528
+VENDOR_CR_30249,cogs,40391,"Santa Rosa Marble, Inc.",2527,CR_30249,6,05-29-2025,05/29/2025,248.51,W-0529 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10530
+VENDOR_CR_30250,cogs,40391,"Shenzhen Double Building Materials Co., Ltd.",2291,CR_30250,6,11-26-2024,11/26/2024,260.00,W-1126 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10532
+VENDOR_CR_30251,cogs,40391,"Shenzhen Double Building Materials Co., Ltd.",2291,CR_30251,6,11-26-2024,11/26/2024,8194.00,W-1126 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10534
+VENDOR_CR_30252,cogs,40391,"Stonepeak Ceramics, Inc.",228,CR_30252,6,05-27-2025,05/27/2025,120.97,W-0527 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10536
+VENDOR_CR_30253,cogs,40391,"Stonepeak Ceramics, Inc.",228,CR_30253,6,05-27-2025,05/27/2025,55.37,W-0527 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10538
+VENDOR_CR_30254,cogs,40391,"Stonepeak Ceramics, Inc.",228,CR_30254,6,05-27-2025,05/27/2025,3756.61,W-0527 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10540
+VENDOR_CR_30255,cogs,40391,"Stonepeak Ceramics, Inc.",228,CR_30255,6,06-16-2025,06/16/2025,2110.95,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10542
+VENDOR_CR_30256,cogs,40391,"Stonepeak Ceramics, Inc.",228,CR_30256,6,06-16-2025,06/16/2025,10286.98,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10544
+VENDOR_CR_30257,cogs,40391,"Stonepeak Ceramics, Inc.",228,CR_30257,6,06-16-2025,06/16/2025,4255.96,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10546
+VENDOR_CR_30258,cogs,40391,Tarkett Hospitality,1288,CR_30258,6,04-02-2025,04/02/2025,174.25,W-0402 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10548
+VENDOR_CR_30259,cogs,40391,Tarkett Hospitality,1288,CR_30259,3,04-10-2025,04/10/2025,18269.60,664 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10550
+VENDOR_CR_30260,cogs,40391,"T.M. Leader Contract, S.L.",1289,CR_30260,29,01-10-2025,01/10/2025,2115.00,PrePayment - PO45776/NetSuite - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10552
+VENDOR_CR_30261,cogs,40391,U.S. Vinyl Manufacturing Corp,1292,CR_30261,6,04-29-2025,04/29/2025,932.31,W-0429 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10554
+VENDOR_CR_30262,cogs,40391,U.S. Vinyl Manufacturing Corp,1292,CR_30262,6,06-01-2025,06/01/2025,75.76,W-0530 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10556
+VENDOR_CR_30263,cogs,40391,U.S. Vinyl Manufacturing Corp,1292,CR_30263,6,06-01-2025,06/01/2025,1441.27,W-0530 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10558
+VENDOR_CR_30264,cogs,40391,U.S. Vinyl Manufacturing Corp,1292,CR_30264,29,06-16-2025,06/16/2025,968.08,PrePayment - PO45776/NetSuite - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10560
+VENDOR_CR_30265,cogs,40391,"Xiamen Deyuan Panmin Trading Co., LTD",1295,CR_30265,6,12-17-2024,12/17/2024,100000.00,W-1217 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10562
+VENDOR_CR_30266,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30266,3,01-24-2025,01/24/2025,4361.46,664 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10564
+VENDOR_CR_30267,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30267,6,03-16-2025,03/16/2025,1371.13,W-0316 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10566
+VENDOR_CR_30268,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30268,3,04-13-2025,04/13/2025,8146.36,664 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10568
+VENDOR_CR_30269,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30269,3,05-22-2025,05/22/2025,2469.13,664 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10570
+VENDOR_CR_30270,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30270,6,06-01-2025,06/01/2025,3989.69,W-0530 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10572
+VENDOR_CR_30271,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30271,3,06-09-2025,06/09/2025,3630.28,664 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10574
+VENDOR_CR_30272,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30272,6,06-18-2025,06/18/2025,50624.00,W-0618 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10576
+VENDOR_CR_30273,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30273,6,06-27-2025,06/27/2025,128.76,W-0627 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10578
+VENDOR_CR_30274,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30274,6,06-27-2025,06/27/2025,1189.55,W-0627 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10580
+VENDOR_CR_30275,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30275,6,06-27-2025,06/27/2025,9631.01,W-0627 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10582
+VENDOR_CR_30276,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30276,6,06-27-2025,06/27/2025,31536.86,W-0627 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10584
+VENDOR_CR_30277,cogs,40391,ZBOM Cabinets Corp.,1297,CR_30277,6,06-27-2025,06/27/2025,10670.39,W-0627 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10586
+VENDOR_CR_30278,cogs,40391,"AMY ACT CO., LTD",1331,CR_30278,6,06-16-2025,06/16/2025,33032.89,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10588
+VENDOR_CR_30279,cogs,40391,AN CUONG WOOD -WORKING JOINT STOCK COMPANY,1542,CR_30279,6,05-27-2025,05/27/2025,4597.40,W-0527 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10590
+VENDOR_CR_30280,cogs,40391,AN CUONG WOOD -WORKING JOINT STOCK COMPANY,1542,CR_30280,6,06-16-2025,06/16/2025,15086.00,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10592
+VENDOR_CR_30281,cogs,40391,AN CUONG WOOD -WORKING JOINT STOCK COMPANY,1542,CR_30281,6,06-16-2025,06/16/2025,6871.50,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10594
+VENDOR_CR_30282,cogs,40391,AN CUONG WOOD -WORKING JOINT STOCK COMPANY,1542,CR_30282,6,06-20-2025,06/20/2025,17547.50,W-0620 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10596
+VENDOR_CR_30283,cogs,40391,"Beijing Topli Decorative Materials Co., LTD",1233,CR_30283,6,05-27-2025,05/27/2025,2859.00,W-0527 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10598
+VENDOR_CR_30284,cogs,40391,"Beijing Topli Decorative Materials Co., LTD",1233,CR_30284,6,05-27-2025,05/27/2025,793.30,W-0527 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10600
+VENDOR_CR_30285,cogs,40391,"Beijing Topli Decorative Materials Co., LTD",1233,CR_30285,6,06-16-2025,06/16/2025,2276.42,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10602
+VENDOR_CR_30286,cogs,40391,Dal Tile,1540,CR_30286,6,05-29-2025,05/29/2025,4947.98,W-0529 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10604
+VENDOR_CR_30287,cogs,40391,EQUIPE CERAMICAS,2325,CR_30287,6,05-29-2025,05/29/2025,25.61,W-0529 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10606
+VENDOR_CR_30288,cogs,40391,F.B. STONES S.R.L.,2660,CR_30288,6,05-30-2025,05/30/2025,4539.52,W-0530 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10608
+VENDOR_CR_30289,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30289,6,05-27-2025,05/27/2025,100000.00,W-0527 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10610
+VENDOR_CR_30290,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30290,6,06-16-2025,06/16/2025,3022.59,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10612
+VENDOR_CR_30291,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30291,6,06-16-2025,06/16/2025,10194.71,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10614
+VENDOR_CR_30292,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30292,6,06-16-2025,06/16/2025,1401.20,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10616
+VENDOR_CR_30293,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30293,6,06-16-2025,06/16/2025,39042.00,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10618
+VENDOR_CR_30294,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30294,6,06-16-2025,06/16/2025,16529.18,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10620
+VENDOR_CR_30295,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30295,6,06-16-2025,06/16/2025,9904.80,W-0616 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10622
+VENDOR_CR_30296,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30296,6,06-17-2025,06/17/2025,4567.06,W-0617 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10624
+VENDOR_CR_30297,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30297,6,06-17-2025,06/17/2025,14358.75,W-0617 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10626
+VENDOR_CR_30298,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30298,6,06-17-2025,06/17/2025,6870.44,W-0617 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10628
+VENDOR_CR_30299,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30299,6,06-20-2025,06/20/2025,172148.89,W-0620 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10630
+VENDOR_CR_30300,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30300,6,06-23-2025,06/23/2025,20234.40,W-0623 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10632
+VENDOR_CR_30301,cogs,40391,HARMONY HOSPITALITY CO LTD,2517,CR_30301,6,06-23-2025,06/23/2025,49662.90,W-0623 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10634
+VENDOR_CR_30302,cogs,40391,Jaipur Rugs SRL,1969,CR_30302,6,05-30-2025,05/30/2025,6395.00,W-0530 - Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10636

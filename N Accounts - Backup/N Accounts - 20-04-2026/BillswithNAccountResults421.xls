@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>NetSuite</Author>
+  <LastAuthor>Pranali Patil</LastAuthor>
+  <LastSaved>2026-04-23T13:55:41Z</LastSaved>
+  <Company>NetSuite</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>2990</WindowHeight>
+  <WindowWidth>14180</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66" ss:Name="Hyperlink">
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#0563C1" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" ss:Size="7" ss:Bold="1"/>
+   <Interior ss:Color="#D0D0D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000"/>
+   <NumberFormat ss:Format="#,##0.00_);[Red]\(#,##0.00\)"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s68" ss:Parent="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="BillswithNAccountResults">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="40" ss:DefaultRowHeight="10">
+   <Column ss:Width="39.5"/>
+   <Column ss:Width="42.5"/>
+   <Column ss:Width="7.5"/>
+   <Column ss:Width="45.5"/>
+   <Column ss:Width="40.5"/>
+   <Column ss:Width="38"/>
+   <Column ss:Width="40.5"/>
+   <Column ss:Width="20"/>
+   <Column ss:Width="103"/>
+   <Column ss:Width="142.5"/>
+   <Column ss:Width="349.5"/>
+   <Column ss:Width="217"/>
+   <Column ss:Width="49"/>
+   <Column ss:Width="20"/>
+   <Column ss:Width="39.5"/>
+   <Column ss:Width="69"/>
+   <Column ss:Width="19.5"/>
+   <Column ss:Width="30"/>
+   <Column ss:Width="47.5"/>
+   <Column ss:Width="39.5" ss:Span="1"/>
+   <Column ss:Index="22" ss:Width="69"/>
+   <Column ss:Width="45.5"/>
+   <Column ss:Width="52.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="194"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Internal ID</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Order Type</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">As-Of Date</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Period</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Tax Period</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Document Number</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Account</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Memo</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Amount</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Internal ID</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Document Number</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Amount</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Internal ID</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">New rec Internal ID</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Document Number</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Amount</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NewBill  Payment URL</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="Number">74266</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-05T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Mar 2026</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Bill</Data></Cell>
+    <Cell><Data ss:Type="String">62293 &#45;- 20SI126059</Data></Cell>
+    <Cell><Data ss:Type="String">WOW USA, Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">605.96</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Bill Payment</Data></Cell>
+    <Cell><Data ss:Type="Number">74267</Data></Cell>
+    <Cell><Data ss:Type="Number">97456</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-05T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-605.96</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">https://9607261.app.netsuite.com/app/accounting/transactions/vendpymt.nl?id=97456&amp;whence=&amp;cmid=1776948739206_3432</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="Number">89280</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Mar 2026</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Bill</Data></Cell>
+    <Cell><Data ss:Type="String">62371  999196653</Data></Cell>
+    <Cell><Data ss:Type="String">Shaw Integrated and Turf Solutions, Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+    <Cell><Data ss:Type="String">SO 2159 Courtyard GV MUR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">350.65</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Bill Payment</Data></Cell>
+    <Cell><Data ss:Type="Number">89285</Data></Cell>
+    <Cell><Data ss:Type="Number">97457</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-350.65</Data></Cell>
+    <Cell ss:StyleID="s68" ss:HRef="https://9607261.app.netsuite.com/app/accounting/transactions/vendpymt.nl?id=97457&amp;whence=&amp;cmid=1776949507270_3902"><Data
+      ss:Type="String">https://9607261.app.netsuite.com/app/accounting/transactions/vendpymt.nl?id=97457&amp;whence=&amp;cmid=1776949507270_3902</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="Number">89321</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Mar 2026</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Bill</Data></Cell>
+    <Cell><Data ss:Type="String">62389  999196687</Data></Cell>
+    <Cell><Data ss:Type="String">Shaw Integrated and Turf Solutions, Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+    <Cell><Data ss:Type="String">Trademark Fredericksburg SO1809 - link</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">975.93</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Bill Payment</Data></Cell>
+    <Cell><Data ss:Type="Number">89323</Data></Cell>
+    <Cell><Data ss:Type="Number">97458</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-975.93</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">https://9607261.app.netsuite.com/app/accounting/transactions/vendpymt.nl?id=97458&amp;whence=&amp;cmid=1776950115732_4267</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="Number">89472</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Mar 2026</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Bill</Data></Cell>
+    <Cell><Data ss:Type="String">62259  999196652</Data></Cell>
+    <Cell><Data ss:Type="String">Shaw Integrated and Turf Solutions, Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">393.1</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Bill Payment</Data></Cell>
+    <Cell><Data ss:Type="Number">89473</Data></Cell>
+    <Cell><Data ss:Type="Number">97459</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-393.1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">https://9607261.app.netsuite.com/app/accounting/transactions/vendpymt.nl?id=97459&amp;whence=&amp;cmid=1776950558051_4448</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="Number">89511</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Mar 2026</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Bill</Data></Cell>
+    <Cell><Data ss:Type="String">60027  999196650</Data></Cell>
+    <Cell><Data ss:Type="String">Shaw Integrated and Turf Solutions, Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+    <Cell><Data ss:Type="String">SO04 Kian Hotels LLC ; La Quinta- Roanoke VA ; PO60027</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24511.11</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Bill Payment</Data></Cell>
+    <Cell><Data ss:Type="Number">89512</Data></Cell>
+    <Cell><Data ss:Type="Number">97466</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-24511.11</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">https://9607261.app.netsuite.com/app/accounting/transactions/vendpymt.nl?id=97466&amp;whence=&amp;cmid=1776951448425_5116</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="Number">89517</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Mar 2026</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Bill</Data></Cell>
+    <Cell><Data ss:Type="String">62560  ZB20260324369US</Data></Cell>
+    <Cell><Data ss:Type="String">ZBOM Cabinets Corp.</Data></Cell>
+    <Cell><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">927.84</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Bill Payment</Data></Cell>
+    <Cell><Data ss:Type="Number">91091</Data></Cell>
+    <Cell><Data ss:Type="Number">97468</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-04-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-927.84</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">https://9607261.app.netsuite.com/app/accounting/transactions/vendpymt.nl?id=97468&amp;whence=&amp;cmid=1776951876166_5500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">89518</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Mar 2026</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Bill</Data></Cell>
+    <Cell><Data ss:Type="String">60309  1/39487</Data></Cell>
+    <Cell><Data ss:Type="String">JMS</Data></Cell>
+    <Cell><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+    <Cell><Data ss:Type="String">SO#1131, Project Element Birmingham</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19310.73</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">89519</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Mar 2026</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Bill</Data></Cell>
+    <Cell><Data ss:Type="String">61610  1/39487</Data></Cell>
+    <Cell><Data ss:Type="String">JMS</Data></Cell>
+    <Cell><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">267.5</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">91392</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-01-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Jan 2026</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Bill</Data></Cell>
+    <Cell><Data ss:Type="String">61557  HMMU9051502</Data></Cell>
+    <Cell><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+    <Cell><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+    <Cell><Data ss:Type="String">WHR urgent order #61577</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">823.68</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="Number">91770</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-03-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Mar 2026</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Bill</Data></Cell>
+    <Cell><Data ss:Type="String">20095424</Data></Cell>
+    <Cell><Data ss:Type="String">NARDI - SIT OUTDOOR</Data></Cell>
+    <Cell><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2332.86</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Bill Payment</Data></Cell>
+    <Cell><Data ss:Type="Number">91771</Data></Cell>
+    <Cell><Data ss:Type="Number">97475</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2026-04-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-2332.86</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">https://9607261.app.netsuite.com/app/accounting/transactions/vendpymt.nl?id=97475&amp;whence=&amp;cmid=1776954449550_7712</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <LeftColumnVisible>11</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>19</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

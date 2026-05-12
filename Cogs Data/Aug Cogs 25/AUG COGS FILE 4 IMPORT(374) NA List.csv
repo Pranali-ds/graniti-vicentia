@@ -1,0 +1,375 @@
+External ID,No,Debit Acc,Account Internal ID,Credit Acc #,Date,Entity,Entity ID,Invoice #,Memo,Debit Amt,Credit Amt
+AUGCOGS-38259,18,A50001 - Cost Of Goods Sold (New),977,,08/11/2025,HOME2 SOMERSET,3526,38259,HOME2 SOMERSET - Aug  material cost transferred from sps,365.65,
+AUGCOGS-38259,18.5,,953,A12001 - Inventory (New),08/11/2025,HOME2 SOMERSET,3526,38259,HOME2 SOMERSET - Aug  material cost transferred from sps,,365.65
+AUGCOGS-38260,19,A50001 - Cost Of Goods Sold (New),977,,08/11/2025,HOME2 SOMERSET,3526,38260,HOME2 SOMERSET - Aug  material cost transferred from sps,6467.32,
+AUGCOGS-38260,19.5,,953,A12001 - Inventory (New),08/11/2025,HOME2 SOMERSET,3526,38260,HOME2 SOMERSET - Aug  material cost transferred from sps,,6467.32
+AUGCOGS-38251/3,36,A50001 - Cost Of Goods Sold (New),977,,08/12/2025,HOME2 SOMERSET,3526,38251/3,HOME2 SOMERSET - Aug  material cost transferred from sps,7343.21,
+AUGCOGS-38251/3,36.5,,953,A12001 - Inventory (New),08/12/2025,HOME2 SOMERSET,3526,38251/3,HOME2 SOMERSET - Aug  material cost transferred from sps,,7343.21
+AUGCOGS-38251/5,37,A50001 - Cost Of Goods Sold (New),977,,08/12/2025,HOME2 SOMERSET,3526,38251/5,HOME2 SOMERSET - Aug  material cost transferred from sps,493.75,
+AUGCOGS-38251/5,37.5,,953,A12001 - Inventory (New),08/12/2025,HOME2 SOMERSET,3526,38251/5,HOME2 SOMERSET - Aug  material cost transferred from sps,,493.75
+AUGCOGS-38252/2,38,A50001 - Cost Of Goods Sold (New),977,,08/12/2025,HOME2 SOMERSET,3526,38252/2,HOME2 SOMERSET - Aug  material cost transferred from sps,6729.76,
+AUGCOGS-38252/2,38.5,,953,A12001 - Inventory (New),08/12/2025,HOME2 SOMERSET,3526,38252/2,HOME2 SOMERSET - Aug  material cost transferred from sps,,6729.76
+AUGCOGS-38253/2,39,A50001 - Cost Of Goods Sold (New),977,,08/12/2025,HOME2 SOMERSET,3526,38253/2,HOME2 SOMERSET - Aug  material cost transferred from sps,17550.43,
+AUGCOGS-38253/2,39.5,,953,A12001 - Inventory (New),08/12/2025,HOME2 SOMERSET,3526,38253/2,HOME2 SOMERSET - Aug  material cost transferred from sps,,17550.43
+AUGCOGS-38256,40,A50001 - Cost Of Goods Sold (New),977,,08/12/2025,HOME2 SOMERSET,3526,38256,HOME2 SOMERSET - Aug  material cost transferred from sps,4568.02,
+AUGCOGS-38256,40.5,,953,A12001 - Inventory (New),08/12/2025,HOME2 SOMERSET,3526,38256,HOME2 SOMERSET - Aug  material cost transferred from sps,,4568.02
+AUGCOGS-38257,41,A50001 - Cost Of Goods Sold (New),977,,08/12/2025,HOME2 SOMERSET,3526,38257,HOME2 SOMERSET - Aug  material cost transferred from sps,2555.48,
+AUGCOGS-38257,41.5,,953,A12001 - Inventory (New),08/12/2025,HOME2 SOMERSET,3526,38257,HOME2 SOMERSET - Aug  material cost transferred from sps,,2555.48
+AUGCOGS-38268,42,A50001 - Cost Of Goods Sold (New),977,,08/12/2025,HOME2 SOMERSET,3526,38268,HOME2 SOMERSET - Aug  material cost transferred from sps,427.87,
+AUGCOGS-38268,42.5,,953,A12001 - Inventory (New),08/12/2025,HOME2 SOMERSET,3526,38268,HOME2 SOMERSET - Aug  material cost transferred from sps,,427.87
+AUGCOGS-38375,44,A50001 - Cost Of Goods Sold (New),977,,08/12/2025,HOME2 SOMERSET,3526,38375,HOME2 SOMERSET - Aug  material cost transferred from sps,682.09,
+AUGCOGS-38375,44.5,,953,A12001 - Inventory (New),08/12/2025,HOME2 SOMERSET,3526,38375,HOME2 SOMERSET - Aug  material cost transferred from sps,,682.09
+AUGCOGS-36456/6,69,A50001 - Cost Of Goods Sold (New),977,,08/25/2025,Wingate by Wyndham / Indianapolis,3519,36456/6,Wingate by Wyndham / Indianapolis - Aug  material cost transferred from sps,3338.00,
+AUGCOGS-36456/6,69.5,,953,A12001 - Inventory (New),08/25/2025,Wingate by Wyndham / Indianapolis,3519,36456/6,Wingate by Wyndham / Indianapolis - Aug  material cost transferred from sps,,3338.00
+AUGCOGS-25013074,89,A50001 - Cost Of Goods Sold (New),977,,08/29/2025,StonePeak Ceramics Inc-30593,228,25013074,StonePeak Ceramics Inc-30593 - Aug  material cost transferred from sps,3942.61,
+AUGCOGS-25013074,89.5,,953,A12001 - Inventory (New),08/29/2025,StonePeak Ceramics Inc-30593,228,25013074,StonePeak Ceramics Inc-30593 - Aug  material cost transferred from sps,,3942.61
+AUGCOGS-25013566,90,A50001 - Cost Of Goods Sold (New),977,,08/29/2025,StonePeak Ceramics Inc-30593,228,25013566,StonePeak Ceramics Inc-30593 - Aug  material cost transferred from sps,438.07,
+AUGCOGS-25013566,90.5,,953,A12001 - Inventory (New),08/29/2025,StonePeak Ceramics Inc-30593,228,25013566,StonePeak Ceramics Inc-30593 - Aug  material cost transferred from sps,,438.07
+AUGCOGS-31762/6,95,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Fyffe Construction CO/ LaQuinta Manchester,3527,31762/6,Fyffe Construction CO/ LaQuinta Manchester - Aug  material cost transferred from sps,306.00,
+AUGCOGS-31762/6,95.5,,953,A12001 - Inventory (New),08/30/2025,Fyffe Construction CO/ LaQuinta Manchester,3527,31762/6,Fyffe Construction CO/ LaQuinta Manchester - Aug  material cost transferred from sps,,306.00
+AUGCOGS-32521/4,103,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,CAPITOL HOTEL NASHVILLE/Dan,3528,32521/4,CAPITOL HOTEL NASHVILLE/Dan - Aug  material cost transferred from sps,18.37,
+AUGCOGS-32521/4,103.5,,953,A12001 - Inventory (New),08/30/2025,CAPITOL HOTEL NASHVILLE/Dan,3528,32521/4,CAPITOL HOTEL NASHVILLE/Dan - Aug  material cost transferred from sps,,18.37
+AUGCOGS-32807/12,105,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Marriott Fairfield Harrisburg PA,3529,32807/12,Marriott Fairfield Harrisburg PA - Aug  material cost transferred from sps,265.72,
+AUGCOGS-32807/12,105.5,,953,A12001 - Inventory (New),08/30/2025,Marriott Fairfield Harrisburg PA,3529,32807/12,Marriott Fairfield Harrisburg PA - Aug  material cost transferred from sps,,265.72
+AUGCOGS-32807/13,106,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Marriott Fairfield Harrisburg PA,3529,32807/13,Marriott Fairfield Harrisburg PA - Aug  material cost transferred from sps,627.87,
+AUGCOGS-32807/13,106.5,,953,A12001 - Inventory (New),08/30/2025,Marriott Fairfield Harrisburg PA,3529,32807/13,Marriott Fairfield Harrisburg PA - Aug  material cost transferred from sps,,627.87
+AUGCOGS-32888,108,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"LA QUINTA MODEL ROOM / GV HEADQUARTERS, HOUSTON",3530,32888,"LA QUINTA MODEL ROOM / GV HEADQUARTERS, HOUSTON - Aug  material cost transferred from sps",17594.26,
+AUGCOGS-32888,108.5,,953,A12001 - Inventory (New),08/30/2025,"LA QUINTA MODEL ROOM / GV HEADQUARTERS, HOUSTON",3530,32888,"LA QUINTA MODEL ROOM / GV HEADQUARTERS, HOUSTON - Aug  material cost transferred from sps",,17594.26
+AUGCOGS-32888/4,109,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"LA QUINTA MODEL ROOM / GV HEADQUARTERS, HOUSTON",3530,32888/4,"LA QUINTA MODEL ROOM / GV HEADQUARTERS, HOUSTON - Aug  material cost transferred from sps",29.89,
+AUGCOGS-32888/4,109.5,,953,A12001 - Inventory (New),08/30/2025,"LA QUINTA MODEL ROOM / GV HEADQUARTERS, HOUSTON",3530,32888/4,"LA QUINTA MODEL ROOM / GV HEADQUARTERS, HOUSTON - Aug  material cost transferred from sps",,29.89
+AUGCOGS-32981/4,110,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,LAQUINTA YUMA AZ,3531,32981/4,LAQUINTA YUMA AZ - Aug  material cost transferred from sps,1325.98,
+AUGCOGS-32981/4,110.5,,953,A12001 - Inventory (New),08/30/2025,LAQUINTA YUMA AZ,3531,32981/4,LAQUINTA YUMA AZ - Aug  material cost transferred from sps,,1325.98
+AUGCOGS-32983/14,111,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,LAQUINTA YUMA AZ,3531,32983/14,LAQUINTA YUMA AZ - Aug  material cost transferred from sps,80.23,
+AUGCOGS-32983/14,111.5,,953,A12001 - Inventory (New),08/30/2025,LAQUINTA YUMA AZ,3531,32983/14,LAQUINTA YUMA AZ - Aug  material cost transferred from sps,,80.23
+AUGCOGS-33025/7,112,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Courtyard Navy Yard, Philadelphia",3532,33025/7,"Courtyard Navy Yard, Philadelphia - Aug  material cost transferred from sps",942.76,
+AUGCOGS-33025/7,112.5,,953,A12001 - Inventory (New),08/30/2025,"Courtyard Navy Yard, Philadelphia",3532,33025/7,"Courtyard Navy Yard, Philadelphia - Aug  material cost transferred from sps",,942.76
+AUGCOGS-33025/8,113,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Courtyard Navy Yard, Philadelphia",3532,33025/8,"Courtyard Navy Yard, Philadelphia - Aug  material cost transferred from sps",6697.87,
+AUGCOGS-33025/8,113.5,,953,A12001 - Inventory (New),08/30/2025,"Courtyard Navy Yard, Philadelphia",3532,33025/8,"Courtyard Navy Yard, Philadelphia - Aug  material cost transferred from sps",,6697.87
+AUGCOGS-33390/3,125,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,CORNER STONE FLOORING COMPANIES,3533,33390/3,CORNER STONE FLOORING COMPANIES - Aug  material cost transferred from sps,279.53,
+AUGCOGS-33390/3,125.5,,953,A12001 - Inventory (New),08/30/2025,CORNER STONE FLOORING COMPANIES,3533,33390/3,CORNER STONE FLOORING COMPANIES - Aug  material cost transferred from sps,,279.53
+AUGCOGS-33472/12,126,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta -Madison WI -Savan Patel,3534,33472/12,La Quinta -Madison WI -Savan Patel - Aug  material cost transferred from sps,23.89,
+AUGCOGS-33472/12,126.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta -Madison WI -Savan Patel,3534,33472/12,La Quinta -Madison WI -Savan Patel - Aug  material cost transferred from sps,,23.89
+AUGCOGS-33478/9,127,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta -Madison WI -Savan Patel,3534,33478/9,La Quinta -Madison WI -Savan Patel - Aug  material cost transferred from sps,222.58,
+AUGCOGS-33478/9,127.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta -Madison WI -Savan Patel,3534,33478/9,La Quinta -Madison WI -Savan Patel - Aug  material cost transferred from sps,,222.58
+AUGCOGS-33539/10,129,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33539/10,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,1716.66,
+AUGCOGS-33539/10,129.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33539/10,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,1716.66
+AUGCOGS-33558/11,130,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33558/11,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,588.00,
+AUGCOGS-33558/11,130.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33558/11,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,588.00
+AUGCOGS-33560/4,131,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33560/4,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,80.75,
+AUGCOGS-33560/4,131.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33560/4,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,80.75
+AUGCOGS-33562/5,132,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33562/5,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,973.43,
+AUGCOGS-33562/5,132.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33562/5,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,973.43
+AUGCOGS-33853/3,137,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Nandas Holding Ltd.c/o Sunray Group,3535,33853/3,Nandas Holding Ltd.c/o Sunray Group - Aug  material cost transferred from sps,2157.78,
+AUGCOGS-33853/3,137.5,,953,A12001 - Inventory (New),08/30/2025,Nandas Holding Ltd.c/o Sunray Group,3535,33853/3,Nandas Holding Ltd.c/o Sunray Group - Aug  material cost transferred from sps,,2157.78
+AUGCOGS-34363/10,161,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Hampton Inn & Suites Enterprise,AL",2804,34363/10,"Hampton Inn & Suites Enterprise,AL - Aug  material cost transferred from sps",3718.30,
+AUGCOGS-34363/10,161.5,,953,A12001 - Inventory (New),08/30/2025,"Hampton Inn & Suites Enterprise,AL",2804,34363/10,"Hampton Inn & Suites Enterprise,AL - Aug  material cost transferred from sps",,3718.30
+AUGCOGS-34363/9,162,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Hampton Inn & Suites Enterprise,AL",2804,34363/9,"Hampton Inn & Suites Enterprise,AL - Aug  material cost transferred from sps",10819.11,
+AUGCOGS-34363/9,162.5,,953,A12001 - Inventory (New),08/30/2025,"Hampton Inn & Suites Enterprise,AL",2804,34363/9,"Hampton Inn & Suites Enterprise,AL - Aug  material cost transferred from sps",,10819.11
+AUGCOGS-34611/3,184,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Acoya South Bay,3536,34611/3,Acoya South Bay - Aug  material cost transferred from sps,3.90,
+AUGCOGS-34611/3,184.5,,953,A12001 - Inventory (New),08/30/2025,Acoya South Bay,3536,34611/3,Acoya South Bay - Aug  material cost transferred from sps,,3.90
+AUGCOGS-34640/2,185,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,EXPOSED DESIGN GROUP,3537,34640/2,EXPOSED DESIGN GROUP - Aug  material cost transferred from sps,0.05,
+AUGCOGS-34640/2,185.5,,953,A12001 - Inventory (New),08/30/2025,EXPOSED DESIGN GROUP,3537,34640/2,EXPOSED DESIGN GROUP - Aug  material cost transferred from sps,,0.05
+AUGCOGS-34699/2,202,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,CCMH Metro Center LLC,3538,34699/2,CCMH Metro Center LLC - Aug  material cost transferred from sps,1541.94,
+AUGCOGS-34699/2,202.5,,953,A12001 - Inventory (New),08/30/2025,CCMH Metro Center LLC,3538,34699/2,CCMH Metro Center LLC - Aug  material cost transferred from sps,,1541.94
+AUGCOGS-35057/6,217,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Devkrupa Hospitality Inc,516,35057/6,Devkrupa Hospitality Inc - Aug  material cost transferred from sps,39.15,
+AUGCOGS-35057/6,217.5,,953,A12001 - Inventory (New),08/30/2025,Devkrupa Hospitality Inc,516,35057/6,Devkrupa Hospitality Inc - Aug  material cost transferred from sps,,39.15
+AUGCOGS-35103/7,223,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,THE TD GROUP,3539,35103/7,THE TD GROUP - Aug  material cost transferred from sps,156.00,
+AUGCOGS-35103/7,223.5,,953,A12001 - Inventory (New),08/30/2025,THE TD GROUP,3539,35103/7,THE TD GROUP - Aug  material cost transferred from sps,,156.00
+AUGCOGS-35113/2,224,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Layered Dimensions Interior Design,3540,35113/2,Layered Dimensions Interior Design - Aug  material cost transferred from sps,189.20,
+AUGCOGS-35113/2,224.5,,953,A12001 - Inventory (New),08/30/2025,Layered Dimensions Interior Design,3540,35113/2,Layered Dimensions Interior Design - Aug  material cost transferred from sps,,189.20
+AUGCOGS-35139/2,226,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta Brookshire TX,3541,35139/2,La Quinta Brookshire TX - Aug  material cost transferred from sps,16.55,
+AUGCOGS-35139/2,226.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta Brookshire TX,3541,35139/2,La Quinta Brookshire TX - Aug  material cost transferred from sps,,16.55
+AUGCOGS-35170/6,228,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"ECHO SUITES /MCP Development, Inc",3329,35170/6,"ECHO SUITES /MCP Development, Inc - Aug  material cost transferred from sps",12743.61,
+AUGCOGS-35170/6,228.5,,953,A12001 - Inventory (New),08/30/2025,"ECHO SUITES /MCP Development, Inc",3329,35170/6,"ECHO SUITES /MCP Development, Inc - Aug  material cost transferred from sps",,12743.61
+AUGCOGS-35485/5,252,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Interstate Construction Corp,569,35485/5,Interstate Construction Corp - Aug  material cost transferred from sps,122.01,
+AUGCOGS-35485/5,252.5,,953,A12001 - Inventory (New),08/30/2025,Interstate Construction Corp,569,35485/5,Interstate Construction Corp - Aug  material cost transferred from sps,,122.01
+AUGCOGS-35492/5,253,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR",3542,35492/5,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR - Aug  material cost transferred from sps",24.00,
+AUGCOGS-35492/5,253.5,,953,A12001 - Inventory (New),08/30/2025,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR",3542,35492/5,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR - Aug  material cost transferred from sps",,24.00
+AUGCOGS-35497/4,254,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR",3542,35497/4,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR - Aug  material cost transferred from sps",71.79,
+AUGCOGS-35497/4,254.5,,953,A12001 - Inventory (New),08/30/2025,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR",3542,35497/4,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR - Aug  material cost transferred from sps",,71.79
+AUGCOGS-35501/12,255,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Marriott Fairfield Harrisburg PA,3529,35501/12,Marriott Fairfield Harrisburg PA - Aug  material cost transferred from sps,1631.50,
+AUGCOGS-35501/12,255.5,,953,A12001 - Inventory (New),08/30/2025,Marriott Fairfield Harrisburg PA,3529,35501/12,Marriott Fairfield Harrisburg PA - Aug  material cost transferred from sps,,1631.50
+AUGCOGS-35614/10,266,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Wyndham Garden Newark,3543,35614/10,Wyndham Garden Newark - Aug  material cost transferred from sps,6338.43,
+AUGCOGS-35614/10,266.5,,953,A12001 - Inventory (New),08/30/2025,Wyndham Garden Newark,3543,35614/10,Wyndham Garden Newark - Aug  material cost transferred from sps,,6338.43
+AUGCOGS-36048/4,319,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,LaQuinta - Stafford - TX,3544,36048/4,LaQuinta - Stafford - TX - Aug  material cost transferred from sps,129.94,
+AUGCOGS-36048/4,319.5,,953,A12001 - Inventory (New),08/30/2025,LaQuinta - Stafford - TX,3544,36048/4,LaQuinta - Stafford - TX - Aug  material cost transferred from sps,,129.94
+AUGCOGS-36096/5,328,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,335 8th Avenue,3545,36096/5,335 8th Avenue - Aug  material cost transferred from sps,4734.40,
+AUGCOGS-36096/5,328.5,,953,A12001 - Inventory (New),08/30/2025,335 8th Avenue,3545,36096/5,335 8th Avenue - Aug  material cost transferred from sps,,4734.40
+AUGCOGS-36096/7,329,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,335 8th Avenue,3545,36096/7,335 8th Avenue - Aug  material cost transferred from sps,1273.80,
+AUGCOGS-36096/7,329.5,,953,A12001 - Inventory (New),08/30/2025,335 8th Avenue,3545,36096/7,335 8th Avenue - Aug  material cost transferred from sps,,1273.80
+AUGCOGS-36096/8,330,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,335 8th Avenue,3545,36096/8,335 8th Avenue - Aug  material cost transferred from sps,764.38,
+AUGCOGS-36096/8,330.5,,953,A12001 - Inventory (New),08/30/2025,335 8th Avenue,3545,36096/8,335 8th Avenue - Aug  material cost transferred from sps,,764.38
+AUGCOGS-36096/9,331,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,335 8th Avenue,3545,36096/9,335 8th Avenue - Aug  material cost transferred from sps,1574.88,
+AUGCOGS-36096/9,331.5,,953,A12001 - Inventory (New),08/30/2025,335 8th Avenue,3545,36096/9,335 8th Avenue - Aug  material cost transferred from sps,,1574.88
+AUGCOGS-36162/5,337,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,CANDLEWOOD - PERRYSBERG,3546,36162/5,CANDLEWOOD - PERRYSBERG - Aug  material cost transferred from sps,80.66,
+AUGCOGS-36162/5,337.5,,953,A12001 - Inventory (New),08/30/2025,CANDLEWOOD - PERRYSBERG,3546,36162/5,CANDLEWOOD - PERRYSBERG - Aug  material cost transferred from sps,,80.66
+AUGCOGS-36199/11,338,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Pinnacle Hospitality Partners / Hilton Garden inn Nashville,3547,36199/11,Pinnacle Hospitality Partners / Hilton Garden inn Nashville - Aug  material cost transferred from sps,320.12,
+AUGCOGS-36199/11,338.5,,953,A12001 - Inventory (New),08/30/2025,Pinnacle Hospitality Partners / Hilton Garden inn Nashville,3547,36199/11,Pinnacle Hospitality Partners / Hilton Garden inn Nashville - Aug  material cost transferred from sps,,320.12
+AUGCOGS-36456/8,358,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Wingate by Wyndham / Indianapolis,3519,36456/8,Wingate by Wyndham / Indianapolis - Aug  material cost transferred from sps,510.14,
+AUGCOGS-36456/8,358.5,,953,A12001 - Inventory (New),08/30/2025,Wingate by Wyndham / Indianapolis,3519,36456/8,Wingate by Wyndham / Indianapolis - Aug  material cost transferred from sps,,510.14
+AUGCOGS-36965/8,434,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Wyndham Garden Newark,3543,36965/8,Wyndham Garden Newark - Aug  material cost transferred from sps,603.71,
+AUGCOGS-36965/8,434.5,,953,A12001 - Inventory (New),08/30/2025,Wyndham Garden Newark,3543,36965/8,Wyndham Garden Newark - Aug  material cost transferred from sps,,603.71
+AUGCOGS-37281/3,469,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,37281/3,HOME2 SOMERSET - Aug  material cost transferred from sps,631.21,
+AUGCOGS-37281/3,469.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,37281/3,HOME2 SOMERSET - Aug  material cost transferred from sps,,631.21
+AUGCOGS-37304/3,474,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Wingate by Wyndham Pueblo CO.,2491,37304/3,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,20.83,
+AUGCOGS-37304/3,474.5,,953,A12001 - Inventory (New),08/30/2025,Wingate by Wyndham Pueblo CO.,2491,37304/3,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,,20.83
+AUGCOGS-37304/4,475,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Wingate by Wyndham Pueblo CO.,2491,37304/4,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,178.24,
+AUGCOGS-37304/4,475.5,,953,A12001 - Inventory (New),08/30/2025,Wingate by Wyndham Pueblo CO.,2491,37304/4,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,,178.24
+AUGCOGS-37311/5,476,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Wingate by Wyndham Pueblo CO.,2491,37311/5,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,2127.82,
+AUGCOGS-37311/5,476.5,,953,A12001 - Inventory (New),08/30/2025,Wingate by Wyndham Pueblo CO.,2491,37311/5,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,,2127.82
+AUGCOGS-37478/4,484,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Best Western Premiere / Colorado Hospitality,3548,37478/4,Best Western Premiere / Colorado Hospitality - Aug  material cost transferred from sps,675.00,
+AUGCOGS-37478/4,484.5,,953,A12001 - Inventory (New),08/30/2025,Best Western Premiere / Colorado Hospitality,3548,37478/4,Best Western Premiere / Colorado Hospitality - Aug  material cost transferred from sps,,675.00
+AUGCOGS-37598/7,485,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Fairfield Inn - Indianapolis,3549,37598/7,Fairfield Inn - Indianapolis - Aug  material cost transferred from sps,2674.63,
+AUGCOGS-37598/7,485.5,,953,A12001 - Inventory (New),08/30/2025,Fairfield Inn - Indianapolis,3549,37598/7,Fairfield Inn - Indianapolis - Aug  material cost transferred from sps,,2674.63
+AUGCOGS-37599/5,486,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Fairfield Inn - Indianapolis,3549,37599/5,Fairfield Inn - Indianapolis - Aug  material cost transferred from sps,257.20,
+AUGCOGS-37599/5,486.5,,953,A12001 - Inventory (New),08/30/2025,Fairfield Inn - Indianapolis,3549,37599/5,Fairfield Inn - Indianapolis - Aug  material cost transferred from sps,,257.20
+AUGCOGS-37606/14,487,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Fairfield Inn - Indianapolis,3549,37606/14,Fairfield Inn - Indianapolis - Aug  material cost transferred from sps,918.79,
+AUGCOGS-37606/14,487.5,,953,A12001 - Inventory (New),08/30/2025,Fairfield Inn - Indianapolis,3549,37606/14,Fairfield Inn - Indianapolis - Aug  material cost transferred from sps,,918.79
+AUGCOGS-37608/3,488,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Fairfield Inn - Indianapolis,3549,37608/3,Fairfield Inn - Indianapolis - Aug  material cost transferred from sps,2300.23,
+AUGCOGS-37608/3,488.5,,953,A12001 - Inventory (New),08/30/2025,Fairfield Inn - Indianapolis,3549,37608/3,Fairfield Inn - Indianapolis - Aug  material cost transferred from sps,,2300.23
+AUGCOGS-37611/5,489,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Wingate by Wyndham Pueblo CO.,2491,37611/5,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,111.39,
+AUGCOGS-37611/5,489.5,,953,A12001 - Inventory (New),08/30/2025,Wingate by Wyndham Pueblo CO.,2491,37611/5,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,,111.39
+AUGCOGS-37611/6,490,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Wingate by Wyndham Pueblo CO.,2491,37611/6,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,34.56,
+AUGCOGS-37611/6,490.5,,953,A12001 - Inventory (New),08/30/2025,Wingate by Wyndham Pueblo CO.,2491,37611/6,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,,34.56
+AUGCOGS-37746/4,504,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Lynden Hospitality 2, LLC",3550,37746/4,"Lynden Hospitality 2, LLC - Aug  material cost transferred from sps",116.43,
+AUGCOGS-37746/4,504.5,,953,A12001 - Inventory (New),08/30/2025,"Lynden Hospitality 2, LLC",3550,37746/4,"Lynden Hospitality 2, LLC - Aug  material cost transferred from sps",,116.43
+AUGCOGS-37767/6,505,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Residence Inn Indianapolis,IN",2609,37767/6,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",154.57,
+AUGCOGS-37767/6,505.5,,953,A12001 - Inventory (New),08/30/2025,"Residence Inn Indianapolis,IN",2609,37767/6,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,154.57
+AUGCOGS-37769/8,506,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Residence Inn Indianapolis,IN",2609,37769/8,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",11.90,
+AUGCOGS-37769/8,506.5,,953,A12001 - Inventory (New),08/30/2025,"Residence Inn Indianapolis,IN",2609,37769/8,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,11.90
+AUGCOGS-37769/9,507,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Residence Inn Indianapolis,IN",2609,37769/9,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",41.87,
+AUGCOGS-37769/9,507.5,,953,A12001 - Inventory (New),08/30/2025,"Residence Inn Indianapolis,IN",2609,37769/9,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,41.87
+AUGCOGS-37772/6,508,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Residence Inn Indianapolis,IN",2609,37772/6,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",12659.75,
+AUGCOGS-37772/6,508.5,,953,A12001 - Inventory (New),08/30/2025,"Residence Inn Indianapolis,IN",2609,37772/6,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,12659.75
+AUGCOGS-37779/3,509,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Residence Inn Indianapolis,IN",2609,37779/3,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",8.81,
+AUGCOGS-37779/3,509.5,,953,A12001 - Inventory (New),08/30/2025,"Residence Inn Indianapolis,IN",2609,37779/3,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,8.81
+AUGCOGS-37781/11,510,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Residence Inn Indianapolis,IN",2609,37781/11,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",6042.51,
+AUGCOGS-37781/11,510.5,,953,A12001 - Inventory (New),08/30/2025,"Residence Inn Indianapolis,IN",2609,37781/11,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,6042.51
+AUGCOGS-37781/12,511,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Residence Inn Indianapolis,IN",2609,37781/12,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",2428.55,
+AUGCOGS-37781/12,511.5,,953,A12001 - Inventory (New),08/30/2025,"Residence Inn Indianapolis,IN",2609,37781/12,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,2428.55
+AUGCOGS-37783/4,512,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Residence Inn Indianapolis,IN",2609,37783/4,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",30.22,
+AUGCOGS-37783/4,512.5,,953,A12001 - Inventory (New),08/30/2025,"Residence Inn Indianapolis,IN",2609,37783/4,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,30.22
+AUGCOGS-37876/4,519,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta Inn Richmond,3150,37876/4,La Quinta Inn Richmond - Aug  material cost transferred from sps,51.50,
+AUGCOGS-37876/4,519.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta Inn Richmond,3150,37876/4,La Quinta Inn Richmond - Aug  material cost transferred from sps,,51.50
+AUGCOGS-37880/3,520,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta Inn Richmond,3150,37880/3,La Quinta Inn Richmond - Aug  material cost transferred from sps,2060.11,
+AUGCOGS-37880/3,520.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta Inn Richmond,3150,37880/3,La Quinta Inn Richmond - Aug  material cost transferred from sps,,2060.11
+AUGCOGS-37880/4,521,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta Inn Richmond,3150,37880/4,La Quinta Inn Richmond - Aug  material cost transferred from sps,433.61,
+AUGCOGS-37880/4,521.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta Inn Richmond,3150,37880/4,La Quinta Inn Richmond - Aug  material cost transferred from sps,,433.61
+AUGCOGS-37881/4,522,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta Inn Richmond,3150,37881/4,La Quinta Inn Richmond - Aug  material cost transferred from sps,11.63,
+AUGCOGS-37881/4,522.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta Inn Richmond,3150,37881/4,La Quinta Inn Richmond - Aug  material cost transferred from sps,,11.63
+AUGCOGS-37881/5,523,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,La Quinta Inn Richmond,3150,37881/5,La Quinta Inn Richmond - Aug  material cost transferred from sps,129.15,
+AUGCOGS-37881/5,523.5,,953,A12001 - Inventory (New),08/30/2025,La Quinta Inn Richmond,3150,37881/5,La Quinta Inn Richmond - Aug  material cost transferred from sps,,129.15
+AUGCOGS-37962/5,535,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Ritzway Group, LLC / Sheraton Columbus",3551,37962/5,"Ritzway Group, LLC / Sheraton Columbus - Aug  material cost transferred from sps",3125.09,
+AUGCOGS-37962/5,535.5,,953,A12001 - Inventory (New),08/30/2025,"Ritzway Group, LLC / Sheraton Columbus",3551,37962/5,"Ritzway Group, LLC / Sheraton Columbus - Aug  material cost transferred from sps",,3125.09
+AUGCOGS-37967/8,536,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,AUTOGRAPH TRILOGY HUNTSVILLE AL,3552,37967/8,AUTOGRAPH TRILOGY HUNTSVILLE AL - Aug  material cost transferred from sps,21111.63,
+AUGCOGS-37967/8,536.5,,953,A12001 - Inventory (New),08/30/2025,AUTOGRAPH TRILOGY HUNTSVILLE AL,3552,37967/8,AUTOGRAPH TRILOGY HUNTSVILLE AL - Aug  material cost transferred from sps,,21111.63
+AUGCOGS-37991/6,543,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,AJA Investments LLC/ Wyndham Lake Charles,3553,37991/6,AJA Investments LLC/ Wyndham Lake Charles - Aug  material cost transferred from sps,2.18,
+AUGCOGS-37991/6,543.5,,953,A12001 - Inventory (New),08/30/2025,AJA Investments LLC/ Wyndham Lake Charles,3553,37991/6,AJA Investments LLC/ Wyndham Lake Charles - Aug  material cost transferred from sps,,2.18
+AUGCOGS-37994/5,544,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,AJA Investments LLC/ Wyndham Lake Charles,3553,37994/5,AJA Investments LLC/ Wyndham Lake Charles - Aug  material cost transferred from sps,5550.68,
+AUGCOGS-37994/5,544.5,,953,A12001 - Inventory (New),08/30/2025,AJA Investments LLC/ Wyndham Lake Charles,3553,37994/5,AJA Investments LLC/ Wyndham Lake Charles - Aug  material cost transferred from sps,,5550.68
+AUGCOGS-38002/8,545,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,AJA Investments LLC/ Wyndham Lake Charles,3553,38002/8,AJA Investments LLC/ Wyndham Lake Charles - Aug  material cost transferred from sps,6386.09,
+AUGCOGS-38002/8,545.5,,953,A12001 - Inventory (New),08/30/2025,AJA Investments LLC/ Wyndham Lake Charles,3553,38002/8,AJA Investments LLC/ Wyndham Lake Charles - Aug  material cost transferred from sps,,6386.09
+AUGCOGS-38024/2,546,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,UPNEXT HOSPITALITY - STAYBRIDGE,3554,38024/2,UPNEXT HOSPITALITY - STAYBRIDGE - Aug  material cost transferred from sps,200.00,
+AUGCOGS-38024/2,546.5,,953,A12001 - Inventory (New),08/30/2025,UPNEXT HOSPITALITY - STAYBRIDGE,3554,38024/2,UPNEXT HOSPITALITY - STAYBRIDGE - Aug  material cost transferred from sps,,200.00
+AUGCOGS-38034,547,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,SUBLIME CUSTOM STONE,3555,38034,SUBLIME CUSTOM STONE - Aug  material cost transferred from sps,2454.73,
+AUGCOGS-38034,547.5,,953,A12001 - Inventory (New),08/30/2025,SUBLIME CUSTOM STONE,3555,38034,SUBLIME CUSTOM STONE - Aug  material cost transferred from sps,,2454.73
+AUGCOGS-38036/13,548,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Ritzway Group, LLC / Sheraton Columbus",3551,38036/13,"Ritzway Group, LLC / Sheraton Columbus - Aug  material cost transferred from sps",8670.87,
+AUGCOGS-38036/13,548.5,,953,A12001 - Inventory (New),08/30/2025,"Ritzway Group, LLC / Sheraton Columbus",3551,38036/13,"Ritzway Group, LLC / Sheraton Columbus - Aug  material cost transferred from sps",,8670.87
+AUGCOGS-38097/6,560,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Ramada Plaza Resort & Suites Orlando/ MIC Hotel Corp,3556,38097/6,Ramada Plaza Resort & Suites Orlando/ MIC Hotel Corp - Aug  material cost transferred from sps,0.00,
+AUGCOGS-38097/6,560.5,,953,A12001 - Inventory (New),08/30/2025,Ramada Plaza Resort & Suites Orlando/ MIC Hotel Corp,3556,38097/6,Ramada Plaza Resort & Suites Orlando/ MIC Hotel Corp - Aug  material cost transferred from sps,,0.00
+AUGCOGS-38173/5,573,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"ECHO SUITES /MCP Development, Inc",3329,38173/5,"ECHO SUITES /MCP Development, Inc - Aug  material cost transferred from sps",8973.59,
+AUGCOGS-38173/5,573.5,,953,A12001 - Inventory (New),08/30/2025,"ECHO SUITES /MCP Development, Inc",3329,38173/5,"ECHO SUITES /MCP Development, Inc - Aug  material cost transferred from sps",,8973.59
+AUGCOGS-24US/34 -PI,581,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Elastron,1246,24US/34 -PI,Elastron - Aug  material cost transferred from sps,283.75,
+AUGCOGS-24US/34 -PI,581.5,,953,A12001 - Inventory (New),08/30/2025,Elastron,1246,24US/34 -PI,Elastron - Aug  material cost transferred from sps,,283.75
+AUGCOGS-24US/35 - PI,582,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Elastron,1246,24US/35 - PI,Elastron - Aug  material cost transferred from sps,94.61,
+AUGCOGS-24US/35 - PI,582.5,,953,A12001 - Inventory (New),08/30/2025,Elastron,1246,24US/35 - PI,Elastron - Aug  material cost transferred from sps,,94.61
+AUGCOGS-24US/33 - PI,584,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Elastron,1246,24US/33 - PI,Elastron - Aug  material cost transferred from sps,94.61,
+AUGCOGS-24US/33 - PI,584.5,,953,A12001 - Inventory (New),08/30/2025,Elastron,1246,24US/33 - PI,Elastron - Aug  material cost transferred from sps,,94.61
+AUGCOGS-38230,586,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Super 8 motel - TN.,2631,38230,Super 8 motel - TN. - Aug  material cost transferred from sps,16516.95,
+AUGCOGS-38230,586.5,,953,A12001 - Inventory (New),08/30/2025,Super 8 motel - TN.,2631,38230,Super 8 motel - TN. - Aug  material cost transferred from sps,,16516.95
+AUGCOGS-38243/2,590,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Body Harmony (Anthony Buck),3557,38243/2,Body Harmony (Anthony Buck) - Aug  material cost transferred from sps,31.53,
+AUGCOGS-38243/2,590.5,,953,A12001 - Inventory (New),08/30/2025,Body Harmony (Anthony Buck),3557,38243/2,Body Harmony (Anthony Buck) - Aug  material cost transferred from sps,,31.53
+AUGCOGS-38251/6,591,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38251/6,HOME2 SOMERSET - Aug  material cost transferred from sps,17480.66,
+AUGCOGS-38251/6,591.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38251/6,HOME2 SOMERSET - Aug  material cost transferred from sps,,17480.66
+AUGCOGS-38253/3,592,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38253/3,HOME2 SOMERSET - Aug  material cost transferred from sps,4048.32,
+AUGCOGS-38253/3,592.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38253/3,HOME2 SOMERSET - Aug  material cost transferred from sps,,4048.32
+AUGCOGS-38254,593,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38254,HOME2 SOMERSET - Aug  material cost transferred from sps,27244.68,
+AUGCOGS-38254,593.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38254,HOME2 SOMERSET - Aug  material cost transferred from sps,,27244.68
+AUGCOGS-38256/2,594,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38256/2,HOME2 SOMERSET - Aug  material cost transferred from sps,13933.86,
+AUGCOGS-38256/2,594.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38256/2,HOME2 SOMERSET - Aug  material cost transferred from sps,,13933.86
+AUGCOGS-38257/2,595,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38257/2,HOME2 SOMERSET - Aug  material cost transferred from sps,6496.78,
+AUGCOGS-38257/2,595.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38257/2,HOME2 SOMERSET - Aug  material cost transferred from sps,,6496.78
+AUGCOGS-38258/3,596,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38258/3,HOME2 SOMERSET - Aug  material cost transferred from sps,63830.27,
+AUGCOGS-38258/3,596.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38258/3,HOME2 SOMERSET - Aug  material cost transferred from sps,,63830.27
+AUGCOGS-38258/4,597,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38258/4,HOME2 SOMERSET - Aug  material cost transferred from sps,242.24,
+AUGCOGS-38258/4,597.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38258/4,HOME2 SOMERSET - Aug  material cost transferred from sps,,242.24
+AUGCOGS-38259/3,598,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38259/3,HOME2 SOMERSET - Aug  material cost transferred from sps,1486.85,
+AUGCOGS-38259/3,598.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38259/3,HOME2 SOMERSET - Aug  material cost transferred from sps,,1486.85
+AUGCOGS-38259/4,599,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38259/4,HOME2 SOMERSET - Aug  material cost transferred from sps,289.32,
+AUGCOGS-38259/4,599.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38259/4,HOME2 SOMERSET - Aug  material cost transferred from sps,,289.32
+AUGCOGS-38263,600,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38263,HOME2 SOMERSET - Aug  material cost transferred from sps,937.51,
+AUGCOGS-38263,600.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38263,HOME2 SOMERSET - Aug  material cost transferred from sps,,937.51
+AUGCOGS-38263/2,601,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38263/2,HOME2 SOMERSET - Aug  material cost transferred from sps,3355.24,
+AUGCOGS-38263/2,601.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38263/2,HOME2 SOMERSET - Aug  material cost transferred from sps,,3355.24
+AUGCOGS-38264/4,602,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38264/4,HOME2 SOMERSET - Aug  material cost transferred from sps,3152.48,
+AUGCOGS-38264/4,602.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38264/4,HOME2 SOMERSET - Aug  material cost transferred from sps,,3152.48
+AUGCOGS-38265,603,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38265,HOME2 SOMERSET - Aug  material cost transferred from sps,13787.11,
+AUGCOGS-38265,603.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38265,HOME2 SOMERSET - Aug  material cost transferred from sps,,13787.11
+AUGCOGS-38266,604,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,HOME2 SOMERSET,3526,38266,HOME2 SOMERSET - Aug  material cost transferred from sps,288.97,
+AUGCOGS-38266,604.5,,953,A12001 - Inventory (New),08/30/2025,HOME2 SOMERSET,3526,38266,HOME2 SOMERSET - Aug  material cost transferred from sps,,288.97
+AUGCOGS-38296/5,609,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Residence Inn Indianapolis,IN",2609,38296/5,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",14432.80,
+AUGCOGS-38296/5,609.5,,953,A12001 - Inventory (New),08/30/2025,"Residence Inn Indianapolis,IN",2609,38296/5,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,14432.80
+AUGCOGS-38296/6,610,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,"Residence Inn Indianapolis,IN",2609,38296/6,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",33584.74,
+AUGCOGS-38296/6,610.5,,953,A12001 - Inventory (New),08/30/2025,"Residence Inn Indianapolis,IN",2609,38296/6,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,33584.74
+AUGCOGS-38297/3,611,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Chesterfield Hospitality Inc.,1558,38297/3,Chesterfield Hospitality Inc. - Aug  material cost transferred from sps,4038.05,
+AUGCOGS-38297/3,611.5,,953,A12001 - Inventory (New),08/30/2025,Chesterfield Hospitality Inc.,1558,38297/3,Chesterfield Hospitality Inc. - Aug  material cost transferred from sps,,4038.05
+AUGCOGS-38299/5,612,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Chesterfield Hospitality Inc.,1558,38299/5,Chesterfield Hospitality Inc. - Aug  material cost transferred from sps,100.58,
+AUGCOGS-38299/5,612.5,,953,A12001 - Inventory (New),08/30/2025,Chesterfield Hospitality Inc.,1558,38299/5,Chesterfield Hospitality Inc. - Aug  material cost transferred from sps,,100.58
+AUGCOGS-38305/8,613,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Chesterfield Hospitality Inc.,1558,38305/8,Chesterfield Hospitality Inc. - Aug  material cost transferred from sps,7830.77,
+AUGCOGS-38305/8,613.5,,953,A12001 - Inventory (New),08/30/2025,Chesterfield Hospitality Inc.,1558,38305/8,Chesterfield Hospitality Inc. - Aug  material cost transferred from sps,,7830.77
+AUGCOGS-38305/9,614,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Chesterfield Hospitality Inc.,1558,38305/9,Chesterfield Hospitality Inc. - Aug  material cost transferred from sps,1764.38,
+AUGCOGS-38305/9,614.5,,953,A12001 - Inventory (New),08/30/2025,Chesterfield Hospitality Inc.,1558,38305/9,Chesterfield Hospitality Inc. - Aug  material cost transferred from sps,,1764.38
+AUGCOGS-38521/5,636,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Mitch Cox Construction,2399,38521/5,Mitch Cox Construction - Aug  material cost transferred from sps,8740.55,
+AUGCOGS-38521/5,636.5,,953,A12001 - Inventory (New),08/30/2025,Mitch Cox Construction,2399,38521/5,Mitch Cox Construction - Aug  material cost transferred from sps,,8740.55
+AUGCOGS-38543/5,637,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Ramada Plaza Resort & Suites Orlando/ MIC Hotel Corp,3556,38543/5,Ramada Plaza Resort & Suites Orlando/ MIC Hotel Corp - Aug  material cost transferred from sps,157.93,
+AUGCOGS-38543/5,637.5,,953,A12001 - Inventory (New),08/30/2025,Ramada Plaza Resort & Suites Orlando/ MIC Hotel Corp,3556,38543/5,Ramada Plaza Resort & Suites Orlando/ MIC Hotel Corp - Aug  material cost transferred from sps,,157.93
+AUGCOGS-38587/4,645,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Wingate by Wyndham Pueblo CO.,2491,38587/4,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,1319.76,
+AUGCOGS-38587/4,645.5,,953,A12001 - Inventory (New),08/30/2025,Wingate by Wyndham Pueblo CO.,2491,38587/4,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,,1319.76
+AUGCOGS-38587/5,646,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Wingate by Wyndham Pueblo CO.,2491,38587/5,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,87.17,
+AUGCOGS-38587/5,646.5,,953,A12001 - Inventory (New),08/30/2025,Wingate by Wyndham Pueblo CO.,2491,38587/5,Wingate by Wyndham Pueblo CO. - Aug  material cost transferred from sps,,87.17
+AUGCOGS-38654/2,657,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,Finecraft Contractors,1711,38654/2,Finecraft Contractors - Aug  material cost transferred from sps,13.50,
+AUGCOGS-38654/2,657.5,,953,A12001 - Inventory (New),08/30/2025,Finecraft Contractors,1711,38654/2,Finecraft Contractors - Aug  material cost transferred from sps,,13.50
+AUGCOGS-39090,687,A50001 - Cost Of Goods Sold (New),977,,08/30/2025,ISLAMIC EDUCATION CENTER,3559,39090,ISLAMIC EDUCATION CENTER - Aug  material cost transferred from sps,661741.42,
+AUGCOGS-39090,687.5,,953,A12001 - Inventory (New),08/30/2025,ISLAMIC EDUCATION CENTER,3559,39090,ISLAMIC EDUCATION CENTER - Aug  material cost transferred from sps,,661741.42
+AUGCOGS-7240,693,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Milliken,3521,7240,Milliken - Aug  material cost transferred from sps,857.08,
+AUGCOGS-7240,693.5,,953,A12001 - Inventory (New),08/31/2025,Milliken,3521,7240,Milliken - Aug  material cost transferred from sps,,857.08
+AUGCOGS-31759/3,694,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Fyffe Construction CO/ LaQuinta Manchester,3527,31759/3,Fyffe Construction CO/ LaQuinta Manchester - Aug  material cost transferred from sps,1261.34,
+AUGCOGS-31759/3,694.5,,953,A12001 - Inventory (New),08/31/2025,Fyffe Construction CO/ LaQuinta Manchester,3527,31759/3,Fyffe Construction CO/ LaQuinta Manchester - Aug  material cost transferred from sps,,1261.34
+AUGCOGS-32791/4,704,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Marriott Fairfield Harrisburg PA,3529,32791/4,Marriott Fairfield Harrisburg PA - Aug  material cost transferred from sps,243.00,
+AUGCOGS-32791/4,704.5,,953,A12001 - Inventory (New),08/31/2025,Marriott Fairfield Harrisburg PA,3529,32791/4,Marriott Fairfield Harrisburg PA - Aug  material cost transferred from sps,,243.00
+AUGCOGS-33553/5,706,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33553/5,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,101.95,
+AUGCOGS-33553/5,706.5,,953,A12001 - Inventory (New),08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33553/5,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,101.95
+AUGCOGS-33554/4,707,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33554/4,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,1999.20,
+AUGCOGS-33554/4,707.5,,953,A12001 - Inventory (New),08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33554/4,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,1999.20
+AUGCOGS-33555/2,708,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33555/2,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,4311.77,
+AUGCOGS-33555/2,708.5,,953,A12001 - Inventory (New),08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33555/2,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,4311.77
+AUGCOGS-33556/8,709,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33556/8,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,12154.71,
+AUGCOGS-33556/8,709.5,,953,A12001 - Inventory (New),08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33556/8,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,12154.71
+AUGCOGS-33557/2,710,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33557/2,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,5039.17,
+AUGCOGS-33557/2,710.5,,953,A12001 - Inventory (New),08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33557/2,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,5039.17
+AUGCOGS-33559/5,711,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33559/5,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,2848.18,
+AUGCOGS-33559/5,711.5,,953,A12001 - Inventory (New),08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33559/5,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,2848.18
+AUGCOGS-33560/3,712,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33560/3,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,2583.50,
+AUGCOGS-33560/3,712.5,,953,A12001 - Inventory (New),08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33560/3,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,2583.50
+AUGCOGS-33561/3,713,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33561/3,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,978.93,
+AUGCOGS-33561/3,713.5,,953,A12001 - Inventory (New),08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,33561/3,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,978.93
+AUGCOGS-35103/5,743,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,THE TD GROUP,3539,35103/5,THE TD GROUP - Aug  material cost transferred from sps,4377.47,
+AUGCOGS-35103/5,743.5,,953,A12001 - Inventory (New),08/31/2025,THE TD GROUP,3539,35103/5,THE TD GROUP - Aug  material cost transferred from sps,,4377.47
+AUGCOGS-35103/6,744,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,THE TD GROUP,3539,35103/6,THE TD GROUP - Aug  material cost transferred from sps,18272.80,
+AUGCOGS-35103/6,744.5,,953,A12001 - Inventory (New),08/31/2025,THE TD GROUP,3539,35103/6,THE TD GROUP - Aug  material cost transferred from sps,,18272.80
+AUGCOGS-35410,755,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35410,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",5677.28,
+AUGCOGS-35410,755.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35410,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,5677.28
+AUGCOGS-35411,756,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35411,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",60.63,
+AUGCOGS-35411,756.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35411,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,60.63
+AUGCOGS-35412/2,757,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35412/2,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",3405.93,
+AUGCOGS-35412/2,757.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35412/2,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,3405.93
+AUGCOGS-35413,758,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35413,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",1915.76,
+AUGCOGS-35413,758.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35413,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,1915.76
+AUGCOGS-35414,759,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35414,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",1471.20,
+AUGCOGS-35414,759.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35414,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,1471.20
+AUGCOGS-35415,760,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35415,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",4181.04,
+AUGCOGS-35415,760.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35415,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,4181.04
+AUGCOGS-35416,761,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35416,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",382.61,
+AUGCOGS-35416,761.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35416,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,382.61
+AUGCOGS-35417,762,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35417,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",1105.00,
+AUGCOGS-35417,762.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35417,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,1105.00
+AUGCOGS-35418,763,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35418,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",3128.95,
+AUGCOGS-35418,763.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35418,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,3128.95
+AUGCOGS-35419,764,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35419,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",4516.75,
+AUGCOGS-35419,764.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35419,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,4516.75
+AUGCOGS-35420,765,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35420,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",1282.80,
+AUGCOGS-35420,765.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35420,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,1282.80
+AUGCOGS-35421,766,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35421,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",217.36,
+AUGCOGS-35421,766.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35421,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,217.36
+AUGCOGS-35422/2,767,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35422/2,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",108.23,
+AUGCOGS-35422/2,767.5,,953,A12001 - Inventory (New),08/31/2025,"TOWNEPLACE SUITES, DALLAS",3560,35422/2,"TOWNEPLACE SUITES, DALLAS - Aug  material cost transferred from sps",,108.23
+AUGCOGS-35485/4,778,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Interstate Construction Corp,569,35485/4,Interstate Construction Corp - Aug  material cost transferred from sps,6219.94,
+AUGCOGS-35485/4,778.5,,953,A12001 - Inventory (New),08/31/2025,Interstate Construction Corp,569,35485/4,Interstate Construction Corp - Aug  material cost transferred from sps,,6219.94
+AUGCOGS-35490/3,779,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR",3542,35490/3,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR - Aug  material cost transferred from sps",731.79,
+AUGCOGS-35490/3,779.5,,953,A12001 - Inventory (New),08/31/2025,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR",3542,35490/3,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR - Aug  material cost transferred from sps",,731.79
+AUGCOGS-35494,780,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR",3542,35494,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR - Aug  material cost transferred from sps",43.16,
+AUGCOGS-35494,780.5,,953,A12001 - Inventory (New),08/31/2025,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR",3542,35494,"Krushiker Hospitality Group, Inc/ Homewood Suites- Fayetteville, AR - Aug  material cost transferred from sps",,43.16
+AUGCOGS-36096/6,808,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,335 8th Avenue,3545,36096/6,335 8th Avenue - Aug  material cost transferred from sps,145588.40,
+AUGCOGS-36096/6,808.5,,953,A12001 - Inventory (New),08/31/2025,335 8th Avenue,3545,36096/6,335 8th Avenue - Aug  material cost transferred from sps,,145588.40
+AUGCOGS-36162/4,813,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,CANDLEWOOD - PERRYSBERG,3546,36162/4,CANDLEWOOD - PERRYSBERG - Aug  material cost transferred from sps,1730.24,
+AUGCOGS-36162/4,813.5,,953,A12001 - Inventory (New),08/31/2025,CANDLEWOOD - PERRYSBERG,3546,36162/4,CANDLEWOOD - PERRYSBERG - Aug  material cost transferred from sps,,1730.24
+AUGCOGS-36199/10,815,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Pinnacle Hospitality Partners / Hilton Garden inn Nashville,3547,36199/10,Pinnacle Hospitality Partners / Hilton Garden inn Nashville - Aug  material cost transferred from sps,2808.00,
+AUGCOGS-36199/10,815.5,,953,A12001 - Inventory (New),08/31/2025,Pinnacle Hospitality Partners / Hilton Garden inn Nashville,3547,36199/10,Pinnacle Hospitality Partners / Hilton Garden inn Nashville - Aug  material cost transferred from sps,,2808.00
+AUGCOGS-36648 - PI,826,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Hollywood Bed & Spring Co.,1256,36648 - PI,Hollywood Bed & Spring Co. - Aug  material cost transferred from sps,0.00,
+AUGCOGS-36648 - PI,826.5,,953,A12001 - Inventory (New),08/31/2025,Hollywood Bed & Spring Co.,1256,36648 - PI,Hollywood Bed & Spring Co. - Aug  material cost transferred from sps,,0.00
+AUGCOGS-37135/2,831,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Wingate Sheboygan WI - 01954,3561,37135/2,Wingate Sheboygan WI - 01954 - Aug  material cost transferred from sps,256.99,
+AUGCOGS-37135/2,831.5,,953,A12001 - Inventory (New),08/31/2025,Wingate Sheboygan WI - 01954,3561,37135/2,Wingate Sheboygan WI - 01954 - Aug  material cost transferred from sps,,256.99
+AUGCOGS-37744/5,846,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Mitch Cox Construction,2399,37744/5,Mitch Cox Construction - Aug  material cost transferred from sps,483.29,
+AUGCOGS-37744/5,846.5,,953,A12001 - Inventory (New),08/31/2025,Mitch Cox Construction,2399,37744/5,Mitch Cox Construction - Aug  material cost transferred from sps,,483.29
+AUGCOGS-37744/6,847,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Mitch Cox Construction,2399,37744/6,Mitch Cox Construction - Aug  material cost transferred from sps,3176.40,
+AUGCOGS-37744/6,847.5,,953,A12001 - Inventory (New),08/31/2025,Mitch Cox Construction,2399,37744/6,Mitch Cox Construction - Aug  material cost transferred from sps,,3176.40
+AUGCOGS-37766/3,848,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"Residence Inn Indianapolis,IN",2609,37766/3,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",3006.52,
+AUGCOGS-37766/3,848.5,,953,A12001 - Inventory (New),08/31/2025,"Residence Inn Indianapolis,IN",2609,37766/3,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,3006.52
+AUGCOGS-37770/2,849,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"Residence Inn Indianapolis,IN",2609,37770/2,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",5232.07,
+AUGCOGS-37770/2,849.5,,953,A12001 - Inventory (New),08/31/2025,"Residence Inn Indianapolis,IN",2609,37770/2,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,5232.07
+AUGCOGS-37770/3,850,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"Residence Inn Indianapolis,IN",2609,37770/3,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",534.17,
+AUGCOGS-37770/3,850.5,,953,A12001 - Inventory (New),08/31/2025,"Residence Inn Indianapolis,IN",2609,37770/3,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,534.17
+AUGCOGS-37775/3,851,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"Residence Inn Indianapolis,IN",2609,37775/3,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",267.60,
+AUGCOGS-37775/3,851.5,,953,A12001 - Inventory (New),08/31/2025,"Residence Inn Indianapolis,IN",2609,37775/3,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,267.60
+AUGCOGS-37776,852,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"Residence Inn Indianapolis,IN",2609,37776,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",228.59,
+AUGCOGS-37776,852.5,,953,A12001 - Inventory (New),08/31/2025,"Residence Inn Indianapolis,IN",2609,37776,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,228.59
+AUGCOGS-37784/2,853,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,"Residence Inn Indianapolis,IN",2609,37784/2,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",994.00,
+AUGCOGS-37784/2,853.5,,953,A12001 - Inventory (New),08/31/2025,"Residence Inn Indianapolis,IN",2609,37784/2,"Residence Inn Indianapolis,IN - Aug  material cost transferred from sps",,994.00
+AUGCOGS-38021/3,865,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,HSI Design Group,3562,38021/3,HSI Design Group - Aug  material cost transferred from sps,1218.00,
+AUGCOGS-38021/3,865.5,,953,A12001 - Inventory (New),08/31/2025,HSI Design Group,3562,38021/3,HSI Design Group - Aug  material cost transferred from sps,,1218.00
+AUGCOGS-38215,873,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Installations plus,1555,38215,Installations plus - Aug  material cost transferred from sps,3632.82,
+AUGCOGS-38215,873.5,,953,A12001 - Inventory (New),08/31/2025,Installations plus,1555,38215,Installations plus - Aug  material cost transferred from sps,,3632.82
+AUGCOGS-38262,879,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,HOME2 SOMERSET,2484,38262,HOME2 SOMERSET - Aug  material cost transferred from sps,1007.56,
+AUGCOGS-38262,879.5,,953,A12001 - Inventory (New),08/31/2025,HOME2 SOMERSET,2484,38262,HOME2 SOMERSET - Aug  material cost transferred from sps,,1007.56
+AUGCOGS-38264/3,880,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,HOME2 SOMERSET,540,38264/3,HOME2 SOMERSET - Aug  material cost transferred from sps,28889.90,
+AUGCOGS-38264/3,880.5,,953,A12001 - Inventory (New),08/31/2025,HOME2 SOMERSET,540,38264/3,HOME2 SOMERSET - Aug  material cost transferred from sps,,28889.90
+AUGCOGS-38267,881,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,HOME2 SOMERSET,515,38267,HOME2 SOMERSET - Aug  material cost transferred from sps,2812.12,
+AUGCOGS-38267,881.5,,953,A12001 - Inventory (New),08/31/2025,HOME2 SOMERSET,515,38267,HOME2 SOMERSET - Aug  material cost transferred from sps,,2812.12
+AUGCOGS-38507/4,888,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,ELEMENT OPELIKA AL,2484,38507/4,ELEMENT OPELIKA AL - Aug  material cost transferred from sps,21.01,
+AUGCOGS-38507/4,888.5,,953,A12001 - Inventory (New),08/31/2025,ELEMENT OPELIKA AL,2484,38507/4,ELEMENT OPELIKA AL - Aug  material cost transferred from sps,,21.01
+AUGCOGS-38508/2,889,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Tommy Wong,496,38508/2,Tommy Wong - Aug  material cost transferred from sps,80.25,
+AUGCOGS-38508/2,889.5,,953,A12001 - Inventory (New),08/31/2025,Tommy Wong,496,38508/2,Tommy Wong - Aug  material cost transferred from sps,,80.25
+AUGCOGS-38515/3,890,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Link Floors,2541,38515/3,Link Floors - Aug  material cost transferred from sps,2196.51,
+AUGCOGS-38515/3,890.5,,953,A12001 - Inventory (New),08/31/2025,Link Floors,2541,38515/3,Link Floors - Aug  material cost transferred from sps,,2196.51
+AUGCOGS-38527,891,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Gaurang(Gary) Patel,540,38527,Gaurang(Gary) Patel - Aug  material cost transferred from sps,1219.49,
+AUGCOGS-38527,891.5,,953,A12001 - Inventory (New),08/31/2025,Gaurang(Gary) Patel,540,38527,Gaurang(Gary) Patel - Aug  material cost transferred from sps,,1219.49
+AUGCOGS-38603,898,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,DEVEN BHAKTA PORT ARANSAS HOME,515,38603,DEVEN BHAKTA PORT ARANSAS HOME - Aug  material cost transferred from sps,527.86,
+AUGCOGS-38603,898.5,,953,A12001 - Inventory (New),08/31/2025,DEVEN BHAKTA PORT ARANSAS HOME,515,38603,DEVEN BHAKTA PORT ARANSAS HOME - Aug  material cost transferred from sps,,527.86
+AUGCOGS-38674,907,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Didier Nader,3521,38674,Didier Nader - Aug  material cost transferred from sps,166.10,
+AUGCOGS-38674,907.5,,953,A12001 - Inventory (New),08/31/2025,Didier Nader,3521,38674,Didier Nader - Aug  material cost transferred from sps,,166.10
+AUGCOGS-38835,932,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Specialty Tile Products Inc.,3566,38835,Specialty Tile Products Inc. - Aug  material cost transferred from sps,918.16,
+AUGCOGS-38835,932.5,,953,A12001 - Inventory (New),08/31/2025,Specialty Tile Products Inc.,3566,38835,Specialty Tile Products Inc. - Aug  material cost transferred from sps,,918.16
+AUGCOGS-38854,937,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Days Inn in Georgetown,2441,38854,Days Inn in Georgetown - Aug  material cost transferred from sps,31862.13,
+AUGCOGS-38854,937.5,,953,A12001 - Inventory (New),08/31/2025,Days Inn in Georgetown,2441,38854,Days Inn in Georgetown - Aug  material cost transferred from sps,,31862.13
+AUGCOGS-38904,947,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Davaco - Chilies Restroom remodel Woodlands. TX,3568,38904,Davaco - Chilies Restroom remodel Woodlands. TX - Aug  material cost transferred from sps,3153.67,
+AUGCOGS-38904,947.5,,953,A12001 - Inventory (New),08/31/2025,Davaco - Chilies Restroom remodel Woodlands. TX,3568,38904,Davaco - Chilies Restroom remodel Woodlands. TX - Aug  material cost transferred from sps,,3153.67
+AUGCOGS-14658649,959,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Milliken,3521,14658649,Milliken - Aug  material cost transferred from sps,0.00,
+AUGCOGS-14658649,959.5,,953,A12001 - Inventory (New),08/31/2025,Milliken,3521,14658649,Milliken - Aug  material cost transferred from sps,,0.00
+AUGCOGS-38963,960,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Contempo Builder,496,38963,Contempo Builder - Aug  material cost transferred from sps,53.91,
+AUGCOGS-38963,960.5,,953,A12001 - Inventory (New),08/31/2025,Contempo Builder,496,38963,Contempo Builder - Aug  material cost transferred from sps,,53.91
+AUGCOGS-39063,970,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Texas Floor Covering,2541,39063,Texas Floor Covering - Aug  material cost transferred from sps,1684.42,
+AUGCOGS-39063,970.5,,953,A12001 - Inventory (New),08/31/2025,Texas Floor Covering,2541,39063,Texas Floor Covering - Aug  material cost transferred from sps,,1684.42
+AUGCOGS-39092,979,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,AJA Investments LLC/ Wyndham Lake Charles,3553,39092,AJA Investments LLC/ Wyndham Lake Charles - Aug  material cost transferred from sps,29466.97,
+AUGCOGS-39092,979.5,,953,A12001 - Inventory (New),08/31/2025,AJA Investments LLC/ Wyndham Lake Charles,3553,39092,AJA Investments LLC/ Wyndham Lake Charles - Aug  material cost transferred from sps,,29466.97
+AUGCOGS-39099,986,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Fairfield Inn - Indianapolis,3549,39099,Fairfield Inn - Indianapolis - Aug  material cost transferred from sps,8003.11,
+AUGCOGS-39099,986.5,,953,A12001 - Inventory (New),08/31/2025,Fairfield Inn - Indianapolis,3549,39099,Fairfield Inn - Indianapolis - Aug  material cost transferred from sps,,8003.11
+AUGCOGS-39102,989,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Hampton 801 Walnut,3569,39102,Hampton 801 Walnut - Aug  material cost transferred from sps,11734.37,
+AUGCOGS-39102,989.5,,953,A12001 - Inventory (New),08/31/2025,Hampton 801 Walnut,3569,39102,Hampton 801 Walnut - Aug  material cost transferred from sps,,11734.37
+AUGCOGS-39107,994,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Wyndham Garden Newark,3543,39107,Wyndham Garden Newark - Aug  material cost transferred from sps,108369.32,
+AUGCOGS-39107,994.5,,953,A12001 - Inventory (New),08/31/2025,Wyndham Garden Newark,3543,39107,Wyndham Garden Newark - Aug  material cost transferred from sps,,108369.32
+AUGCOGS-39112,999,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,39112,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,8199.75,
+AUGCOGS-39112,999.5,,953,A12001 - Inventory (New),08/31/2025,La Quinta Inn & Suites- Seatac Airport- Seattle WA,2328,39112,La Quinta Inn & Suites- Seatac Airport- Seattle WA - Aug  material cost transferred from sps,,8199.75
+AUGCOGS-39120,1007,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,Steve Hari/ Best Western TN,3570,39120,Steve Hari/ Best Western TN - Aug  material cost transferred from sps,180.90,
+AUGCOGS-39120,1007.5,,953,A12001 - Inventory (New),08/31/2025,Steve Hari/ Best Western TN,3570,39120,Steve Hari/ Best Western TN - Aug  material cost transferred from sps,,180.90
+AUGCOGS-39121,1008,A50001 - Cost Of Goods Sold (New),977,,08/31/2025,THE TD GROUP,3539,39121,THE TD GROUP - Aug  material cost transferred from sps,329.85,
+AUGCOGS-39121,1008.5,,953,A12001 - Inventory (New),08/31/2025,THE TD GROUP,3539,39121,THE TD GROUP - Aug  material cost transferred from sps,,329.85

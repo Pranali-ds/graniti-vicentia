@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>NetSuite</Author>
+<LastAuthor>NetSuite</LastAuthor>
+<Company>NetSuite</Company>
+</DocumentProperties>
+<Styles>
+<Style ss:ID="company">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="error">
+<Alignment ss:Horizontal="Center"/>
+<Interior ss:Color="#d04040" ss:Pattern="Solid"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="header">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Size="7" ss:Bold="1"/>
+<Interior ss:Color="#d0d0d0" ss:Pattern="Solid"/>
+</Style> <Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font ss:FontName="Arial" ss:Size="8"/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="s__TIMEOFDAY"><NumberFormat ss:Format="Medium Time"/></Style>
+<Style ss:ID="s__DATETIME"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATETIMETZ"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATE"><NumberFormat ss:Format="Short Date"/>
+</Style><Style ss:ID="s__text"></Style><Style ss:ID="s__currency"><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__percent"><NumberFormat ss:Format="Percent"/></Style>
+<Style ss:ID="s1_b_text"><Alignment ss:Indent="1"/><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s_b_text"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s2__text"><Alignment ss:Indent="2"/></Style>
+<Style ss:ID="s_b_currency"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s_currency_nosymbol"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" /><NumberFormat ss:Format="#,##0.00_);[Red]\(#,##0.00\)"/></Style>
+<Style ss:ID="s1__text"><Alignment ss:Indent="1"/></Style>
+<Style ss:ID="s_b_currency_X"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><Interior ss:Color="#f0e0e0" ss:Pattern="Solid"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__currency_en_CA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;Can$&quot;#,##0.00_);(&quot;Can$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_US"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;$&quot;#,##0.00_);(&quot;$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_IN"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00_);(&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_fr_FR_EURO"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;€&quot;#,##0.00_);(&quot;€&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_GB"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;£&quot;#,##0.00_);(&quot;£&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_ar_SA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;SRl&quot;#,##0.00_);(&quot;SRl&quot;#,##0.00)"/></Style>
+</Styles>
+<Worksheet ss:Name="INVOICESBEFOREJANstResults">
+<Table><Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Order Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">As-Of Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Subsidiary (no hierarchy)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Period</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Tax Period</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Name</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Memo</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">11000 Accounts Receivable</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice No. 36685 36685/2 36685/4</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">41746.65</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A40001 Revenue (GV LLC) (New) : Sales Income (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GR-802.c-MR 36&quot;W x 36&quot;H Framed Mirror</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12656.15</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A40001 Revenue (GV LLC) (New) : Sales Income (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GR-802.c-MR 48&quot;W x 36&quot;H Framed Mirror</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">7009.56</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A40001 Revenue (GV LLC) (New) : Sales Income (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Electrical Outlet with 2AC+1USB Port+ 1C Type @ TV Wall</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1590.75</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A40001 Revenue (GV LLC) (New) : Sales Income (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GR-314-CG Dining Table @ one Bedroom Queen</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">280.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A40001 Revenue (GV LLC) (New) : Sales Income (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GR-314-CG.ADA Dining Table @ one Bedroom Queen-ADA</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">280.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A40001 Revenue (GV LLC) (New) : Sales Income (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GR-315-CG - Dresser 2 One Bedroom Queen</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1025.72</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A40001 Revenue (GV LLC) (New) : Sales Income (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GR-205-SG - Dining Chair @ One Bedroom Queen</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1040.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A40001 Revenue (GV LLC) (New) : Sales Income (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GR-205.1-SGF - Vinyl @ Dining Chair (3 yds ea)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">128.52</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A40006 Revenue (GV LLC) (New) : Delivery Income (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Delivery Charges</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">14474.85</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">40100 Revenue : Sales Revenue</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">WINDOW INSTALL CHARGES</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">800.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Tax Agency KS : Tax Agency KS (3-1737372992)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable KS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">KS_HUTCHINSON</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">180.07</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Tax Agency KS : Tax Agency KS (3-1737372992)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable KS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">KS_CEM6</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">480.21</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Tax Agency KS : Tax Agency KS (3-1737372992)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable KS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">KS_KS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1560.70</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">15904</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Invoice</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Tax Agency KS : Tax Agency KS (3-1737372992)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable KS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">KS_RENO</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">240.12</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

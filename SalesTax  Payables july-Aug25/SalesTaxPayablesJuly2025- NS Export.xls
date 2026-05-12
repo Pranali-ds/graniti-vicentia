@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>NetSuite</Author>
+<LastAuthor>NetSuite</LastAuthor>
+<Company>NetSuite</Company>
+</DocumentProperties>
+<Styles>
+<Style ss:ID="company">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="error">
+<Alignment ss:Horizontal="Center"/>
+<Interior ss:Color="#d04040" ss:Pattern="Solid"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="header">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Size="7" ss:Bold="1"/>
+<Interior ss:Color="#d0d0d0" ss:Pattern="Solid"/>
+</Style> <Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font ss:FontName="Arial" ss:Size="8"/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="s__TIMEOFDAY"><NumberFormat ss:Format="Medium Time"/></Style>
+<Style ss:ID="s__DATETIME"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATETIMETZ"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATE"><NumberFormat ss:Format="Short Date"/>
+</Style><Style ss:ID="s__text"></Style><Style ss:ID="s__currency"><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__percent"><NumberFormat ss:Format="Percent"/></Style>
+<Style ss:ID="s1_b_text"><Alignment ss:Indent="1"/><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s_b_text"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s2__text"><Alignment ss:Indent="2"/></Style>
+<Style ss:ID="s_b_currency"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s_currency_nosymbol"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" /><NumberFormat ss:Format="#,##0.00_);[Red]\(#,##0.00\)"/></Style>
+<Style ss:ID="s1__text"><Alignment ss:Indent="1"/></Style>
+<Style ss:ID="s_b_currency_X"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><Interior ss:Color="#f0e0e0" ss:Pattern="Solid"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__currency_en_CA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;Can$&quot;#,##0.00_);(&quot;Can$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_US"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;$&quot;#,##0.00_);(&quot;$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_IN"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00_);(&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_fr_FR_EURO"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;€&quot;#,##0.00_);(&quot;€&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_GB"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;£&quot;#,##0.00_);(&quot;£&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_ar_SA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;SRl&quot;#,##0.00_);(&quot;SRl&quot;#,##0.00)"/></Style>
+</Styles>
+<Worksheet ss:Name="SalesTaxPayablesJulyResults">
+<Table><Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Order Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">As-Of Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Period</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Tax Period</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Name</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Memo</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount (Debit)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount (Credit)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Inventory Adjustment Reason</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Preferred Entity Bank</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Vendor Bank Fees</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Bank Fee</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Entity Bank (Vendor)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Entity Bank (Employee)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Exclude from Electronic Bank Payments Processing</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Entity Bank (Customer)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Entity Bank (Customer Credit)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">BlueCollar Intial Projections Status</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86424</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-01T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4600</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Magnolia LXR Dallas TX -</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">114.04</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">114.04</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86424</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-01T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4600</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Magnolia LXR Dallas TX -</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">114.04</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">114.04</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86425</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-01T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4601</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Monsoon Flower LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">647.32</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">647.32</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86425</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-01T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4601</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Monsoon Flower LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">647.32</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">647.32</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86426</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-07T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4602</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn - Nashville</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TN</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">398.81</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">398.81</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86426</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-07T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4602</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn - Nashville</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">398.81</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">398.81</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86427</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-07T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4603</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable AL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">7.77</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">7.77</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86427</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-07T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4603</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">7.77</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">7.77</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86428</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-07T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4604</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable AL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">195.78</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">195.78</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86428</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-07T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4604</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">195.78</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">195.78</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86429</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-08T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4605</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">LQ Hawthorne Leavenworth</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable WA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">965.42</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">965.42</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86429</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-08T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4605</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">LQ Hawthorne Leavenworth</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">965.42</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">965.42</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86430</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-08T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4606</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">LQ Hawthorne Leavenworth</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable WA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2097.34</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2097.34</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86430</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-08T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4606</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">LQ Hawthorne Leavenworth</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2097.34</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2097.34</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86431</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-08T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4607</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable AL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">254.38</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">254.38</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86431</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-08T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4607</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">254.38</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">254.38</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86432</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-08T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4608</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable AL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">34.06</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">34.06</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86432</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-08T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4608</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">34.06</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">34.06</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86433</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-08T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4609</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn - Nashville</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TN</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2429.34</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2429.34</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86433</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-08T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4609</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn - Nashville</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2429.34</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2429.34</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86434</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-10T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4610</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Interior Dezyn</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">116.14</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">116.14</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86434</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-10T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4610</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Interior Dezyn</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">116.14</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">116.14</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86435</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4611</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">DFW Joseph Investments LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5474.46</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5474.46</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86435</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4611</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">DFW Joseph Investments LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5474.46</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5474.46</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86436</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4612</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Northlake Innkeepers Ltd.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">189.13</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">189.13</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86436</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4612</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Northlake Innkeepers Ltd.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">189.13</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">189.13</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86437</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4613</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Northlake Innkeepers Ltd.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">192.60</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">192.60</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86437</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4613</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Northlake Innkeepers Ltd.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">192.60</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">192.60</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86438</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4614</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Northlake Innkeepers Ltd.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">99.99</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">99.99</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86438</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4614</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Northlake Innkeepers Ltd.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">99.99</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">99.99</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86439</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-14T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4615</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable AL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5305.13</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5305.13</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86439</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-14T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4615</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5305.13</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5305.13</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86440</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-16T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4616</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable AL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1596.25</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1596.25</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86440</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-16T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4616</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1596.25</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1596.25</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86441</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-16T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4617</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable AL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">282.67</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">282.67</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86441</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-16T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4617</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">282.67</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">282.67</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86442</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4618</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn - Nashville</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TN</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">4764.57</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">4764.57</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86442</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4618</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn - Nashville</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">4764.57</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">4764.57</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86443</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-21T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4619</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Imagine Porcelain Co. IPC.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable OK</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">163.35</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">163.35</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86443</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-21T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4619</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Imagine Porcelain Co. IPC.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">163.35</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">163.35</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86444</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-25T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4620</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Residence Inn Pearland, TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1162.36</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1162.36</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86444</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-25T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4620</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Residence Inn Pearland, TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1162.36</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1162.36</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86445</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-26T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4621</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Residence Inn Pearland, TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">198.18</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">198.18</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86445</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-26T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4621</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Residence Inn Pearland, TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">198.18</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">198.18</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86446</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-30T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4622</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn Rosenberg</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">117.24</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">117.24</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86446</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-30T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4622</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn Rosenberg</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">117.24</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">117.24</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86447</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-30T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4623</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn Rosenberg</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TX</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">68.95</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">68.95</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86447</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-30T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4623</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn Rosenberg</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">68.95</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">68.95</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86448</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-30T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4624</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn - Nashville</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable TN</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2910.85</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2910.85</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86448</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-30T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4624</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hampton Inn - Nashville</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2910.85</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2910.85</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86449</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4625</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable AL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">477.16</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">477.16</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86449</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4625</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">477.16</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">477.16</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86450</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4626</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable AL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">789.35</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">789.35</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86450</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4626</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">789.35</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">789.35</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86451</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4627</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Taxes Payable AL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1319.84</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1319.84</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">86451</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4627</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Auburn Hospitality Group</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A11001 Accounts Receivable (GV LLC) (New) : Accounts Receivable (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sale Tax Payable July-2025</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1319.84</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1319.84</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Total</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">32372.48</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">32372.48</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">64744.96</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">0.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
