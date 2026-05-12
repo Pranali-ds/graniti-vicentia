@@ -1,0 +1,15 @@
+Error,EXTERNAL ID,Item,Item ID,Party Name,Vendor ID,Invoice #,Length,Invoice Date,Balance Due,Memo,Subsidiary Id,Subsidiary,Account
+The total can not be negative.,OPENVENBILLduplicate payment/credit,Freight,40392,MAERSK LINE,161,duplicate payment/credit,24,03/14/2025,-1050.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+Reference No. 14544120 is a duplicate for this vendor. Click OK and change Reference No.,OPENVENBILL14544120,freight,40392,"Sunteck Transport Co., LLC",233,14544120,8,04/04/2025,668.50,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+Reference No. 0616589-9 is a duplicate for this vendor. Click OK and change Reference No.,OPENVENBILL0616589-9,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,0616589-9,9,03/10/2025,513.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+"",OPENVENBILL0616589-9,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,0616589-9,9,03/10/2025,513.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+"",OPENVENBILL0616589-9,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,0616589-9,9,03/10/2025,512.66,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+The total can not be negative.,OPENVENBILL3/24/2025,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,3/24/2025,9,03/24/2025,-40.64,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+"",OPENVENBILL3/24/2025,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,3/24/2025,9,03/24/2025,-2.62,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+"",OPENVENBILL3/24/2025,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,3/24/2025,9,03/24/2025,-55.33,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+"",OPENVENBILL3/24/2025,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,3/24/2025,9,03/24/2025,-5312.29,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+The total can not be negative.,OPENVENBILL0587015-5 & 0587016-3,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,0587015-5 & 0587016-3,21,03/24/2025,-415.04,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+The total can not be negative.,OPENVENBILL0618535-01,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,0618535-01,10,03/24/2025,-32.71,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+The total can not be negative.,OPENVENBILLEKH-0898744-1,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,EKH-0898744-1,13,03/24/2025,-32.71,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+The total can not be negative.,OPENVENBILL0587014-8 & 0587023-9,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,0587014-8 & 0587023-9,21,03/24/2025,-209.03,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001
+The total can not be negative.,OPENVENBILL06/24/2025,freight,40392,U.S. CUSTOMS AND BORDER PROTECTION,253,06/24/2025,10,06/24/2025,-48626.44,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001

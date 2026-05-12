@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>NetSuite</Author>
+<LastAuthor>NetSuite</LastAuthor>
+<Company>NetSuite</Company>
+</DocumentProperties>
+<Styles>
+<Style ss:ID="company">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="error">
+<Alignment ss:Horizontal="Center"/>
+<Interior ss:Color="#d04040" ss:Pattern="Solid"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="header">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Size="7" ss:Bold="1"/>
+<Interior ss:Color="#d0d0d0" ss:Pattern="Solid"/>
+</Style> <Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font ss:FontName="Arial" ss:Size="8"/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="s__TIMEOFDAY"><NumberFormat ss:Format="Medium Time"/></Style>
+<Style ss:ID="s__DATETIME"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATETIMETZ"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATE"><NumberFormat ss:Format="Short Date"/>
+</Style><Style ss:ID="s__text"></Style><Style ss:ID="s__currency"><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__percent"><NumberFormat ss:Format="Percent"/></Style>
+<Style ss:ID="s1_b_text"><Alignment ss:Indent="1"/><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s_b_text"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s2__text"><Alignment ss:Indent="2"/></Style>
+<Style ss:ID="s_b_currency"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s_currency_nosymbol"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" /><NumberFormat ss:Format="#,##0.00_);[Red]\(#,##0.00\)"/></Style>
+<Style ss:ID="s1__text"><Alignment ss:Indent="1"/></Style>
+<Style ss:ID="s_b_currency_X"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><Interior ss:Color="#f0e0e0" ss:Pattern="Solid"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__currency_en_CA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;Can$&quot;#,##0.00_);(&quot;Can$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_US"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;$&quot;#,##0.00_);(&quot;$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_IN"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00_);(&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_fr_FR_EURO"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;€&quot;#,##0.00_);(&quot;€&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_GB"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;£&quot;#,##0.00_);(&quot;£&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_ar_SA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;SRl&quot;#,##0.00_);(&quot;SRl&quot;#,##0.00)"/></Style>
+</Styles>
+<Worksheet ss:Name="BILLPAYMENTPostinginbutdateRes">
+<Table><Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Memo</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Period</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Name</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Subsidiary</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account (Main)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Period</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Created By</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Created From</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Period</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">47949</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill Payment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">H2X76</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">47949</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-01-02T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Aflac</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3750.96</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">47949</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill Payment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">47949</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-01-02T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Aflac</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20000 Accounts Payable</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3750.96</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20000 Accounts Payable</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3750.96</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Devender Esrampally</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-12-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">281541</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2025</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">48438</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill Payment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">48438</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-01-02T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Globe Life Liberty National Division</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1041.41</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">48438</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill Payment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">48438</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-01-02T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Globe Life Liberty National Division</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20000 Accounts Payable</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1041.41</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20000 Accounts Payable</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1041.41</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Seekuru Ravi Kumar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-01-01T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan-2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">48440</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill Payment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">48440</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-01-02T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Resident Center</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2592.35</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">48440</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill Payment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">48440</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-01-02T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Resident Center</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20000 Accounts Payable</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2592.35</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20000 Accounts Payable</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2592.35</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Roxanne Mendez</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-01-02T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">01022026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jan 2024</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

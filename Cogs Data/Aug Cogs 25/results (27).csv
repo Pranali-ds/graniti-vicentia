@@ -1,0 +1,13 @@
+External ID,S.no,Debit,Account ID,Credit ,Date,Entity,Entity ID,Invoice #,Memo,Debit Amt,Credit Amt
+AUGCOGS-24015762/1,41,A51001 - Freight - Out - Expense (New),981,,08/30/2025,TransCeramica-4042,1290,24015762,TransCeramica-4042 - Aug  material cost transferred from sps,1900,
+AUGCOGS-24015762/1,41.5,,966,A20001 - Accounts Payable Suppliers & Vendors (New),08/30/2025,TransCeramica-4042,1290,24015762,TransCeramica-4042 - Aug  material cost transferred from sps,,1900
+AUGCOGS-14658649,54,A51001 - Freight - Out - Expense (New),981,,08/31/2025,Milliken,1269,14658649,Milliken - Aug  material cost transferred from sps,94.17,
+AUGCOGS-14658649,54.5,,966,A20001 - Accounts Payable Suppliers & Vendors (New),08/31/2025,Milliken,1269,14658649,Milliken - Aug  material cost transferred from sps,,94.17
+AUGCOGS-6122023,55,A51001 - Freight - Out - Expense (New),981,,08/31/2025,Milliken,1269,6122023,Milliken - Aug  material cost transferred from sps,98.17,
+AUGCOGS-6122023,55.5,,966,A20001 - Accounts Payable Suppliers & Vendors (New),08/31/2025,Milliken,1269,6122023,Milliken - Aug  material cost transferred from sps,,98.17
+AUGCOGS-29876 - PI/1,59,A51001 - Freight - Out - Expense (New),981,,08/31/2025,The Coveworks Inc.,2398,29876 - PI,The Coveworks Inc. - Aug  material cost transferred from sps,770,
+AUGCOGS-29876 - PI/1,59.5,,966,A20001 - Accounts Payable Suppliers & Vendors (New),08/31/2025,The Coveworks Inc.,2398,29876 - PI,The Coveworks Inc. - Aug  material cost transferred from sps,,770
+AUGCOGS-14658649,60,A51001 - Freight - Out - Expense (New),981,,08/31/2025,Milliken,1269,14658649,Milliken - Aug  material cost transferred from sps,96.75,
+AUGCOGS-14658649,60.5,,966,A20001 - Accounts Payable Suppliers & Vendors (New),08/31/2025,Milliken,1269,14658649,Milliken - Aug  material cost transferred from sps,,96.75
+AUGCOGS-4102025/2,108,A51001 - Freight - Out - Expense (New),981,,08/30/2025,Wendover Art Group,2488,4102025,Wendover Art Group - Aug  material cost transferred from sps,438.68,
+AUGCOGS-4102025/2,108.5,,966,A20001 - Accounts Payable Suppliers & Vendors (New),08/30/2025,Wendover Art Group,2488,4102025,Wendover Art Group - Aug  material cost transferred from sps,,438.68

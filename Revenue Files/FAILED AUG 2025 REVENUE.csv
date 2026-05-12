@@ -1,0 +1,9 @@
+Error,External ID,SL no,Debit,Account Internal ID,Credit ,credit,Date,Invoice,Customer/vendor,Entity ID,Description,Debit Amt,Credit Amt
+Invalid entity reference key 736 for subsidiary 3.,AUGREVENUE-32401/5,99,A11001 - Accounts Receivable (New),950,,#VALUE!,08/30/2025,32401/5,Sunbridge Venetian LP Inc.,3512,Aug 25 product revenue in SPS,0,
+,AUGREVENUE-32401/5,99.5,,972,A40001 - Sales Income (New),972,08/30/2025,32401/5,Sunbridge Venetian LP Inc.,3512,Aug 25 product revenue in SPS,,0
+Invalid entity reference key 2587 for subsidiary 3.,AUGREVENUE-38278/5,606,A11001 - Accounts Receivable (New),950,,#VALUE!,08/30/2025,38278/5,Innovation Hospitality Purveyors,3513,Aug 25 product revenue in SPS,0,
+,AUGREVENUE-38278/5,606.5,,972,A40001 - Sales Income (New),972,08/30/2025,38278/5,Innovation Hospitality Purveyors,3513,Aug 25 product revenue in SPS,,0
+Invalid entity reference key 2601 for subsidiary 3.,AUGREVENUE-37255/4,829,A11001 - Accounts Receivable (New),950,,#VALUE!,08/31/2025,37255/4,AFP 108 Corp.,3510,Aug 25 product revenue in SPS,1014.75,
+,AUGREVENUE-37255/4,829.5,,972,A40001 - Sales Income (New),972,08/31/2025,37255/4,AFP 108 Corp.,3510,Aug 25 product revenue in SPS,,1014.75
+Invalid entity reference key 2601 for subsidiary 3.,AUGREVENUE-39091,974,A11001 - Accounts Receivable (New),950,,#VALUE!,08/31/2025,39091,AFP 108 Corp.,3510,Aug 25 product revenue in SPS,44.55,
+,AUGREVENUE-39091,974.5,,972,A40001 - Sales Income (New),972,08/31/2025,39091,AFP 108 Corp.,3510,Aug 25 product revenue in SPS,,44.55

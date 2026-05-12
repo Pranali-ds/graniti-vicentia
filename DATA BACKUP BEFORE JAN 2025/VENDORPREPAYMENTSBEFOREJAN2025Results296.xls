@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>NetSuite</Author>
+<LastAuthor>NetSuite</LastAuthor>
+<Company>NetSuite</Company>
+</DocumentProperties>
+<Styles>
+<Style ss:ID="company">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="error">
+<Alignment ss:Horizontal="Center"/>
+<Interior ss:Color="#d04040" ss:Pattern="Solid"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="header">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Size="7" ss:Bold="1"/>
+<Interior ss:Color="#d0d0d0" ss:Pattern="Solid"/>
+</Style> <Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font ss:FontName="Arial" ss:Size="8"/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="s__TIMEOFDAY"><NumberFormat ss:Format="Medium Time"/></Style>
+<Style ss:ID="s__DATETIME"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATETIMETZ"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATE"><NumberFormat ss:Format="Short Date"/>
+</Style><Style ss:ID="s__text"></Style><Style ss:ID="s__currency"><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__percent"><NumberFormat ss:Format="Percent"/></Style>
+<Style ss:ID="s1_b_text"><Alignment ss:Indent="1"/><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s_b_text"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s2__text"><Alignment ss:Indent="2"/></Style>
+<Style ss:ID="s_b_currency"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s_currency_nosymbol"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" /><NumberFormat ss:Format="#,##0.00_);[Red]\(#,##0.00\)"/></Style>
+<Style ss:ID="s1__text"><Alignment ss:Indent="1"/></Style>
+<Style ss:ID="s_b_currency_X"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><Interior ss:Color="#f0e0e0" ss:Pattern="Solid"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__currency_en_CA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;Can$&quot;#,##0.00_);(&quot;Can$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_US"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;$&quot;#,##0.00_);(&quot;$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_IN"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00_);(&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_fr_FR_EURO"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;€&quot;#,##0.00_);(&quot;€&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_GB"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;£&quot;#,##0.00_);(&quot;£&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_ar_SA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;SRl&quot;#,##0.00_);(&quot;SRl&quot;#,##0.00)"/></Style>
+</Styles>
+<Worksheet ss:Name="VENDORPREPAYMENTSBEFOREJANResu">
+<Table><Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Name</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Subsidiary</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account (Main)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Period</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Created By</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Created From</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Period</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">6997</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6997</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-19T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Richwood Hospitality Co. LTD</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-738.63</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Orders</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1649.73</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Eliza Alano</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">43897</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Order</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">8498</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8498</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-11-13T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-152.21</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Orders</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">7865.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Eliza Alano</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-02-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">PO#42708</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Order</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2025</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">8499</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8499</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-11-13T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2000.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Orders</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">7865.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Eliza Alano</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-02-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">PO#42708</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Order</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2025</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">8508</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8508</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-11-13T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-375.29</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Orders</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">47152.14</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Eliza Alano</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-10-21T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">42752</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Order</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oct 2024</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">8512</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8512</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-11-21T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Beijing Topli Decorative Materials Co., LTD</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1441.61</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Orders</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3537.45</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Eliza Alano</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-11-15T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">42930</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Order</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov 2024</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">8541</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8541</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-11-29T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fil Doux Textiles</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Parent Company : Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A10003 Cash (GV LLC) (New) : Truist Bank - 4637 (New)</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3277.10</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Dec 2024</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Orders</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3277.10</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Eliza Alano</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-11-14T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">43050</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Purchase Order</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Nov 2024</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

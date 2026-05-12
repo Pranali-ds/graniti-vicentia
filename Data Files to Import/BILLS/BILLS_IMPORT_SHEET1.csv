@@ -1,0 +1,10 @@
+External ID,Item ID,Item,Invoice ID/Reference,length,Vendor ID,Vendor Name,Date,New Date,Amount,Subsidiary Id,Subsidiary,Memo,Account,Account ID,Location ,Bin
+NSOPENBALBILL006,40391,cogs,20250630,8,42,"AGM Tools, Inc.",06/30/2025,06/30/2025,67216.35,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001,966,2,17
+NSOPENBALBILL008,40391,cogs,KV20230519P01,13,48,Aluguard,01/30/2024,01/30/2024,1126.66,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001,966,,
+NSOPENBALBILL009,40391,cogs,KV20230920P01,13,48,Aluguard,02/14/2024,02/14/2024,25293.62,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001,966,,
+NSOPENBALBILL010,40391,cogs,KV20230922P1,12,48,Aluguard,02/14/2024,02/14/2024,6737.68,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001,966,,
+NSOPENBALBILL011,40391,cogs,KV20231207P02,13,48,Aluguard,02/14/2024,02/14/2024,723.70,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001,966,,
+NSOPENBALBILL012,40391,cogs,KV20240508P01,13,48,Aluguard,06-01-2024,01/06/2024,1043.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001,966,,
+NSOPENBALBILL013,40391,cogs,KV20231220P01,13,48,Aluguard,02-12-2025,12/02/2025,1.19,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001,966,,
+NSOPENBALBILL031,40391,cogs,Jan-25,5,52,ANIDRIDEDESIGN,03-09-2025,09/03/2025,45000.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001,966,,
+NSOPENBALBILL032,40391,cogs,43422/Invoice,13,2359,"Art is Love, LLC / Interia Hospitality",06/30/2025,06/30/2025,8.40,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001,966,,

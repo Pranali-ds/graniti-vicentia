@@ -1,0 +1,163 @@
+External ID,Item internal Id,sold (COGS),Invoice #/Rerence No.,Vendor ID,Vendor,Invoice date,Amount,Subsidiary Id,Subsidiary,Memo,Account
+NSOPENBALBILL753,40391,cogs,S021295,1270,Modular Shower Walls,05-23-25,$161.44,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL754,40391,cogs,S021470,1270,Modular Shower Walls,06-27-25,"$22,737.33",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL755,40391,cogs,S021471,1270,Modular Shower Walls,06-27-25,"$15,360.60",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL756,40391,cogs,1374e7d1-71a0-443a-bf70-5277a700ce9a,1270,Modular Shower Walls,06-30-25,"$6,066.70",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL757,40391,cogs,b0d91988-30ee-432a-8a79-2bb9d511fec8,1270,Modular Shower Walls,06-30-25,"$19,511.21",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL758,40391,cogs,6282024,1271,Modular Vanity tops & Bases,06-28-24,$353.66,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL759,40391,cogs,824013041 - PF,1971,Momentum Group,11-06-2024,-$44.04,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL760,40391,cogs,W-0403,1971,Momentum Group,04-03-2025,"-$16,583.29",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL761,40391,cogs,PrePayment  - PO1258/NetSuite,1971,Momentum Group,04-09-2025,"-$1,146.53",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL762,40391,cogs,W-0513,1971,Momentum Group,05-13-25,-$532.70,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL763,40391,cogs,W-0604,1971,Momentum Group,06-04-2025,-$578.51,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL764,40391,cogs,W-0609,1971,Momentum Group,06-09-2025,-$533.44,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL765,40391,cogs,PrePayment  - PO45773/NetSuite,2411,Monster displays,04-22-25,"-$2,668.07",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL766,40391,cogs,PrePayment  - PO60080/NetSuite,2411,Monster displays,05-11-2025,"-$1,104.19",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL767,40391,cogs,1118352890-IN,2497,"MS International, Inc.",06-20-25,$689.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL768,40391,cogs,W11262024,1274,Muraspec Decorative Solutions Limited/Barclays,11-26-24,"-$8,993.46",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL769,40392,freight,110514,176,"MW Logistics, LLC",03-17-25,$250.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL770,40391,cogs,PrePayment  - PO60620/NetSuite,1275,National Wallcovering,04-19-24,"-$3,986.78",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL771,40391,cogs,E/301,1276,Natucer Ceramica,05-08-2024,$0.10,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL772,40391,cogs,37810B,1276,Natucer Ceramica,11-07-2024,-$0.10,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL773,40391,cogs,E/201,1276,Natucer Ceramica,03-24-25,"$2,397.60",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL774,40392,freight,USN323264,183,OCEAN NETWORK EXPRESS,12-06-2024,$330.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL776,40391,cogs,W-0606,2558,PADRON FLOORING & DESIGN CENTER,06-06-2025,"-$3,410.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL777,40391,cogs,4,1280,Pantarei,01-23-24,"$2,023.67",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL778,40391,cogs,6,1280,Pantarei,02-07-2024,"$4,339.51",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL779,40391,cogs,"W-0207 $234,289.27",1280,Pantarei,02-07-2024,"-$52,670.48",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL780,40391,cogs,"W-0215 $140,370.71",1280,Pantarei,02-15-24,"-$6,000.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL781,40391,cogs,10,1280,Pantarei,02-16-24,$552.85,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL782,40391,cogs,19,1280,Pantarei,04-04-2024,$996.61,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL783,40391,cogs,30,1280,Pantarei,05-28-24,"$1,154.98",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL784,40391,cogs,26,1280,Pantarei,05-30-24,$859.10,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL785,40391,cogs,27,1280,Pantarei,05-31-24,"$1,139.03",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL786,40391,cogs,28,1280,Pantarei,06-04-2024,$859.10,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL787,40391,cogs,W-06142024,1280,Pantarei,06-14-24,"-$12,654.21",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL788,40391,cogs,63,1280,Pantarei,06-20-24,"$3,732.34",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL789,40391,cogs,W-0710,1280,Pantarei,07-10-2024,"-$79,567.09",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL790,40391,cogs,W-0719,1280,Pantarei,07-19-24,"-$1,25,121.71",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL791,40391,cogs,PrePayment  - PO36504/SPS,1280,Pantarei,08-01-2024,-$33.19,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL792,40391,cogs,W-0920,1280,Pantarei,09-20-24,"-$10,537.96",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL793,40391,cogs,48,1280,Pantarei,09-25-24,"$3,561.60",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL794,40391,cogs,68,1280,Pantarei,11-05-2024,"$7,500.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL795,40391,cogs,73,1280,Pantarei,11-22-24,"$2,811.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL796,40391,cogs,81,1280,Pantarei,12-19-24,"$1,558.38",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL797,40391,cogs,7,1280,Pantarei,03-13-25,"$3,304.43",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL798,40391,cogs,9,1280,Pantarei,03-14-25,$800.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL799,40391,cogs,39946 - Invoice,1280,Pantarei,06-30-25,$554.29,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL800,40391,cogs,35216 - Invoice,1280,Pantarei,06-30-25,$373.70,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL801,40391,cogs,W-06072024,1333,Papatya,06-07-2024,-$25.90,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL802,40391,cogs,W-06122024,1333,Papatya,06-12-2024,-$55.70,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL803,40392,freight,25040097,191,Paycargo,06-02-2025,$51.50,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL804,40391,cogs,W-0212,1281,PIERMARIA NEW FORM SRL,02-12-2025,"-$3,110.12",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL805,40391,cogs,23,1281,PIERMARIA NEW FORM SRL,05-23-25,"-$3,650.96",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL806,40391,cogs,PrePayment  - PO60012/NetSuite,1690,Quartz America,05-15-25,"-$3,949.02",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL807,40391,cogs,664,1690,Quartz America,06-26-25,"-$37,735.63",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL808,40391,cogs,210,1283,Ramon Garcia Mexico,05-11-2023,"$21,041.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL809,40391,cogs,A2023 237,1283,Ramon Garcia Mexico,06-07-2023,"$45,164.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL810,40391,cogs,A2023 2,1283,Ramon Garcia Mexico,01-01-2024,$844.75,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL811,40391,cogs,20240106,1283,Ramon Garcia Mexico,01-05-2024,$658.35,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL812,40391,cogs,W-0316,1284,"RAYTOP INDUSTRY CO.,LTD",03-16-22,"-$1,548.63",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL813,40391,cogs,W-0408,1284,"RAYTOP INDUSTRY CO.,LTD",04-08-2022,"-$5,992.38",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL814,40391,cogs,W-0824,1284,"RAYTOP INDUSTRY CO.,LTD",08-24-22,"-$10,500.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL815,40391,cogs,W-0229,1284,"RAYTOP INDUSTRY CO.,LTD",02-29-24,"-$4,113.66",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL816,40391,cogs,SR411-6,1285,RICHWOOD HOSPITALITY CO LTD,05-31-24,"$7,685.40",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL817,40391,cogs,"W-0710 $121,645.48",1285,RICHWOOD HOSPITALITY CO LTD,07-10-2024,"-$6,064.03",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL818,40391,cogs,"SR262-04P,SR262-3",1285,RICHWOOD HOSPITALITY CO LTD,10-13-24,"$5,724.48",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL819,40391,cogs,PrePayment  - PO43955/SPS,1285,RICHWOOD HOSPITALITY CO LTD,10-24-24,-$822.86,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL820,40391,cogs,W-1030,1285,RICHWOOD HOSPITALITY CO LTD,10-30-24,"-$6,209.82",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL821,40391,cogs,W-1108,1285,RICHWOOD HOSPITALITY CO LTD,11-08-2024,"-$15,649.85",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL822,40391,cogs,W-1118,1285,RICHWOOD HOSPITALITY CO LTD,11-18-24,"-$13,308.42",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL823,40391,cogs,41403,1285,RICHWOOD HOSPITALITY CO LTD,12-16-24,"-$10,885.61",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL824,40391,cogs,W-1219,1285,RICHWOOD HOSPITALITY CO LTD,12-19-24,-$534.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL825,40391,cogs,PrePayment  - PO1262/NetSuite,1285,RICHWOOD HOSPITALITY CO LTD,12-31-24,"-$3,289.33",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL826,40391,cogs,W-0108,1285,RICHWOOD HOSPITALITY CO LTD,01-08-2025,"-$24,479.56",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL827,40391,cogs,W-0113,1285,RICHWOOD HOSPITALITY CO LTD,01-13-25,"-$7,767.49",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL828,40391,cogs,SR431,1285,RICHWOOD HOSPITALITY CO LTD,01-19-25,$280.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL829,40391,cogs,GV047,1285,RICHWOOD HOSPITALITY CO LTD,01-22-25,$77.04,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL830,40391,cogs,SR151-9,1285,RICHWOOD HOSPITALITY CO LTD,01-22-25,"$5,074.37",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL831,40391,cogs,W-0205,1285,RICHWOOD HOSPITALITY CO LTD,02-05-2025,"-$6,334.41",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL832,40391,cogs,SR382-2P1,1285,RICHWOOD HOSPITALITY CO LTD,02-22-25,$441.60,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL833,40391,cogs,W-0307,1285,RICHWOOD HOSPITALITY CO LTD,03-07-2025,"-$2,02,669.70",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL834,40391,cogs,W-0318,1285,RICHWOOD HOSPITALITY CO LTD,03-18-25,"-$21,158.72",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL835,40391,cogs,W-0320,1285,RICHWOOD HOSPITALITY CO LTD,03-20-25,"-$56,281.49",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL836,40391,cogs,"SR307-2,cntr3",1285,RICHWOOD HOSPITALITY CO LTD,03-26-25,$730.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL837,40391,cogs,"SR307-2,cntr4,5,6",1285,RICHWOOD HOSPITALITY CO LTD,03-27-25,"$4,000.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL838,40391,cogs,W-0407,1285,RICHWOOD HOSPITALITY CO LTD,04-07-2025,"-$12,376.54",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL839,40391,cogs,"SR307-7,SR425",1285,RICHWOOD HOSPITALITY CO LTD,04-09-2025,$689.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL840,40391,cogs,ocean freight cost SR411-14P2,1285,RICHWOOD HOSPITALITY CO LTD,05-07-2025,$446.52,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL841,40391,cogs,"SR173-5C,SR173-5K,SR382-3",1285,RICHWOOD HOSPITALITY CO LTD,05-10-2025,"$2,600.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL842,40391,cogs,SR307-2,1285,RICHWOOD HOSPITALITY CO LTD,05-12-2025,"$10,500.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL843,40391,cogs,W-0514,1285,RICHWOOD HOSPITALITY CO LTD,05-14-25,"-$31,608.03",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL844,40391,cogs,SR173-5K,1285,RICHWOOD HOSPITALITY CO LTD,05-18-25,"$10,400.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL845,40391,cogs,SR407-13,1285,RICHWOOD HOSPITALITY CO LTD,05-18-25,"$3,360.14",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL846,40391,cogs,"GV048,cntr3",1285,RICHWOOD HOSPITALITY CO LTD,05-23-25,$64.08,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL847,40391,cogs,SR405-3P,1285,RICHWOOD HOSPITALITY CO LTD,05-23-25,$924.86,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL848,40391,cogs,W-0523,1285,RICHWOOD HOSPITALITY CO LTD,05-23-25,"-$72,560.62",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL849,40391,cogs,SR273-52,1285,RICHWOOD HOSPITALITY CO LTD,05-28-25,"$26,507.29",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL850,40391,cogs,W-0206,1285,RICHWOOD HOSPITALITY CO LTD,06-02-2025,"-$2,315.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL851,40391,cogs,W-0618,1285,RICHWOOD HOSPITALITY CO LTD,06-18-25,"-$83,018.27",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL852,40391,cogs,SR273-35_2nd-1,1285,RICHWOOD HOSPITALITY CO LTD,06-30-25,"$5,386.05",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL853,40391,cogs,SR405-2,1285,RICHWOOD HOSPITALITY CO LTD,06-30-25,$919.10,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL854,40391,cogs,SR407-5,1285,RICHWOOD HOSPITALITY CO LTD,06-30-25,"$1,323.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL855,40391,cogs,SR411-5P2,1285,RICHWOOD HOSPITALITY CO LTD,06-30-25,$90.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL865,40391,cogs,W-1126,2291,"Shenzhen Double Building Materials Co., Ltd.",11-26-24,"-$8,454.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL866,40391,cogs,SI178092,2693,SICIS THE ART FACTORY,05-15-25,"$4,783.11",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL867,40391,cogs,N-1143438,1972,Signature Flooring,06-30-25,"$2,020.39",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL868,40391,cogs,3024504,1541,Sponge Cushion Inc.,07-01-2023,$502.31,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL870,40391,cogs,1101363409,1948,STG Logistics,11-01-2024,$100.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL873,40392,freight,14298381,233,SUNTECK TRANSPORT,01-14-25,"$5,150.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL874,40392,freight,100000384743M,233,SUNTECK TRANSPORT,01-31-25,$68.00,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL875,40392,freight,14518920,233,SUNTECK TRANSPORT,03-19-25,$0.10,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL876,40392,freight,14544120,233,SUNTECK TRANSPORT,04-04-2025,$668.50,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL881,40391,cogs,Y21I1DWV-hotel,252,Truist Card Services,02-21-25,"$1,008.51",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL882,40392,freight,0614834-1,253,U.S. CUSTOMS AND BORDER PROTECTION,02-03-2025,$217.30,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL883,40392,freight,0616589-9,253,U.S. CUSTOMS AND BORDER PROTECTION,02-10-2025,"$2,051.66",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL884,40392,freight,0614835-8,253,U.S. CUSTOMS AND BORDER PROTECTION,02-13-25,$363.08,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL885,40392,freight,0614730-1,253,U.S. CUSTOMS AND BORDER PROTECTION,02-14-25,$0.27,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL886,40392,freight,0587014-8,253,U.S. CUSTOMS AND BORDER PROTECTION,02-25-25,$130.95,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL887,40392,freight,0587016-3,253,U.S. CUSTOMS AND BORDER PROTECTION,02-28-25,$135.34,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL888,40392,freight,0587015-5,253,U.S. CUSTOMS AND BORDER PROTECTION,02-28-25,$279.70,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL889,40392,freight,0587023-9,253,U.S. CUSTOMS AND BORDER PROTECTION,03-07-2025,$78.08,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL890,40392,freight,0616587-3,253,U.S. CUSTOMS AND BORDER PROTECTION,03-11-2025,"$3,260.63",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL891,40392,freight,3/24/2025,253,U.S. CUSTOMS AND BORDER PROTECTION,03-24-25,"-$5,411.46",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL892,40392,freight,0587015-5 & 0587016-3,253,U.S. CUSTOMS AND BORDER PROTECTION,03-24-25,-$415.04,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL893,40392,freight,0618535-01,253,U.S. CUSTOMS AND BORDER PROTECTION,03-24-25,-$32.71,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL894,40392,freight,EKH-0898744-1,253,U.S. CUSTOMS AND BORDER PROTECTION,03-24-25,-$32.71,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL895,40392,freight,0587014-8 & 0587023-9,253,U.S. CUSTOMS AND BORDER PROTECTION,03-24-25,-$209.03,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL896,40392,freight,EKH-1006587-1,253,U.S. CUSTOMS AND BORDER PROTECTION,04-30-25,"$2,599.95",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL897,40392,freight,0624426-4,253,U.S. CUSTOMS AND BORDER PROTECTION,06-16-25,"$9,057.02",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL898,40392,freight,06/24/2025,253,U.S. CUSTOMS AND BORDER PROTECTION,06-24-25,"-$48,626.44",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL900,40391,cogs,PrePayment  - PO60195/NetSuite,1292,U.S. Vinyl Manufacturing,04-24-25,"-$10,595.30",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL901,40391,cogs,PrePayment  - PO60028/NetSuite,1292,U.S. Vinyl Manufacturing,06-18-25,"-$10,595.30",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL902,40391,cogs,PrePayment  - PO60340/NetSuite,1292,U.S. Vinyl Manufacturing,06-25-25,"-$4,881.37",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL903,40391,cogs,188009241,255,Uline,01-16-25,$827.38,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL904,40391,cogs,188009476,255,Uline,01-16-25,$767.50,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL905,40391,cogs,188169574,255,Uline,01-21-25,$620.59,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL906,40391,cogs,188248104,255,Uline,01-22-25,$767.50,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL907,40391,cogs,194719434,255,Uline,06-27-25,$226.80,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL908,40391,cogs,1343718,1291,Uniik Design Solutions,03-17-25,"$4,309.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL909,40391,cogs,1253518,1291,Uniik Design Solutions,06-19-25,"$5,340.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL910,40391,cogs,33048,258,"Unite Oak International,Inc.",06-30-25,"$3,220.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL918,40391,cogs,SR411-9_4th,1335,VEI MAY WOODEN APPLIANCES COMPANY LIMITED,07-29-24,"$6,064.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL920,40391,cogs,PrePayment  - PO60078/NetSuite,2646,WILSONART LLC,06-25-25,"-$1,508.22",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL921,40391,cogs,41279,2367,"WOW USA, Inc.",03-24-25,"$3,171.30",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL922,40391,cogs,W-0528,2367,"WOW USA, Inc.",05-28-25,-$846.50,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL924,40391,cogs,33229323,276,WYNDHAM HOTELS & RESORTS INC,10-31-24,"$5,000.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL925,40391,cogs,GV2024087-B,1295,"XIAMEN DEYUAN PANMIN TRADING CO., LTD.",12-20-24,$0.45,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL926,40391,cogs,GV2024066-D,1295,"XIAMEN DEYUAN PANMIN TRADING CO., LTD.",04-17-25,$925.76,3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL927,40391,cogs,PrePayment ,1295,"XIAMEN DEYUAN PANMIN TRADING CO., LTD.",05-02-2025,"-$18,732.54",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL929,40391,cogs,ZB202305011USA,1297,ZBOM Cabinets Crop.,04-01-2024,"$7,592.08",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL930,40391,cogs,ZB202304012USA,1297,ZBOM Cabinets Crop.,04-10-2024,"$4,224.98",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL931,40391,cogs,ZB202406008USA,1297,ZBOM Cabinets Crop.,08-26-24,"$2,255.20",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL932,40391,cogs,"ZB202405009USA, ZB202407028USA,ZB202405043USA",1297,ZBOM Cabinets Crop.,10-01-2024,"$2,518.16",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL933,40391,cogs,36106,1297,ZBOM Cabinets Crop.,12-19-24,"-$18,000.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL934,40391,cogs,ZB202405015USA,1297,ZBOM Cabinets Crop.,01-01-2025,"$8,650.52",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL935,40391,cogs,W-0310,1297,ZBOM Cabinets Crop.,03-10-2025,"-$6,266.98",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL936,40391,cogs,ZB202407028USA-1,1297,ZBOM Cabinets Crop.,03-14-25,"$3,635.00",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL937,40391,cogs,Do not know,1297,ZBOM Cabinets Crop.,05-20-25,"-$2,232.30",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL938,40391,cogs,ZB202503027USA,1297,ZBOM Cabinets Crop.,06-03-2025,"$6,368.57",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL939,40391,cogs,Laxmi-0664,1297,ZBOM Cabinets Crop.,06-05-2025,"-$3,747.42",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL940,40391,cogs,W-0627,1297,ZBOM Cabinets Crop.,06-27-25,"-$53,156.57",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL941,40391,cogs,ZB202406008USA-5,1297,ZBOM Cabinets Crop.,06-30-25,"$94,586.14",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
+NSOPENBALBILL942,40391,cogs,ZB202410026USA,1297,ZBOM Cabinets Crop.,06-30-25,"$25,748.92",3,Graniti Vicentia LLC,Import SPS data by Invoice in NetSuite,A20001
