@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>NetSuite</Author>
+<LastAuthor>NetSuite</LastAuthor>
+<Company>NetSuite</Company>
+</DocumentProperties>
+<Styles>
+<Style ss:ID="company">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="error">
+<Alignment ss:Horizontal="Center"/>
+<Interior ss:Color="#d04040" ss:Pattern="Solid"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="header">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Size="7" ss:Bold="1"/>
+<Interior ss:Color="#d0d0d0" ss:Pattern="Solid"/>
+</Style> <Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font ss:FontName="Arial" ss:Size="8"/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="s__TIMEOFDAY"><NumberFormat ss:Format="Medium Time"/></Style>
+<Style ss:ID="s__DATETIME"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATETIMETZ"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATE"><NumberFormat ss:Format="Short Date"/>
+</Style><Style ss:ID="s__text"></Style><Style ss:ID="s__currency"><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__percent"><NumberFormat ss:Format="Percent"/></Style>
+<Style ss:ID="s1_b_text"><Alignment ss:Indent="1"/><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s_b_text"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s2__text"><Alignment ss:Indent="2"/></Style>
+<Style ss:ID="s_b_currency"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s_currency_nosymbol"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" /><NumberFormat ss:Format="#,##0.00_);[Red]\(#,##0.00\)"/></Style>
+<Style ss:ID="s1__text"><Alignment ss:Indent="1"/></Style>
+<Style ss:ID="s_b_currency_X"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><Interior ss:Color="#f0e0e0" ss:Pattern="Solid"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__currency_en_CA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;Can$&quot;#,##0.00_);(&quot;Can$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_US"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;$&quot;#,##0.00_);(&quot;$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_IN"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00_);(&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_fr_FR_EURO"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;€&quot;#,##0.00_);(&quot;€&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_GB"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;£&quot;#,##0.00_);(&quot;£&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_ar_SA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;SRl&quot;#,##0.00_);(&quot;SRl&quot;#,##0.00)"/></Style>
+</Styles>
+<Worksheet ss:Name="NAccountTransactionsBackupResu">
+<Table><Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Order Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Period</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Name</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Memo</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Status</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount Remaining</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">69990</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-20T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">812251 - 61472</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Tropitone</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Home 2 Suites Pittsburg CA_PO# 61472</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3601.40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1800.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill Payment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">83069</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1800.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">69991</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-20T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SO125426 - 61842</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Hollywood Bed &amp; Spring MFG. Co., Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Home 2 Suites Pittsburg, CA</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">841.05</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">841.05</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">70029</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-20T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SR405-5C - TEMU7646301 - 61639</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Richwood Hospitality Co. LTD</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">HGI KOKOMO - EST 985</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">32824.50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">70030</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1607</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-32824.50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">70031</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-20T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SR405-5C - MSDU7325395 - 61639</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Richwood Hospitality Co. LTD</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">HGI KOKOMO - EST 985</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">9800.10</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">70032</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1608</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-9800.10</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">70036</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-21T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV051 - ONEU7038513 - 61677</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Richwood Hospitality Co. LTD</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">28940.65</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">70038</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1610</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-9752.51</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">70036</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-21T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV051 - ONEU7038513 - 61677</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Richwood Hospitality Co. LTD</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">28940.65</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">70037</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1609</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-19188.14</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">70061</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-23T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SR405-5C1 - MSDU7325395 - 61707</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Richwood Hospitality Co. LTD</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">HGI KOKOMO - EST 985</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">24976.18</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">24976.18</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">72577</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-26T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">IN753392 - 44653</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">PI Fine Art</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2971.92</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">72578</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1636</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2971.92</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">73139</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-27T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1057664 - 61284</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Matter Solutions</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fairfield Inn Gadsden- SO# 38283 - PO61284</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">4775.41</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">73140</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1650</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-4775.41</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">74264</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-27T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61385 -- ZB20251108226US -- TGBU7732800</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ZBOM Cabinets Corp.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SO1132 - AC Birmingham (MSMU3418433 )</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">51656.79</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">36687.88</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">74265</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1658</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-14968.91</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">74266</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-05T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62293 -- 20SI126059</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">WOW USA, Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">605.96</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill Payment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">74267</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-605.96</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">74674</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-09T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62146 -- 0132717</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Emuamericas, LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2795.37</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1397.68</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">74675</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1662</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1397.69</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">78915</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-06T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62167 -- 01192026001-C</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Xiamen Deyuan Panmin Trading Co., LTD</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sink for MUR_Tribute La Crosse_Vera Scope</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">81.40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">81.40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">78916</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-06T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62282 -- 26004393</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Stonepeak Ceramics, Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1909.64</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1909.64</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">78917</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-04T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62284 -- 90495323</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MileStone Florim USA, Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Link to line# 43 Fairfield Townplace East Hartford - SO 35793</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1789.76</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1789.76</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">78932</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-09T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">60418 -- 22631360-E  MSMU4868374</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SO#1131, Project Element Birmingham</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">14407.02</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">14407.02</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">78940</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-09T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62238 -- 22631360-E  MSMU4868374</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">350.28</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">350.28</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">78941</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-09T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61688 -- 22631360-E  MSMU4868374</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SO1132 - AC Birmingham</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1314.04</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1314.04</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">78942</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-09T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62156 -- 22631360-E  MSMU4868374</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project: La Quinta Auburn AL, SO#977(extra Sofa) Sidemark: GV PO# 62156</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">998.42</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">998.42</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79496</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-13T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61644 -- 1192025074 -- CAIU7498197</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">HGI KOKOMO - EST 985</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">16303.20</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">16303.20</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79499</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62007 -- 25JSF12078 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sahara Marra Suites Wall Base replacement</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5844.30</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">79500</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1725</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1776.89</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79499</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62007 -- 25JSF12078 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sahara Marra Suites Wall Base replacement</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5844.30</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79501</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61871 -- 25JSF12045 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project: Casablanca Phase 2, SO#1987 sidemark:GV PO#61871 w/item number and description ***approved per quote***</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">130377.15</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2000.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79501</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61871 -- 25JSF12045 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project: Casablanca Phase 2, SO#1987 sidemark:GV PO#61871 w/item number and description ***approved per quote***</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">130377.15</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2000.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">79502</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1726</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-67865.29</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79503</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61635 -- 25JSF09003 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Homewood Nashville - EST 1054</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3508.24</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79503</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61635 -- 25JSF09003 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Homewood Nashville - EST 1054</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3508.24</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80463</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1777</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2557.42</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79504</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">60956 -- 25JSF08023 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project: Sonesta Ontario, CA Sidemark: GV PO# 60956 SEGU5927432</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">245.46</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79504</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">60956 -- 25JSF08023 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project: Sonesta Ontario, CA Sidemark: GV PO# 60956 SEGU5927432</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">245.46</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">79505</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1727</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-242.46</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79506</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61712 -- 25JSF10098 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">EST1022 - Ellis Island Hotel - MUR</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1200.19</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">79507</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1728</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1200.19</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79508</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61711 -- 25JK21501 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">EST1022 - Ellis Island Hotel - MUR</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1111.55</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">79509</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1729</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1068.58</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79508</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61711 -- 25JK21501 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">EST1022 - Ellis Island Hotel - MUR</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1111.55</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79511</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61739 -- 25JS121401 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">EST1022 - Ellis Island Hotel - MUR</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1157.94</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80463</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1777</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2557.42</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79511</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61739 -- 25JS121401 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">EST1022 - Ellis Island Hotel - MUR</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1157.94</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">79512</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1730</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-354.59</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79515</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61460 -- 25JS120401 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5315.67</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79515</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61460 -- 25JS120401 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5315.67</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">79516</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1731</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1618.05</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79517</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61700 -- 25RT120806 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Home 2 Suites Vacaville,CA_PO# 61700</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">4989.76</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">79518</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1732</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1522.68</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79517</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61700 -- 25RT120806 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Home 2 Suites Vacaville,CA_PO# 61700</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">4989.76</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79519</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61629 -- 25RT120807 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Homewood Nashville - EST1054</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1435.31</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">79520</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1733</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-451.77</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79519</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61629 -- 25RT120807 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Homewood Nashville - EST1054</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1435.31</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79557</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61921 -- 25JSF09003 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">75038.20</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80740</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1790</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-37382.44</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79557</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61921 -- 25JSF09003 -- MSKU1483824</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">75038.20</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">79677</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-10T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61487 -- 2600591/S</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Profilitec Corporation</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project: Kimpton Indianapolis, SO#2005 sidemark:GV PO#61487 w/item number and description ***approved per quote***</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5206.25</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5206.25</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80113</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-04T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">60685 -- 25BL081601 -- TCNU7771535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project:Grand Sierra Resort &amp; Casino, SO#1403 SO#1402 sidemark:GV PO#60685 w/item number and description ***approved per quote*** HMMU6626497</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">141092.15</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">41634.29</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80114</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1750</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2268.54</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80113</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-04T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">60685 -- 25BL081601 -- TCNU7771535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project:Grand Sierra Resort &amp; Casino, SO#1403 SO#1402 sidemark:GV PO#60685 w/item number and description ***approved per quote*** HMMU6626497</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">141092.15</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">41634.29</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80115</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-04T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61569 -- 25JK120201 -- TCNU7771535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project: Casablanca Phase 2, SO#1987 sidemark:GV PO#61569 w/item number and description ***approved per quote***</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3108.99</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80460</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1775</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-28975.07</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80117</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-04T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61095 -- 24RT120401 -- TCNU7771535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Home 2 Suites Vacaville, CA - PO# 61095</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">6444.90</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80118</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1752</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3655.56</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80117</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-04T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61095 -- 24RT120401 -- TCNU7771535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Home 2 Suites Vacaville, CA - PO# 61095</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">6444.90</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80120</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-04T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61614 -- 25JS111803 -- TCNU7771535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Home 2 Suites Vacaville,CA_PO# 61614</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">77.19</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80121</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1754</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-23.16</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80120</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-04T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61614 -- 25JS111803 -- TCNU7771535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Home 2 Suites Vacaville,CA_PO# 61614</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">77.19</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80125</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-04T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61094 -- 24RT120401 -- TCNU7771535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Home 2 Suites Pittsburg CA_PO# 61094</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">6825.95</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80126</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1757</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3825.15</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80125</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-04T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61094 -- 24RT120401 -- TCNU7771535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Home 2 Suites Pittsburg CA_PO# 61094</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">6825.95</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80455</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1771</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-289539.70</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80133</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-04T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61445 -- 25JS111803 -- TCNU7771535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">87.19</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80134</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1764</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-87.19</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80344</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-11T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62250 -- 26JSF02031 --UPS#1Z569WA40436366057</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">UPS Tracking #1Z569WA40436366057</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">441.59</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">441.59</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80727</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-02-06T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Feb 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">61241 , GV052 , BMOU6603683 - 1</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Richwood Hospitality Co. LTD</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SO1132 - AC Birmingham</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3420.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3420.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">80729</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-13T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62392</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jasfer Industry Co., Limited</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2281.74</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Vendor Prepayment Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">80732</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1787</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-31647.62</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">83078</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-17T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62360 -- 3338/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ceramica Refin SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Link to Sahara Alexandria Tower</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3906.43</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3906.43</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">89280</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-24T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62371  999196653</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shaw Integrated and Turf Solutions, Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SO 2159 Courtyard GV MUR</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">350.65</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill Payment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">89285</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-350.65</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">89321</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-25T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62389  999196687</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shaw Integrated and Turf Solutions, Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Trademark Fredericksburg SO1809 - link</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">975.93</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Paid In Full</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill Payment</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">89323</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-975.93</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">89334</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-03-24T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Mar 2026</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Bill</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">62162  S022754</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Modular Shower Walls</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">N20101 Accounts Payable (GV LLC) : Accounts Payable (GV USA) : Accounts Payable Suppliers</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">La Quinta- Roanoke VA</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5695.12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Open</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5695.12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Total</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1023485.36</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">208795.22</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">3475714</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-4052508.59</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">0.00</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

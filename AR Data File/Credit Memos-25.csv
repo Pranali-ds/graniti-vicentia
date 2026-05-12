@@ -1,0 +1,26 @@
+Error,External ID,Item Internal ID,cust internal id,Invoice#,Cust. PO#,Job Name,Memo#,Invoice Dt.,Due Dt.,Balance Due,Account,Account Internal ID,Line description,Bin ID,Serial/Lot number
+Inventory items must have a positive amount.,OPENCRED10001,40391,2571,,,,,02/13/2025,02/13/2025,14239.62,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0001
+Inventory items must have a positive amount.,OPENCRED10002,40391,3322,33309/9,,PUBLIC AREAS FINISHES,33309/9PUBLIC AREAS FINISHES,07/28/2023,07/28/2023,10252.32,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0002
+Inventory items must have a positive amount.,OPENCRED10003,40391,3322,34423,,Add on tiles,34423Add on tiles,08/16/2023,08/16/2023,15740.79,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0003
+Inventory items must have a positive amount.,OPENCRED10004,40391,3326,,1025.3057,Tribute Seahaus Atlantic City NJ - Public Area,1025.3057Tribute Seahaus Atlantic City NJ - Public Area,04/25/2025,04/25/2025,33427.65,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0004
+Inventory items must have a positive amount.,OPENCRED10005,40391,1708,,,,,12/19/2024,12/19/2024,14072.50,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0005
+Inventory items must have a positive amount.,OPENCRED10006,40391,1708,,,,,01/24/2025,01/24/2025,14072.50,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0006
+Inventory items must have a positive amount.,OPENCRED10007,40391,3329,35170/2,,Echo Fort Worth,35170/2Echo Fort Worth,08/26/2024,08/26/2024,339544.55,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0007
+Inventory items must have a positive amount.,OPENCRED10008,40391,3329,35170/5,,Echo Fort Worth,35170/5Echo Fort Worth,06/30/2025,06/30/2025,26462.70,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0008
+Inventory items must have a positive amount.,OPENCRED10009,40391,3337,39070,,,39070,06/30/2025,07/30/2025,251.88,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0009
+Inventory items must have a positive amount.,OPENCRED10010,40391,3343,33668/2,,Holiday Inn Express,33668/2Holiday Inn Express,03/24/2023,03/24/2023,9360.00,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0010
+Inventory items must have a positive amount.,OPENCRED10011,40391,3356,,,,,06/30/2025,06/30/2025,4500.00,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0011
+Inventory items must have a positive amount.,OPENCRED10012,40391,3361,33983/8,,Guest Bath Items,33983/8Guest Bath Items,06/05/2024,06-05-2024,1584.00,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0012
+Inventory items must have a positive amount.,OPENCRED10013,40391,3362,34735/4,,,34735/4,01/19/2024,01/19/2024,645.97,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0013
+Inventory items must have a positive amount.,OPENCRED10014,40391,3362,31910/10,,La Quinta Huntsville AL (Bath Scope),31910/10La Quinta Huntsville AL (Bath Scope),10/15/2024,10/15/2024,19863.04,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0014
+Inventory items must have a positive amount.,OPENCRED10015,40391,3362,32688/2,,WINDOW TREATMENT - FF&E,32688/2WINDOW TREATMENT - FF&E,10/15/2024,10/15/2024,12800.00,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0015
+Inventory items must have a positive amount.,OPENCRED10016,40391,2457,,,,,01/14/2025,01/14/2025,1938.25,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0016
+Inventory items must have a positive amount.,OPENCRED10017,40391,3377,38128/2,,PA ARTWORK,38128/2PA ARTWORK,04/08/2025,04-08-2025,103.64,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0017
+Inventory items must have a positive amount.,OPENCRED10018,40391,3377,38121/2,,GR ARTWORK,38121/2GR ARTWORK,04/10/2025,04-10-2025,263.76,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0018
+Inventory items must have a positive amount.,OPENCRED10019,40391,3377,38124/3,,GR LIGHTING,38124/3GR LIGHTING,04/10/2025,04-10-2025,364.50,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0019
+Inventory items must have a positive amount.,OPENCRED10020,40391,2609,38296,,Residence Inn Indianapolis Guestrooms & Public Area,38296Residence Inn Indianapolis Guestrooms & Public Area,01/31/2025,01/31/2025,116117.22,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0020
+Inventory items must have a positive amount.,OPENCRED10021,40391,678,35119/2,,,35119/2,03/20/2025,03/20/2025,10000.00,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0021
+Inventory items must have a positive amount.,OPENCRED10022,40391,3381,35785/2,,,35785/2,06/30/2025,06/30/2025,6875.35,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0022
+Inventory items must have a positive amount.,OPENCRED10023,40391,3386,26086/3,C.O# 73052,55 WAUGH,26086/3C.O# 7305255 WAUGH,02/12/2020,02-12-2020,6958.88,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0023
+Inventory items must have a positive amount.,OPENCRED10024,40391,3392,34843/5,HICWDBURPA2023-0025-R01,Seating,34843/5HICWDBURPA2023-0025-R01Seating,06/30/2025,06/30/2025,1875.02,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0024
+Inventory items must have a positive amount.,OPENCRED10025,40391,2712,36952/2,,"Wingate - Erlanger, KY- Window Treament","36952/2Wingate - Erlanger, KY- Window Treament",06/30/2025,06/30/2025,22379.72,A11001,950,Import SPS data by Invoice in NetSuite,17,CR0025

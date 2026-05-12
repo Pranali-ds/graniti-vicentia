@@ -1,0 +1,7 @@
+EXTERNAL ID,S.no,Debit,Acount ID,Credit,Credit Internal ID,Date,Customer,Entity ID,Invoice#,Memo,Debit Amt,Credit Amt
+EXTERNAL-37369,92,A50001 - Cost Of Goods Sold (New),977,,,7/31/2025,AFP 108 Corp.,3510,37369,AFP 108 Corp.-Import July 25 cogs for materials from SPS to Netsuite,0,
+EXTERNAL-37369,92.5,,953,A12001 - Inventory (New),953,7/31/2025,AFP 108 Corp.,3510,37369,AFP 108 Corp.-Import July 25 cogs for materials from SPS to Netsuite,,0
+EXTERNAL-S5239097.001/1,108,A50001 - Cost Of Goods Sold (New),977,,,7/31/2025,Fasco Fasteners and Supply,105,S5239097.001,Fasco Fasteners and Supply-Import July 25 cogs for materials from SPS to Netsuite,90.48,
+EXTERNAL-S5239097.001/1,108.5,,953,A12001 - Inventory (New),953,7/31/2025,Fasco Fasteners and Supply,105,S5239097.001,Fasco Fasteners and Supply-Import July 25 cogs for materials from SPS to Netsuite,,90.48
+EXTERNAL-S5248719.001/1,111,A50001 - Cost Of Goods Sold (New),977,,,7/31/2025,NEFCO,2197,S5248719.001,NEFCO - Import July 25 cogs for materials from SPS to Netsuite,128.39,
+EXTERNAL-S5248719.001/1,111.5,,953,A12001 - Inventory (New),953,7/31/2025,NEFCO,2197,S5248719.001,NEFCO - Import July 25 cogs for materials from SPS to Netsuite,,128.39

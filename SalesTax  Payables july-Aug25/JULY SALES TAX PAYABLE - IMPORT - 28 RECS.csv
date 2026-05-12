@@ -1,0 +1,57 @@
+SL NO.,External ID,Account Internal ID,Credit,Date,Invoice #,Invoice#,Location,Type,Memo,Description,Entity,Entity ID,Debit Amt,Credit Amt,Subsidiary
+1,SALES_PAYABLES_JULY25-33495/7,215,215,07/01/2025,33495/7,33495/7,GV,Invoice,Sale Tax Payable July-2025,TX,Magnolia LXR Dallas TX -,3370,,114.04,Graniti Vicentia LLC
+1.5,SALES_PAYABLES_JULY25-33495/7,950,,07/01/2025,33495/7,33495/7,GV,Invoice,Sale Tax Payable July-2025,TX,Magnolia LXR Dallas TX -,3370,114.04,,Graniti Vicentia LLC
+2,SALES_PAYABLES_JULY25-37959/2,215,215,07/01/2025,37959/2,37959/2,GV,Invoice,Sale Tax Payable July-2025,TX,Monsoon Flower LLC,1720,,647.32,Graniti Vicentia LLC
+2.5,SALES_PAYABLES_JULY25-37959/2,950,,07/01/2025,37959/2,37959/2,GV,Invoice,Sale Tax Payable July-2025,TX,Monsoon Flower LLC,1720,647.32,,Graniti Vicentia LLC
+3,SALES_PAYABLES_JULY25-38235/4,608,608,07/07/2025,38235/4,38235/4,GV,Invoice,Sale Tax Payable July-2025,TN,Hampton Inn Nashville,2548,,398.81,Graniti Vicentia LLC
+3.5,SALES_PAYABLES_JULY25-38235/4,950,,07/07/2025,38235/4,38235/4,GV,Invoice,Sale Tax Payable July-2025,TN,Hampton Inn Nashville,2548,398.81,,Graniti Vicentia LLC
+4,SALES_PAYABLES_JULY25-38382/3,210,210,07/07/2025,38382/3,38382/3,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,,7.77,Graniti Vicentia LLC
+4.5,SALES_PAYABLES_JULY25-38382/3,950,,07/07/2025,38382/3,38382/3,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,7.77,,Graniti Vicentia LLC
+5,SALES_PAYABLES_JULY25-38403/4,210,210,07/07/2025,38403/4,38403/4,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,,195.78,Graniti Vicentia LLC
+5.5,SALES_PAYABLES_JULY25-38403/4,950,,07/07/2025,38403/4,38403/4,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,195.78,,Graniti Vicentia LLC
+6,SALES_PAYABLES_JULY25-38187,612,612,07/08/2025,38187,38187,GV,Invoice,Sale Tax Payable July-2025,WA,LQ Hawthorne Leavenworth,3412,,965.42,Graniti Vicentia LLC
+6.5,SALES_PAYABLES_JULY25-38187,950,,07/08/2025,38187,38187,GV,Invoice,Sale Tax Payable July-2025,WA,LQ Hawthorne Leavenworth,3412,965.42,,Graniti Vicentia LLC
+7,SALES_PAYABLES_JULY25-38196,612,612,07/08/2025,38196,38196,GV,Invoice,Sale Tax Payable July-2025,WA,LQ Hawthorne Leavenworth,3412,,2097.34,Graniti Vicentia LLC
+7.5,SALES_PAYABLES_JULY25-38196,950,,07/08/2025,38196,38196,GV,Invoice,Sale Tax Payable July-2025,WA,LQ Hawthorne Leavenworth,3412,2097.34,,Graniti Vicentia LLC
+8,SALES_PAYABLES_JULY25-38394/3,210,210,07/08/2025,38394/3,38394/3,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,,254.38,Graniti Vicentia LLC
+8.5,SALES_PAYABLES_JULY25-38394/3,950,,07/08/2025,38394/3,38394/3,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,254.38,,Graniti Vicentia LLC
+9,SALES_PAYABLES_JULY25-38396,210,210,07/08/2025,38396,38396,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,,34.06,Graniti Vicentia LLC
+9.5,SALES_PAYABLES_JULY25-38396,950,,07/08/2025,38396,38396,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,34.06,,Graniti Vicentia LLC
+10,SALES_PAYABLES_JULY25-38637,608,608,07/08/2025,38637,38637,GV,Invoice,Sale Tax Payable July-2025,TN,Hampton Inn Nashville,2548,,2429.34,Graniti Vicentia LLC
+10.5,SALES_PAYABLES_JULY25-38637,950,,07/08/2025,38637,38637,GV,Invoice,Sale Tax Payable July-2025,TN,Hampton Inn Nashville,2548,2429.34,,Graniti Vicentia LLC
+11,SALES_PAYABLES_JULY25-38525/2,215,215,07/10/2025,38525/2,38525/2,GV,Invoice,Sale Tax Payable July-2025,TX,Interior Dezyn,3413,,116.14,Graniti Vicentia LLC
+11.5,SALES_PAYABLES_JULY25-38525/2,950,,07/10/2025,38525/2,38525/2,GV,Invoice,Sale Tax Payable July-2025,TX,Interior Dezyn,3413,116.14,,Graniti Vicentia LLC
+12,SALES_PAYABLES_JULY25-37061/6,215,215,07/11/2025,37061/6,37061/6,GV,Invoice,Sale Tax Payable July-2025,TX,DFW Joseph Investments LLC,1708,,5474.46,Graniti Vicentia LLC
+12.5,SALES_PAYABLES_JULY25-37061/6,950,,07/11/2025,37061/6,37061/6,GV,Invoice,Sale Tax Payable July-2025,TX,DFW Joseph Investments LLC,1708,5474.46,,Graniti Vicentia LLC
+13,SALES_PAYABLES_JULY25-37271/12,215,215,07/11/2025,37271/12,37271/12,GV,Invoice,Sale Tax Payable July-2025,TX,Northlake Innkeepers I Ltd.,608,,189.13,Graniti Vicentia LLC
+13.5,SALES_PAYABLES_JULY25-37271/12,950,,07/11/2025,37271/12,37271/12,GV,Invoice,Sale Tax Payable July-2025,TX,Northlake Innkeepers I Ltd.,608,189.13,,Graniti Vicentia LLC
+14,SALES_PAYABLES_JULY25-37288/5,215,215,07/11/2025,37288/5,37288/5,GV,Invoice,Sale Tax Payable July-2025,TX,Northlake Innkeepers I Ltd.,608,,192.60,Graniti Vicentia LLC
+14.5,SALES_PAYABLES_JULY25-37288/5,950,,07/11/2025,37288/5,37288/5,GV,Invoice,Sale Tax Payable July-2025,TX,Northlake Innkeepers I Ltd.,608,192.60,,Graniti Vicentia LLC
+15,SALES_PAYABLES_JULY25-37288/6,215,215,07/11/2025,37288/6,37288/6,GV,Invoice,Sale Tax Payable July-2025,TX,Northlake Innkeepers I Ltd.,608,,99.99,Graniti Vicentia LLC
+15.5,SALES_PAYABLES_JULY25-37288/6,950,,07/11/2025,37288/6,37288/6,GV,Invoice,Sale Tax Payable July-2025,TX,Northlake Innkeepers I Ltd.,608,99.99,,Graniti Vicentia LLC
+16,SALES_PAYABLES_JULY25-38388/2,210,210,07/14/2025,38388/2,38388/2,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,,5305.13,Graniti Vicentia LLC
+16.5,SALES_PAYABLES_JULY25-38388/2,950,,07/14/2025,38388/2,38388/2,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,5305.13,,Graniti Vicentia LLC
+17,SALES_PAYABLES_JULY25-38386/3,210,210,07/16/2025,38386/3,38386/3,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,,1596.25,Graniti Vicentia LLC
+17.5,SALES_PAYABLES_JULY25-38386/3,950,,07/16/2025,38386/3,38386/3,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,1596.25,,Graniti Vicentia LLC
+18,SALES_PAYABLES_JULY25-38394/2,210,210,07/16/2025,38394/2,38394/2,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,,282.67,Graniti Vicentia LLC
+18.5,SALES_PAYABLES_JULY25-38394/2,950,,07/16/2025,38394/2,38394/2,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,282.67,,Graniti Vicentia LLC
+19,SALES_PAYABLES_JULY25-38213/6,608,608,07/18/2025,38213/6,38213/6,GV,Invoice,Sale Tax Payable July-2025,TN,Hampton Inn Nashville,2548,,4764.57,Graniti Vicentia LLC
+19.5,SALES_PAYABLES_JULY25-38213/6,950,,07/18/2025,38213/6,38213/6,GV,Invoice,Sale Tax Payable July-2025,TN,Hampton Inn Nashville,2548,4764.57,,Graniti Vicentia LLC
+20,SALES_PAYABLES_JULY25-36849/10,601,601,07/21/2025,36849/10,36849/10,GV,Invoice,Sale Tax Payable July-2025,OK,Imagine Porcelain Co. IPC.,567,,163.35,Graniti Vicentia LLC
+20.5,SALES_PAYABLES_JULY25-36849/10,950,,07/21/2025,36849/10,36849/10,GV,Invoice,Sale Tax Payable July-2025,OK,Imagine Porcelain Co. IPC.,567,163.35,,Graniti Vicentia LLC
+21,SALES_PAYABLES_JULY25-38332,215,215,07/25/2025,38332,38332,GV,Invoice,Sale Tax Payable July-2025,TX,"Residence Inn Pearland, TX",2466,,1162.36,Graniti Vicentia LLC
+21.5,SALES_PAYABLES_JULY25-38332,950,,07/25/2025,38332,38332,GV,Invoice,Sale Tax Payable July-2025,TX,"Residence Inn Pearland, TX",2466,1162.36,,Graniti Vicentia LLC
+22,SALES_PAYABLES_JULY25-38325/5,215,215,07/26/2025,38325/5,38325/5,GV,Invoice,Sale Tax Payable July-2025,TX,"Residence Inn Pearland, TX",2466,,198.18,Graniti Vicentia LLC
+22.5,SALES_PAYABLES_JULY25-38325/5,950,,07/26/2025,38325/5,38325/5,GV,Invoice,Sale Tax Payable July-2025,TX,"Residence Inn Pearland, TX",2466,198.18,,Graniti Vicentia LLC
+23,SALES_PAYABLES_JULY25-34035/3,215,215,07/30/2025,34035/3,34035/3,GV,Invoice,Sale Tax Payable July-2025,TX,Hampton Inn Rosenberg,2520,,117.24,Graniti Vicentia LLC
+23.5,SALES_PAYABLES_JULY25-34035/3,950,,07/30/2025,34035/3,34035/3,GV,Invoice,Sale Tax Payable July-2025,TX,Hampton Inn Rosenberg,2520,117.24,,Graniti Vicentia LLC
+24,SALES_PAYABLES_JULY25-37977/5,215,215,07/30/2025,37977/5,37977/5,GV,Invoice,Sale Tax Payable July-2025,TX,Hampton Inn Rosenberg,2520,,68.95,Graniti Vicentia LLC
+24.5,SALES_PAYABLES_JULY25-37977/5,950,,07/30/2025,37977/5,37977/5,GV,Invoice,Sale Tax Payable July-2025,TX,Hampton Inn Rosenberg,2520,68.95,,Graniti Vicentia LLC
+25,SALES_PAYABLES_JULY25-38235/5,608,608,07/30/2025,38235/5,38235/5,GV,Invoice,Sale Tax Payable July-2025,TN,Hampton Inn Nashville,2548,,2910.85,Graniti Vicentia LLC
+25.5,SALES_PAYABLES_JULY25-38235/5,950,,07/30/2025,38235/5,38235/5,GV,Invoice,Sale Tax Payable July-2025,TN,Hampton Inn Nashville,2548,2910.85,,Graniti Vicentia LLC
+26,SALES_PAYABLES_JULY25-38384,210,210,07/31/2025,38384,38384,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,,477.16,Graniti Vicentia LLC
+26.5,SALES_PAYABLES_JULY25-38384,950,,07/31/2025,38384,38384,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,477.16,,Graniti Vicentia LLC
+27,SALES_PAYABLES_JULY25-38386/5,210,210,07/31/2025,38386/5,38386/5,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,,789.35,Graniti Vicentia LLC
+27.5,SALES_PAYABLES_JULY25-38386/5,950,,07/31/2025,38386/5,38386/5,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,789.35,,Graniti Vicentia LLC
+28,SALES_PAYABLES_JULY25-38400,210,210,07/31/2025,38400,38400,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,,1319.84,Graniti Vicentia LLC
+28.5,SALES_PAYABLES_JULY25-38400,950,,07/31/2025,38400,38400,GV,Invoice,Sale Tax Payable July-2025,AL,Auburn Hospitality Group,1548,1319.84,,Graniti Vicentia LLC

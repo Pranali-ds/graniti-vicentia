@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>NetSuite</Author>
+<LastAuthor>NetSuite</LastAuthor>
+<Company>NetSuite</Company>
+</DocumentProperties>
+<Styles>
+<Style ss:ID="company">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="error">
+<Alignment ss:Horizontal="Center"/>
+<Interior ss:Color="#d04040" ss:Pattern="Solid"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="header">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Size="7" ss:Bold="1"/>
+<Interior ss:Color="#d0d0d0" ss:Pattern="Solid"/>
+</Style> <Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font ss:FontName="Arial" ss:Size="8"/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="s__TIMEOFDAY"><NumberFormat ss:Format="Medium Time"/></Style>
+<Style ss:ID="s__DATETIME"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATETIMETZ"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATE"><NumberFormat ss:Format="Short Date"/>
+</Style><Style ss:ID="s__text"></Style><Style ss:ID="s__currency"><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__percent"><NumberFormat ss:Format="Percent"/></Style>
+<Style ss:ID="s1_b_text"><Alignment ss:Indent="1"/><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s_b_text"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s2__text"><Alignment ss:Indent="2"/></Style>
+<Style ss:ID="s_b_currency"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s_currency_nosymbol"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" /><NumberFormat ss:Format="#,##0.00_);[Red]\(#,##0.00\)"/></Style>
+<Style ss:ID="s1__text"><Alignment ss:Indent="1"/></Style>
+<Style ss:ID="s_b_currency_X"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><Interior ss:Color="#f0e0e0" ss:Pattern="Solid"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__currency_en_CA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;Can$&quot;#,##0.00_);(&quot;Can$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_US"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;$&quot;#,##0.00_);(&quot;$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_IN"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00_);(&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_fr_FR_EURO"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;€&quot;#,##0.00_);(&quot;€&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_GB"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;£&quot;#,##0.00_);(&quot;£&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_ar_SA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;SRl&quot;#,##0.00_);(&quot;SRl&quot;#,##0.00)"/></Style>
+</Styles>
+<Worksheet ss:Name="CUSTOMERDEPOSITSBEFOREJANResul">
+<Table><Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Transaction Internal Id</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Name</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Customer Internal Id</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Posting</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Memo</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Memo (Main)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Deposit #</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Payment Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Subsidiary (no hierarchy)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account (Main)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Currency</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Exchange Rate</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Payment Method</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applied To Tran Due Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applied To Tran Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applied to Tran Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applied to Tran Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applied to Tran Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applied to Tran Amount Paid</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount Paid (Foreign Currency)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount (Transaction Total)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount (Transaction Tax Total)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applied To Link Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applying Tran Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applying Tran Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applying Tran Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applying Tran Amount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applying Tran Account</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Applying Tran Document Number</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ascent Hospitality Management Co</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">459</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2023-09-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">360</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">200000.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-30T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Order</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">35516</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">941701.77</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">941701.77</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ascent Hospitality Management Co</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">459</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2023-09-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">616</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">200000.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Deposit Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">58196</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-01-22T00:00:00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2854.06</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">DEPA409</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ascent Hospitality Management Co</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">459</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2023-09-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">616</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">200000.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Deposit Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">58359</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-01-22T00:00:00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1022.79</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">DEPA414</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ascent Hospitality Management Co</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">459</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2023-09-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">616</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">200000.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Deposit Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">32726</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-11-05T00:00:00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-50216.13</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">DEPA116</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ascent Hospitality Management Co</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">459</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2023-09-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">616</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">200000.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Deposit Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">47784</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-12-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-62845.20</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">DEPA206</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">6004</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Ascent Hospitality Management Co</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">459</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2023-09-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Project SO 35516_Open Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD50</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">616</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">200000.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Deposit Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">55819</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2026-01-16T00:00:00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-16514.58</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">DEPA358</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">16803</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">16803</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD285</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2169</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-10-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD285</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">360</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">46744.63</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">16803</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">16803</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD285</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Shiva Hotels Inc.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2169</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-10-18T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">36685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD285</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">616</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">46744.63</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Deposit Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">16868</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-12-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-41746.65</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">DEPA43</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">20329</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">20329</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD530</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">AMANDA WHATLEY DESIGNS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2692</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-16T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD530</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">360</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">10659.06</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ACH</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-14T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Order</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SO#38276</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">20745.34</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">20745.34</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1461.02</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">20329</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">20329</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD530</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">AMANDA WHATLEY DESIGNS</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2692</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-16T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD530</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Graniti Vicentia LLC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">616</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10110 GV Truist Bank - 4637</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">10659.06</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ACH</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Deposit Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">33561</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-11-09T00:00:00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3125.46</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">DEPA125</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">21864</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">21864</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD587</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV Facades : Krushiker Hospitality GRP</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2803</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-20T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD587</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV Facades</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10200 Undeposited Funds</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">122</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10200 Undeposited Funds</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">19935.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ACH</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-08-20T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Order</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SO1455</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1159443.76</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1159443.76</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">65158.38</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">21864</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">21864</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD587</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV Facades : Krushiker Hospitality GRP</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2803</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-20T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD587</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV Facades</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">616</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10200 Undeposited Funds</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">19935.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ACH</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Deposit Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">25993</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-10-03T00:00:00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-19935.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">DEPA76</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">21865</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">21865</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD588</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV Facades : Krushiker Hospitality GRP</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2803</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-20T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD588</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV Facades</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10200 Undeposited Funds</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">122</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10200 Undeposited Funds</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">320205.60</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ACH</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-08-20T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Sales Order</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SO1455</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1159443.76</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1159443.76</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">65158.38</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">21865</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">21865</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Customer Deposit</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD588</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV Facades : Krushiker Hospitality GRP</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">2803</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2024-12-20T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CD588</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ERROR: Field Not Found</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV Facades</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">616</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10200 Undeposited Funds</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">US Dollar</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">320205.60</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">ACH</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s__currency_en_US"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Deposit Application</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">25994</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-10-03T00:00:00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-9815.00</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20020 Current Liability : Customer Deposits</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">DEPA77</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

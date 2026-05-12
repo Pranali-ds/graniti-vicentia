@@ -1,0 +1,2488 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>NetSuite</Author>
+<LastAuthor>NetSuite</LastAuthor>
+<Company>NetSuite</Company>
+</DocumentProperties>
+<Styles>
+<Style ss:ID="company">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="error">
+<Alignment ss:Horizontal="Center"/>
+<Interior ss:Color="#d04040" ss:Pattern="Solid"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="header">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Size="7" ss:Bold="1"/>
+<Interior ss:Color="#d0d0d0" ss:Pattern="Solid"/>
+</Style> <Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font ss:FontName="Arial" ss:Size="8"/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="s__TIMEOFDAY"><NumberFormat ss:Format="Medium Time"/></Style>
+<Style ss:ID="s__DATETIME"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATETIMETZ"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATE"><NumberFormat ss:Format="Short Date"/>
+</Style><Style ss:ID="s__text"></Style><Style ss:ID="s__currency"><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__percent"><NumberFormat ss:Format="Percent"/></Style>
+<Style ss:ID="s1_b_text"><Alignment ss:Indent="1"/><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s_b_text"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s2__text"><Alignment ss:Indent="2"/></Style>
+<Style ss:ID="s_b_currency"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s_currency_nosymbol"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" /><NumberFormat ss:Format="#,##0.00_);[Red]\(#,##0.00\)"/></Style>
+<Style ss:ID="s1__text"><Alignment ss:Indent="1"/></Style>
+<Style ss:ID="s_b_currency_X"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><Interior ss:Color="#f0e0e0" ss:Pattern="Solid"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__currency_en_CA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;Can$&quot;#,##0.00_);(&quot;Can$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_US"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;$&quot;#,##0.00_);(&quot;$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_IN"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00_);(&quot;0#Rs.|1#Re.|1<Rs.&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_fr_FR_EURO"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;€&quot;#,##0.00_);(&quot;€&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_GB"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;£&quot;#,##0.00_);(&quot;£&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_ar_SA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;SRl&quot;#,##0.00_);(&quot;SRl&quot;#,##0.00)"/></Style>
+</Styles>
+<Worksheet ss:Name="jOURNALENTRIESResults">
+<Table><Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">External ID</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Order Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">As-Of Date</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Period</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Tax Period</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Document Number</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Approval Status</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Reference No.</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Name</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Account</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Memo</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount (Debit)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount (Credit)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amount</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84656</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2024-FE-0000421, 12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4493</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024-FE-0000421, 12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84656</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2024-FE-0000421, 12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4493</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2024-FE-0000421, 12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84657</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000020</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4494</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000020</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84657</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000020</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4494</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000020</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84658</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-22530781-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4495</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">22530781-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">240.45</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-240.45</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84658</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-22530781-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4495</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">22530781-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">240.45</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-240.45</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84659</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000019</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4496</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000019</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84659</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000019</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4496</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000019</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84660</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000021</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4497</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000021</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">13.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-13.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84660</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000021</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4497</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000021</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">13.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-13.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84661</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000013</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4498</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000013</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84661</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000013</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4498</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000013</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84662</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000014</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4499</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000014</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84662</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000014</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4499</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000014</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84663</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000015</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4500</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000015</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84663</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000015</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4500</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000015</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84664</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250209</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4501</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250209</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">387.99</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-387.99</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84664</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250209</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4501</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250209</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">387.99</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-387.99</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84665</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250180</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4502</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250180</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">458.02</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-458.02</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84665</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250180</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4502</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250180</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">458.02</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-458.02</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84666</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000017</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4503</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000017</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84666</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000017</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4503</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000017</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84667</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-22530968-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4504</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">22530968-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">236.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-236.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84667</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-22530968-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4504</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">22530968-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">236.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-236.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84668</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000018</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4505</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000018</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84668</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000018</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4505</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000018</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84669</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-INV-1277</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4506</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">INV-1277</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SminkSt</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1002.97</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1002.97</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84669</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-INV-1277</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4506</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">INV-1277</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SminkSt</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1002.97</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1002.97</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84670</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000023</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4507</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000023</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">13.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-13.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84670</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000023</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4507</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000023</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">13.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-13.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84671</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250179</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4508</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250179</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">85.83</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-85.83</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84671</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250179</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4508</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250179</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">85.83</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-85.83</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84672</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-22532283-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4509</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">22532283-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5378.85</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-5378.85</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84672</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-22532283-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4509</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">22532283-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5378.85</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-5378.85</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84673</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025008</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4510</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025008</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2513.94</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2513.94</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84673</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025008</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4510</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025008</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2513.94</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2513.94</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84674</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4511</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pantarei S.R.L</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84674</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4511</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">9</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pantarei S.R.L</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84675</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000031</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4512</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000031</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.14</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.14</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84675</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000031</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4512</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000031</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">12.14</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-12.14</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84676</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2024078</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4513</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2024078</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">72.15</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-72.15</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84676</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2024078</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4513</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2024078</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">72.15</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-72.15</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84677</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2024100</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4514</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2024100</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">36.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-36.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84677</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2024100</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4514</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2024100</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">36.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-36.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84678</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250263</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4515</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250263</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">43.15</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-43.15</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84678</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250263</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4515</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250263</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">43.15</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-43.15</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84679</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250275</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4516</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250275</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">163.45</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-163.45</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84679</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250275</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4516</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250275</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">163.45</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-163.45</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84680</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000034</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4517</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000034</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84680</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000034</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4517</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000034</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84681</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000032</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4518</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000032</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84681</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000032</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4518</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000032</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84682</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250316</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4519</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250316</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">137.73</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-137.73</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84682</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250316</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4519</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250316</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">137.73</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-137.73</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84683</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025003</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4520</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025003</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">39.97</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-39.97</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84683</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025003</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4520</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025003</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">39.97</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-39.97</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84684</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-28</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4521</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">28</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Piermaria New Form SRL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84684</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-28</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4521</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">28</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Piermaria New Form SRL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025002</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4522</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025002</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">22.22</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-22.22</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84685</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025002</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4522</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025002</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">22.22</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-22.22</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84686</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000040</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4523</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000040</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84686</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000040</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4523</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000040</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84687</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000041</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4524</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000041</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84687</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-2025-FE-0000041</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4524</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">2025-FE-0000041</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Gibam Shops SPA</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">11.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-11.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84688</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025005</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4525</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025005</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">37.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-37.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84688</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025005</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4525</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025005</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">37.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-37.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84689</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-7302/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4526</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">7302/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MirageGranitoCeramico S.p.A</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">754.46</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-754.46</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84689</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-7302/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4526</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">7302/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MirageGranitoCeramico S.p.A</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">754.46</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-754.46</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84690</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-15341/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4527</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">15341/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MirageGranitoCeramico S.p.A</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3038.35</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3038.35</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84690</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-15341/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4527</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">15341/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MirageGranitoCeramico S.p.A</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3038.35</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3038.35</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84691</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-15364/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4528</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">15364/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MirageGranitoCeramico S.p.A</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3039.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3039.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84691</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-15364/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4528</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">15364/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MirageGranitoCeramico S.p.A</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3039.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3039.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84692</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2024001</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4529</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2024001</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">6125.98</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-6125.98</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84692</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2024001</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4529</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2024001</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">6125.98</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-6125.98</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84693</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-22531839-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4530</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">22531839-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">145.35</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-145.35</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84693</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-22531839-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4530</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">22531839-E</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Fama Sofas S.L.U</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">145.35</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-145.35</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84694</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-MMG/24-25/12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4531</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MMG/24-25/12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Masomex Global</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">496.99</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-496.99</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84694</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-MMG/24-25/12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4531</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MMG/24-25/12</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Masomex Global</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">496.99</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-496.99</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84695</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250213</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4532</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250213</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">278.50</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-278.50</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84695</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250213</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4532</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250213</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">278.50</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-278.50</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84696</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250416</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4533</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250416</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5436.17</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-5436.17</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84696</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20250416</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4533</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20250416</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">An Cuong Wood-Working</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5436.17</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-5436.17</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84697</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2024100-Balance</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4534</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2024100-Balance</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">787.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-787.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84697</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2024100-Balance</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4534</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2024100-Balance</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">787.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-787.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84698</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-1297/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1297/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">976.92</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-976.92</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84698</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-1297/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4535</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">1297/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">976.92</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-976.92</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84699</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-9662/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4536</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">9662/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">977.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-977.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84699</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-9662/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4536</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">9662/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">977.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-977.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84700</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-880</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4537</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">880</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oriental Weavers International Egypt</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5019.72</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-5019.72</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84700</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-880</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4537</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">880</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Oriental Weavers International Egypt</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5019.72</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-5019.72</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84701</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-7130/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4538</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">7130/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MirageGranitoCeramico S.p.A</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1907.68</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1907.68</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84701</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-7130/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4538</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">7130/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MirageGranitoCeramico S.p.A</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1907.68</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1907.68</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84702</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-72500046</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4539</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">72500046</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">TMLeade</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">30.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-30.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84702</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-72500046</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4539</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">72500046</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">TMLeade</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">30.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-30.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84703</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025007</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4540</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025007</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">786.65</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-786.65</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84703</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025007</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4540</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025007</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">786.65</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-786.65</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84704</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-7266/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4541</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">7266/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MirageGranitoCeramico S.p.A</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2280.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2280.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84704</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-7266/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4541</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">7266/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">MirageGranitoCeramico S.p.A</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2280.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2280.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84705</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025003-Balance</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4542</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025003-Balance</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1572.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1572.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84705</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025003-Balance</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4542</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025003-Balance</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1572.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1572.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84706</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GTB2025000000209</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4543</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GTB2025000000209</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">AGTAGAC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1551.02</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1551.02</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84706</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GTB2025000000209</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4543</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GTB2025000000209</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">AGTAGAC</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1551.02</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1551.02</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84707</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-INV-GV-01-02-25</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4544</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">INV-GV-01-02-25</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">AMY Building Material Investments</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">6580.78</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-6580.78</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84707</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-INV-GV-01-02-25</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4544</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">INV-GV-01-02-25</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">AMY Building Material Investments</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">6580.78</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-6580.78</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84708</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-9197/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4545</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">9197/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1008.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1008.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84708</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-9197/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4545</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">9197/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1008.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1008.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84709</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-16430/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4546</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">16430/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">7356.52</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-7356.52</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84709</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-16430/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4546</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">16430/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">7356.52</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-7356.52</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84710</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025010</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4547</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025010</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">786.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-786.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84710</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025010</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4547</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025010</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">786.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-786.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84711</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-12285/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4548</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">12285/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2626.11</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2626.11</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84711</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-12285/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4548</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">12285/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">2626.11</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-2626.11</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84712</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20698/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4549</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20698/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5640.08</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-5640.08</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84712</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-20698/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4549</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">20698/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">5640.08</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-5640.08</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84713</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025009</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4550</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025009</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">786.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-786.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84713</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025009</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4550</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025009</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">786.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-786.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84714</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-19718/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4551</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">19718/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3765.90</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3765.90</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84714</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-19718/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4551</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">19718/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3765.90</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3765.90</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84715</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-19839/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4552</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">19839/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3765.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3765.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84715</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-19839/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4552</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">19839/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3765.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3765.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84716</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-19814/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4553</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">19814/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3765.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3765.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84716</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-19814/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4553</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">19814/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">3765.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-3765.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84717</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-10039/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4554</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10039/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1927.05</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1927.05</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84717</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-10039/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4554</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">10039/VE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Atlas Concorde</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">1927.05</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-1927.05</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84718</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025011</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4555</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025011</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A20001 Accounts Payable (GV LLC) (New) : Accounts Payable Suppliers &amp; Vendors (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">786.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-786.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="Number">84718</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">CUSTOM-GV2025011</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">*</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="DateTime">2025-07-31T00:00:00</Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Jul 2025</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Journal</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">JE4555</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Pending Approval</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">GV2025011</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Cambodian Zulite Stone Co., LTD.</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">A50003 Cost of Goods Sales 50 (GV LLC) (New) : Customs Clearance (New)</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">customs clearence, July 25 in SPS</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">786.00</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-786.00</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Total</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__DATE"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">85051.09</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">85051.09</Data></Cell>
+<Cell ss:StyleID="s_currency_nosymbol"><Data ss:Type="Number">-170102.18</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

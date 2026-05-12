@@ -1,0 +1,208 @@
+🎯 Slide 1: Title – NetSuite SuiteCommerce – Web Store Administration
+
+What to say:
+This presentation is about SuiteCommerce, which is NetSuite’s eCommerce platform.
+We will understand how it helps businesses manage their online store, customers, and backend operations all in one system.
+
+📋 Slide 2: Agenda
+
+What to say:
+In this session, we will cover:
+
+What SuiteCommerce is
+Course objectives
+Benefits and challenges it solves
+Difference between SCS and SCA
+Website setup and search indexing
+Email templates
+Summary
+
+👉 Basically, we will go from basic understanding → setup → practical usage.
+
+🧠 Slide 3: What is SuiteCommerce?
+
+What to say:
+SuiteCommerce is a unified eCommerce platform inside NetSuite.
+
+👉 Key idea:
+Instead of using separate systems for website, inventory, and orders, everything is connected.
+
+Explain features simply:
+
+Omni-channel experience → same data across website, store, backend
+Mobile optimized → works well on phones
+Personalization → customers see relevant products
+Real-time data → inventory and orders update instantly
+Global commerce → supports multiple countries and currencies
+
+👉 One line summary:
+“SuiteCommerce connects your online store directly with your business operations.”
+
+🎯 Slide 4: Course Objectives
+
+What to say:
+By the end of this session, you will understand:
+
+Benefits and challenges solved by SuiteCommerce
+Difference between SCS (Standard) and SCA (Advanced)
+How to set up a website and manage search
+How to customize email templates
+
+👉 This session is focused on administration and configuration, not heavy coding.
+
+⚙️ Slide 5: Benefits & Omni-Commerce Challenges
+
+What to say:
+Businesses face problems like:
+
+Managing multiple systems
+Different data in different places
+Currency and region complexity
+
+SuiteCommerce solves this by:
+
+Providing one single platform (ERP + CRM + eCommerce)
+Giving real-time data (inventory, pricing, customers)
+Supporting:
+Multi-currency
+Multi-subsidiary
+Centralized order management
+
+👉 Key line:
+“It creates a single source of truth for all business data.”
+
+⚖️ Slide 6: SCS vs SCA (Comparison)
+
+What to say:
+There are two versions of SuiteCommerce:
+
+🟢 SCS (SuiteCommerce Standard)
+Easy to use
+Minimal customization
+Best for quick setup
+🔵 SCA (SuiteCommerce Advanced)
+Highly customizable
+Requires development (SuiteScript, extensions)
+Best for complex business needs
+
+👉 Simple way to explain:
+
+SCS = Plug and play
+SCA = Flexible but needs coding
+🧩 Slide 7: SuiteCommerce Installation
+
+What to say:
+To start using SuiteCommerce, we need to:
+
+Install required bundles
+Enable necessary features
+
+👉 Think of this as initial setup before building your website.
+
+📦 Slide 8: Bundle Installation
+
+What to say:
+Bundles are pre-built packages in NetSuite.
+
+👉 They contain:
+
+Scripts
+Configurations
+Features
+
+We install them to enable SuiteCommerce functionality.
+
+👉 Example:
+Without bundles, the web store won’t work.
+
+⚙️ Slide 9: Features to Enable
+
+What to say:
+We must enable certain NetSuite features like:
+
+Web store functionality
+CRM
+Inventory management
+
+👉 These features ensure:
+
+Orders work
+Customers are managed
+Products are available online
+🌐 Slide 10: Web Site Setup & Search Index
+
+What to say:
+
+🔹 Website Setup Record
+
+Controls:
+
+Domain (URL)
+Languages
+Currency
+Cart & checkout
+
+👉 This is the main configuration for your website
+
+🔹 Search Index
+
+This is very important.
+
+👉 What it does:
+
+Scans product data (name, price, category)
+Makes search fast and accurate
+
+👉 Important point:
+Whenever you update items or categories →
+You must regenerate the search index
+
+📧 Slide 11: System Email Templates
+
+What to say:
+These are automated emails sent to customers.
+
+Examples:
+Order confirmation
+Shipping updates
+Password reset
+Customization:
+Add company logo
+Change design
+Use dynamic fields like:
+Customer name
+Order ID
+Tracking link
+
+👉 This improves customer experience and branding
+
+📊 Slide 12: Summary
+
+What to say:
+Let’s recap:
+
+SuiteCommerce connects ERP + eCommerce
+SCS vs SCA → simplicity vs flexibility
+Website setup and search index are key admin tasks
+Email templates improve communication
+
+👉 Final line:
+“SuiteCommerce helps businesses manage everything from one place efficiently.”
+
+📚 Slide 13: Resources & Support
+
+What to say:
+If you need help, you can use:
+
+NetSuite Help Center
+SuiteAnswers
+Developer forums
+Official training
+
+👉 These are useful for troubleshooting and learning.
+
+🙌 Slide 14: Thank You
+
+What to say:
+Thank you for listening.
+I’m happy to answer any questions.

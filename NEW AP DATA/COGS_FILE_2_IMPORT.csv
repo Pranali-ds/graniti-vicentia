@@ -1,0 +1,393 @@
+External ID,Item,Item ID,Party Name,Vendor ID,Invoice #,length,Invoice Date,New date,Balance Due,Memo,Subsidiary Id,Subsidiary,Account,BIN ,BIN ID,LOCATION,serial/lot number
+OPENVENBILL45807,cogs,40391,"Jasfer Industry Co., Limited",137,45807,5,05/25/2025,05/25/2025,-25858.15,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10401
+OPENVENBILL22JS010701,cogs,40391,"Jasfer Industry Co., Limited",137,22JS010701,10,05-26-2022,05/26/2022,1032.65,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10402
+OPENVENBILL23JSF10001,cogs,40391,"Jasfer Industry Co., Limited",137,23JSF10001,10,11-01-2023,11/01/2023,3464.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10403
+OPENVENBILL23JSF08019,cogs,40391,"Jasfer Industry Co., Limited",137,23JSF08019,10,12-11-2023,12/11/2023,400.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10404
+OPENVENBILL34188 - PI,cogs,40391,"Jasfer Industry Co., Limited",137,34188 - PI,10,01-01-2024,01/01/2024,224.28,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10407
+OPENVENBILL35261 - PI,cogs,40391,"Jasfer Industry Co., Limited",137,35261 - PI,10,01-01-2024,01/01/2024,3709.62,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10408
+OPENVENBILL35455 - PI,cogs,40391,"Jasfer Industry Co., Limited",137,35455 - PI,10,01-01-2024,01/01/2024,1350.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10409
+OPENVENBILL35950 - PI,cogs,40391,"Jasfer Industry Co., Limited",137,35950 - PI,10,01-01-2024,01/01/2024,300.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10410
+OPENVENBILL23JSF08031,cogs,40391,"Jasfer Industry Co., Limited",137,23JSF08031,10,01-05-2024,01/05/2024,2000.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10411
+OPENVENBILL23JSF11029,cogs,40391,"Jasfer Industry Co., Limited",137,23JSF11029,10,01-08-2024,01/08/2024,2359.04,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10413
+OPENVENBILL36045,cogs,40391,"Jasfer Industry Co., Limited",137,36045,5,01-11-2024,01/11/2024,8044.97,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10414
+OPENVENBILL23BDL05029,cogs,40391,"Jasfer Industry Co., Limited",137,23BDL05029,10,01-11-2024,01/11/2024,809.99,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10415
+OPENVENBILL24JS011901 - PI,cogs,40391,"Jasfer Industry Co., Limited",137,24JS011901 - PI,15,02-01-2024,02/01/2024,416.12,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10416
+OPENVENBILL23JSF04044,cogs,40391,"Jasfer Industry Co., Limited",137,23JSF04044,10,02-01-2024,02/01/2024,340.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10417
+OPENVENBILL20240307 -PI,cogs,40391,"Jasfer Industry Co., Limited",137,20240307 -PI,12,03-07-2024,03/07/2024,7367.40,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10420
+OPENVENBILL24JSF03035 - PI,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF03035 - PI,15,03-22-2024,03/22/2024,1516.94,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10421
+OPENVENBILL23JS120407,cogs,40391,"Jasfer Industry Co., Limited",137,23JS120407,10,04-08-2024,04/08/2024,200.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10422
+OPENVENBILL23JSF11005,cogs,40391,"Jasfer Industry Co., Limited",137,23JSF11005,10,04-10-2024,04/10/2024,38.95,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10423
+OPENVENBILL24JSF01009,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF01009,10,04-10-2024,04/10/2024,565.50,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10424
+OPENVENBILL24JSF03029,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF03029,10,04-19-2024,04/19/2024,6330.48,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10427
+OPENVENBILL24JSF04107 (R002),cogs,40391,"Jasfer Industry Co., Limited",137,24JSF04107 (R002),17,05-06-2024,05/06/2024,1217.60,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10429
+OPENVENBILL24JSF04108-A (R002) - PI,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF04108-A (R002) - PI,24,05-06-2024,05/06/2024,22837.50,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10430
+OPENVENBILL24JSF04108-B (R002) - PI,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF04108-B (R002) - PI,24,05-06-2024,05/06/2024,5887.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10431
+OPENVENBILL24JSF04108-C (R002),cogs,40391,"Jasfer Industry Co., Limited",137,24JSF04108-C (R002),19,05-06-2024,05/06/2024,1218.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10432
+OPENVENBILL24JSF04106-A (R002),cogs,40391,"Jasfer Industry Co., Limited",137,24JSF04106-A (R002),19,05-08-2024,05/08/2024,13398.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10433
+OPENVENBILL23JS100503,cogs,40391,"Jasfer Industry Co., Limited",137,23JS100503,10,05-13-2024,05/13/2024,222.31,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10434
+OPENVENBILL23JSF10017,cogs,40391,"Jasfer Industry Co., Limited",137,23JSF10017,10,05-30-2024,05/30/2024,233.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10436
+OPENVENBILL39227-PI,cogs,40391,"Jasfer Industry Co., Limited",137,39227-PI,8,06-07-2024,06/07/2024,2252.38,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10437
+OPENVENBILL35902 - PI,cogs,40391,"Jasfer Industry Co., Limited",137,35902 - PI,10,06-19-2024,06/19/2024,973.74,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10445
+OPENVENBILL24JS010303 23GBCI392,cogs,40391,"Jasfer Industry Co., Limited",137,24JS010303 23GBCI392,20,06-26-2024,06/26/2024,-3160.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10446
+OPENVENBILLPrePayment - PO34677/SPS,cogs,40391,"Jasfer Industry Co., Limited",137,PrePayment - PO34677/SPS,24,06-30-2024,06/30/2024,-799.20,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10447
+OPENVENBILLPrePayment - PO33742/SPS,cogs,40391,"Jasfer Industry Co., Limited",137,PrePayment - PO33742/SPS,24,07-01-2024,07/01/2024,10590.91,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10448
+OPENVENBILLPrePayment - PO38987/SPS,cogs,40391,"Jasfer Industry Co., Limited",137,PrePayment - PO38987/SPS,24,07-02-2024,07/02/2024,-13009.33,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10449
+OPENVENBILLWHGV2406 -1,cogs,40391,"Jasfer Industry Co., Limited",137,WHGV2406 -1,11,07-30-2024,07/30/2024,748.17,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10452
+OPENVENBILL20240801,cogs,40391,"Jasfer Industry Co., Limited",137,20240801,8,08-01-2024,08/01/2024,704.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10453
+OPENVENBILL24JSF05009,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF05009,10,08-01-2024,08/01/2024,4000.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10454
+OPENVENBILL23RT122103,cogs,40391,"Jasfer Industry Co., Limited",137,23RT122103,10,08-04-2024,08/04/2024,76480.72,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10459
+OPENVENBILL24JSF05005,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF05005,10,08-08-2024,08/08/2024,590.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10461
+OPENVENBILL24JSF07007,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF07007,10,08-08-2024,08/08/2024,3776.83,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10462
+OPENVENBILL24JSF07026,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF07026,10,08-08-2024,08/08/2024,2605.83,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10463
+OPENVENBILLAG-GRVG-RZ231015,cogs,40391,"Jasfer Industry Co., Limited",137,AG-GRVG-RZ231015,16,08-08-2024,08/08/2024,1975.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10464
+"OPENVENBILLSR410-2,SR410-4",cogs,40391,"Jasfer Industry Co., Limited",137,"SR410-2,SR410-4",15,08-10-2024,08/10/2024,1480.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10466
+OPENVENBILL24JSF06042,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF06042,10,08-23-2024,08/23/2024,5349.68,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10467
+OPENVENBILL24JSF07071,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF07071,10,09-01-2024,09/01/2024,2341.47,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10468
+OPENVENBILL23RT110301,cogs,40391,"Jasfer Industry Co., Limited",137,23RT110301,10,09-03-2024,09/03/2024,708.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10469
+OPENVENBILL24RT041801,cogs,40391,"Jasfer Industry Co., Limited",137,24RT041801,10,09-15-2024,09/15/2024,2375.12,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10470
+OPENVENBILL24JSF05041,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF05041,10,09-19-2024,09/19/2024,485.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10471
+OPENVENBILL24JSF08034,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08034,10,09-19-2024,09/19/2024,2091.25,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10472
+OPENVENBILL24JSF09040,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF09040,10,09-21-2024,09/21/2024,80.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10473
+OPENVENBILL24JSF09049,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF09049,10,09-25-2024,09/25/2024,153.41,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10474
+OPENVENBILL24JSF08003,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08003,10,09-28-2024,09/28/2024,6886.20,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10475
+OPENVENBILL24JSF08026A,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08026A,11,09-28-2024,09/28/2024,10405.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10476
+OPENVENBILL24JSF08041,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08041,10,09-28-2024,09/28/2024,10000.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10477
+OPENVENBILL24JS082101,cogs,40391,"Jasfer Industry Co., Limited",137,24JS082101,10,10-01-2024,10/01/2024,14299.59,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10479
+OPENVENBILL24RT082701,cogs,40391,"Jasfer Industry Co., Limited",137,24RT082701,10,10-01-2024,10/01/2024,18951.66,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10481
+OPENVENBILL24RT082801,cogs,40391,"Jasfer Industry Co., Limited",137,24RT082801,10,10-01-2024,10/01/2024,2197.97,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10482
+OPENVENBILL24JSF02004,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF02004,10,10-01-2024,10/01/2024,12724.34,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10483
+OPENVENBILL24JSF06001,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF06001,10,10-01-2024,10/01/2024,8069.66,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10484
+OPENVENBILL24JSF08032,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08032,10,10-01-2024,10/01/2024,750.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10485
+OPENVENBILL24JSF05006,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF05006,10,10-02-2024,10/02/2024,305.83,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10486
+OPENVENBILL777306000000,cogs,40391,"Jasfer Industry Co., Limited",137,7.77E+11,12,10-02-2024,10/02/2024,4332.32,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10487
+OPENVENBILL24JSF06028,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF06028,10,10-12-2024,10/12/2024,708.66,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10492
+OPENVENBILL24JSF07049,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF07049,10,10-12-2024,10/12/2024,2763.18,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10493
+OPENVENBILL24RT071603,cogs,40391,"Jasfer Industry Co., Limited",137,24RT071603,10,10-14-2024,10/14/2024,17021.64,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10495
+OPENVENBILL24JSF-MT0601,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF-MT0601,12,10-18-2024,10/18/2024,267.27,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10496
+OPENVENBILL24JSF07062,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF07062,10,10-25-2024,10/25/2024,135.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10500
+OPENVENBILL24JSF07063,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF07063,10,10-25-2024,10/25/2024,225.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10501
+OPENVENBILL24BL070202,cogs,40391,"Jasfer Industry Co., Limited",137,24BL070202,10,10-30-2024,10/30/2024,7073.32,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10502
+OPENVENBILL24JSF08056,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08056,10,10-30-2024,10/30/2024,215.01,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10503
+OPENVENBILL24RT051102,cogs,40391,"Jasfer Industry Co., Limited",137,24RT051102,10,10-31-2024,10/31/2024,2214.07,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10504
+OPENVENBILL24RT070601,cogs,40391,"Jasfer Industry Co., Limited",137,24RT070601,10,11-01-2024,11/01/2024,8021.62,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10509
+OPENVENBILL24JSF10019,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF10019,10,11-08-2024,11/08/2024,2057.98,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10512
+OPENVENBILL24JSF09018,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF09018,10,11-15-2024,11/15/2024,16123.92,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10518
+OPENVENBILL24JS090201,cogs,40391,"Jasfer Industry Co., Limited",137,24JS090201,10,11-18-2024,11/18/2024,789.97,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10519
+OPENVENBILL20241120,cogs,40391,"Jasfer Industry Co., Limited",137,20241120,8,11-20-2024,11/20/2024,2426.91,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10520
+OPENVENBILL24JSF06102,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF06102,10,11-20-2024,11/20/2024,32314.59,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10521
+OPENVENBILL5642,cogs,40391,"Jasfer Industry Co., Limited",137,5642,4,11-21-2024,11/21/2024,-427.39,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10522
+OPENVENBILL24JSF08069,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08069,10,11-22-2024,11/22/2024,9068.65,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10523
+OPENVENBILL24JSF11068,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF11068,10,11-22-2024,11/22/2024,686.94,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10524
+OPENVENBILL24RT101905,cogs,40391,"Jasfer Industry Co., Limited",137,24RT101905,10,11-28-2024,11/28/2024,50.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10526
+OPENVENBILL24JSF07060,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF07060,10,12-01-2024,12/01/2024,368.34,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10527
+OPENVENBILL24BL092301,cogs,40391,"Jasfer Industry Co., Limited",137,24BL092301,10,12-02-2024,12/02/2024,765.69,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10528
+OPENVENBILL24JS090403,cogs,40391,"Jasfer Industry Co., Limited",137,24JS090403,10,12-02-2024,12/02/2024,3.99,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10529
+OPENVENBILLW-1204,cogs,40391,"Jasfer Industry Co., Limited",137,W-1204,6,12-04-2024,12/04/2024,-1466.25,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10530
+OPENVENBILL24JS080904,cogs,40391,"Jasfer Industry Co., Limited",137,24JS080904,10,12-05-2024,12/05/2024,7500.90,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10531
+OPENVENBILL24RT052204,cogs,40391,"Jasfer Industry Co., Limited",137,24RT052204,10,12-16-2024,12/16/2024,10420.91,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10532
+OPENVENBILL24JS083002,cogs,40391,"Jasfer Industry Co., Limited",137,24JS083002,10,12-21-2024,12/21/2024,1571.59,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10535
+OPENVENBILL24JSF09010,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF09010,10,12-25-2024,12/25/2024,4350.49,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10540
+OPENVENBILL24JS110405,cogs,40391,"Jasfer Industry Co., Limited",137,24JS110405,10,12-26-2024,12/26/2024,83.78,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10541
+OPENVENBILL24JSF07024,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF07024,10,12-31-2024,12/31/2024,80.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10542
+OPENVENBILL24JSF08020,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08020,10,01-01-2025,01/01/2025,2121.40,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10544
+OPENVENBILL24JSF09055,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF09055,10,01-01-2025,01/01/2025,1672.93,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10548
+OPENVENBILLW-0103,cogs,40391,"Jasfer Industry Co., Limited",137,W-0103,6,01-03-2025,01/03/2025,-1061.27,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10549
+OPENVENBILL24JSF12050,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF12050,10,01-06-2025,01/06/2025,839.54,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10550
+OPENVENBILL24JSF10027,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF10027,10,01-08-2025,01/08/2025,800.01,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10552
+OPENVENBILLW-0109,cogs,40391,"Jasfer Industry Co., Limited",137,W-0109,6,01-09-2025,01/09/2025,-228.07,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10553
+OPENVENBILLWHGV2409-1,cogs,40391,"Jasfer Industry Co., Limited",137,WHGV2409-1,10,01-14-2025,01/14/2025,910.19,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10557
+OPENVENBILL24JSF02010,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF02010,10,01-16-2025,01/16/2025,121.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10558
+OPENVENBILLW-0117,cogs,40391,"Jasfer Industry Co., Limited",137,W-0117,6,01-17-2025,01/17/2025,-8140.67,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10559
+OPENVENBILL24BL123001,cogs,40391,"Jasfer Industry Co., Limited",137,24BL123001,10,01-20-2025,01/20/2025,590.90,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10560
+OPENVENBILL25JSF01021,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF01021,10,01-20-2025,01/20/2025,330.60,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10561
+OPENVENBILL24JSF08001,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08001,10,01-20-2025,01/20/2025,1619.71,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10562
+OPENVENBILL24JSF08051,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08051,10,01-20-2025,01/20/2025,3208.66,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10563
+OPENVENBILL24JSF11008,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF11008,10,01-21-2025,01/21/2025,205.90,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10568
+OPENVENBILL24JSF11009,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF11009,10,01-21-2025,01/21/2025,104.69,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10569
+OPENVENBILL24JSF12046,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF12046,10,01-23-2025,01/23/2025,14370.73,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10570
+OPENVENBILL24RT092505,cogs,40391,"Jasfer Industry Co., Limited",137,24RT092505,10,01-23-2025,01/23/2025,7.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10571
+OPENVENBILL24JS112001,cogs,40391,"Jasfer Industry Co., Limited",137,24JS112001,10,01-23-2025,01/23/2025,150.99,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10572
+OPENVENBILL24JSF10056,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF10056,10,01-24-2025,01/24/2025,137.10,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10573
+OPENVENBILL24JSF11004,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF11004,10,01-24-2025,01/24/2025,2155.70,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10574
+OPENVENBILL24JSF12008,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF12008,10,01-24-2025,01/24/2025,10.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10575
+OPENVENBILLW-0124,cogs,40391,"Jasfer Industry Co., Limited",137,W-0124,6,01-24-2025,01/24/2025,-26290.30,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10576
+OPENVENBILL25JSF01004,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF01004,10,02-13-2025,02/13/2025,527.59,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10577
+OPENVENBILL24JSF07044,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF07044,10,02-24-2025,02/24/2025,30977.29,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10580
+OPENVENBILL24JSF10039,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF10039,10,02-25-2025,02/25/2025,3995.42,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10581
+OPENVENBILL24BL110706,cogs,40391,"Jasfer Industry Co., Limited",137,24BL110706,10,03-04-2025,03/04/2025,1468.92,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10582
+OPENVENBILL24JSF08073,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08073,10,03-13-2025,03/13/2025,6798.95,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10583
+OPENVENBILL24RT10051,cogs,40391,"Jasfer Industry Co., Limited",137,24RT10051,9,03-13-2025,03/13/2025,150.15,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10584
+OPENVENBILL24BL111108,cogs,40391,"Jasfer Industry Co., Limited",137,24BL111108,10,03-24-2025,03/24/2025,314.82,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10586
+OPENVENBILL25JS02701,cogs,40391,"Jasfer Industry Co., Limited",137,25JS02701,9,03-29-2025,03/29/2025,77.05,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10587
+OPENVENBILL25JSF02018,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF02018,10,04-02-2025,04/02/2025,386.28,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10588
+OPENVENBILL25JSF03092,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF03092,10,04-16-2025,04/16/2025,400.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10598
+OPENVENBILL25JSF03107,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF03107,10,04-23-2025,04/23/2025,2914.92,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10611
+OPENVENBILL25BL031501,cogs,40391,"Jasfer Industry Co., Limited",137,25BL031501,10,04-23-2025,04/23/2025,135.17,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10612
+OPENVENBILL24BL022901,cogs,40391,"Jasfer Industry Co., Limited",137,24BL022901,10,04-26-2025,04/26/2025,1910.45,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10613
+OPENVENBILL24RT111401,cogs,40391,"Jasfer Industry Co., Limited",137,24RT111401,10,05-11-2025,05/11/2025,4391.59,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10623
+OPENVENBILL24RT112802,cogs,40391,"Jasfer Industry Co., Limited",137,24RT112802,10,05-11-2025,05/11/2025,8054.28,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10626
+OPENVENBILLINVOICE NO.:25BL012401,cogs,40391,"Jasfer Industry Co., Limited",137,INVOICE NO.:25BL012401,22,05-11-2025,05/11/2025,10.70,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10627
+OPENVENBILLINVOICE NO.:25RT030503,cogs,40391,"Jasfer Industry Co., Limited",137,INVOICE NO.:25RT030503,22,05-11-2025,05/11/2025,243.70,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10628
+OPENVENBILLPI NO.:24JS121601,cogs,40391,"Jasfer Industry Co., Limited",137,PI NO.:24JS121601,17,05-11-2025,05/11/2025,1322.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10629
+OPENVENBILL24BL123005,cogs,40391,"Jasfer Industry Co., Limited",137,24BL123005,10,05-19-2025,05/19/2025,302.88,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10631
+OPENVENBILL25JS040601,cogs,40391,"Jasfer Industry Co., Limited",137,25JS040601,10,05-19-2025,05/19/2025,2279.27,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10633
+OPENVENBILL25BL040802,cogs,40391,"Jasfer Industry Co., Limited",137,25BL040802,10,05-19-2025,05/19/2025,2810.15,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10634
+OPENVENBILL25JSF03064,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF03064,10,05-19-2025,05/19/2025,1716.13,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10636
+OPENVENBILL25JSF03038,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF03038,10,05-19-2025,05/19/2025,2749.82,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10637
+OPENVENBILL25JS02135,cogs,40391,"Jasfer Industry Co., Limited",137,25JS02135,9,05-19-2025,05/19/2025,1094.72,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10638
+OPENVENBILL25BL031204,cogs,40391,"Jasfer Industry Co., Limited",137,25BL031204,10,05-19-2025,05/19/2025,102.14,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10640
+OPENVENBILL25JS011601,cogs,40391,"Jasfer Industry Co., Limited",137,25JS011601,10,05-19-2025,05/19/2025,324.50,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10641
+OPENVENBILL25JSF03067,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF03067,10,05-19-2025,05/19/2025,2103.64,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10642
+OPENVENBILL25BL040401,cogs,40391,"Jasfer Industry Co., Limited",137,25BL040401,10,05-19-2025,05/19/2025,2715.09,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10643
+OPENVENBILL25JSF03200,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF03200,10,05-19-2025,05/19/2025,922.62,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10645
+OPENVENBILL25BL030705,cogs,40391,"Jasfer Industry Co., Limited",137,25BL030705,10,05-19-2025,05/19/2025,4619.84,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10646
+OPENVENBILL24JS112601,cogs,40391,"Jasfer Industry Co., Limited",137,24JS112601,10,05-19-2025,05/19/2025,6828.39,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10649
+OPENVENBILL24JSF11024,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF11024,10,05-19-2025,05/19/2025,6227.16,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10652
+OPENVENBILL24JSF11028,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF11028,10,05-19-2025,05/19/2025,3950.91,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10653
+OPENVENBILL25BL011605,cogs,40391,"Jasfer Industry Co., Limited",137,25BL011605,10,05-19-2025,05/19/2025,187.75,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10655
+OPENVENBILL25BL020701,cogs,40391,"Jasfer Industry Co., Limited",137,25BL020701,10,05-19-2025,05/19/2025,4021.34,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10656
+OPENVENBILL25BL030704,cogs,40391,"Jasfer Industry Co., Limited",137,25BL030704,10,05-19-2025,05/19/2025,793.09,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10658
+OPENVENBILL25RT022002,cogs,40391,"Jasfer Industry Co., Limited",137,25RT022002,10,05-19-2025,05/19/2025,2202.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10659
+OPENVENBILL25JSF03209,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF03209,10,05-20-2025,05/20/2025,2297.41,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10660
+OPENVENBILL25JSF01051,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF01051,10,05-22-2025,05/22/2025,5482.20,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10663
+OPENVENBILL25JSF050241,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF050241,11,05-24-2025,05/24/2025,469.20,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10665
+OPENVENBILL24JSF11061,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF11061,10,05-24-2025,05/24/2025,620.58,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10666
+OPENVENBILL24BL120402,cogs,40391,"Jasfer Industry Co., Limited",137,24BL120402,10,05-29-2025,05/29/2025,836.80,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10670
+OPENVENBILL25JSF01055,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF01055,10,05-29-2025,05/29/2025,2966.73,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10671
+OPENVENBILL25JSF04038,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF04038,10,05-29-2025,05/29/2025,41.25,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10672
+OPENVENBILL25RT021202,cogs,40391,"Jasfer Industry Co., Limited",137,25RT021202,10,05-29-2025,05/29/2025,1134.46,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10673
+OPENVENBILL25JSF02008,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF02008,10,05-29-2025,05/29/2025,6390.15,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10675
+OPENVENBILL25RT010901,cogs,40391,"Jasfer Industry Co., Limited",137,25RT010901,10,05-29-2025,05/29/2025,16364.07,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10676
+OPENVENBILL25JSF02017,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF02017,10,05-29-2025,05/29/2025,814.76,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10677
+OPENVENBILL25JS020701,cogs,40391,"Jasfer Industry Co., Limited",137,25JS020701,10,05-29-2025,05/29/2025,2516.59,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10678
+OPENVENBILL25JSF01031,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF01031,10,05-29-2025,05/29/2025,56645.36,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10683
+OPENVENBILL24JSF08043,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF08043,10,05-29-2025,05/29/2025,540.48,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10686
+OPENVENBILL24JSF04042,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF04042,10,05-29-2025,05/29/2025,352.83,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10687
+OPENVENBILL24JSF11059,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF11059,10,05-29-2025,05/29/2025,5751.69,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10688
+OPENVENBILL25BL021201,cogs,40391,"Jasfer Industry Co., Limited",137,25BL021201,10,05-29-2025,05/29/2025,43.49,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10689
+OPENVENBILL25BL021202,cogs,40391,"Jasfer Industry Co., Limited",137,25BL021202,10,05-29-2025,05/29/2025,2886.62,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10690
+OPENVENBILL25RT021301,cogs,40391,"Jasfer Industry Co., Limited",137,25RT021301,10,05-29-2025,05/29/2025,200.67,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10691
+OPENVENBILL24AG552GRV-V,cogs,40391,"Jasfer Industry Co., Limited",137,24AG552GRV-V,12,05-30-2025,05/30/2025,9436.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10692
+OPENVENBILL25JS032502,cogs,40391,"Jasfer Industry Co., Limited",137,25JS032502,10,05-30-2025,05/30/2025,68.67,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10694
+OPENVENBILL25JSF02006,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF02006,10,05-30-2025,05/30/2025,342.51,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10695
+OPENVENBILL25JSF02016,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF02016,10,05-30-2025,05/30/2025,5654.82,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10697
+OPENVENBILL25JSF01016,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF01016,10,05-30-2025,05/30/2025,213.51,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10698
+OPENVENBILL25JS032703,cogs,40391,"Jasfer Industry Co., Limited",137,25JS032703,10,05-30-2025,05/30/2025,1012.70,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10699
+OPENVENBILL24JSF12017,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF12017,10,05-30-2025,05/30/2025,61908.55,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10700
+OPENVENBILL24JSF12037,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF12037,10,05-30-2025,05/30/2025,1085.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10701
+OPENVENBILL24JS092501,cogs,40391,"Jasfer Industry Co., Limited",137,24JS092501,10,05-30-2025,05/30/2025,1125.75,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10702
+OPENVENBILL24JS101601,cogs,40391,"Jasfer Industry Co., Limited",137,24JS101601,10,05-30-2025,05/30/2025,2522.86,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10703
+OPENVENBILL24JS120607,cogs,40391,"Jasfer Industry Co., Limited",137,24JS120607,10,05-30-2025,05/30/2025,3493.50,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10704
+OPENVENBILL24JSF10073,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF10073,10,05-30-2025,05/30/2025,7827.20,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10705
+OPENVENBILL25JSF01010,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF01010,10,06-01-2025,06/01/2025,2245.46,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10706
+OPENVENBILL25BL022701,cogs,40391,"Jasfer Industry Co., Limited",137,25BL022701,10,06-06-2025,06/06/2025,7564.47,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10707
+OPENVENBILL25BL030706,cogs,40391,"Jasfer Industry Co., Limited",137,25BL030706,10,06-08-2025,06/08/2025,13777.01,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10710
+OPENVENBILL24JS112003,cogs,40391,"Jasfer Industry Co., Limited",137,24JS112003,10,06-08-2025,06/08/2025,12822.52,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10712
+OPENVENBILL24JS121201,cogs,40391,"Jasfer Industry Co., Limited",137,24JS121201,10,06-08-2025,06/08/2025,1083.66,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10713
+OPENVENBILL24JS110705,cogs,40391,"Jasfer Industry Co., Limited",137,24JS110705,10,06-10-2025,06/10/2025,499.36,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10716
+OPENVENBILL25JS010401,cogs,40391,"Jasfer Industry Co., Limited",137,25JS010401,10,06-27-2025,06/27/2025,10816.52,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10794
+OPENVENBILL25JSF01041,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF01041,10,06-28-2025,06/28/2025,9278.55,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10795
+OPENVENBILL25JS032705,cogs,40391,"Jasfer Industry Co., Limited",137,25JS032705,10,06-28-2025,06/28/2025,6052.22,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10796
+OPENVENBILL25BL042101,cogs,40391,"Jasfer Industry Co., Limited",137,25BL042101,10,06-28-2025,06/28/2025,143.03,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10797
+OPENVENBILL25JSF03217,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF03217,10,06-28-2025,06/28/2025,22156.83,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10798
+OPENVENBILL25JSF04010,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF04010,10,06-28-2025,06/28/2025,717.83,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10799
+OPENVENBILL25JSF04047,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF04047,10,06-28-2025,06/28/2025,4226.09,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10800
+OPENVENBILL24RT090901,cogs,40391,"Jasfer Industry Co., Limited",137,24RT090901,10,06-28-2025,06/28/2025,1168.19,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10801
+OPENVENBILL24JSF12014,cogs,40391,"Jasfer Industry Co., Limited",137,24JSF12014,10,06-28-2025,06/28/2025,1340.70,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10802
+OPENVENBILL25RT02201,cogs,40391,"Jasfer Industry Co., Limited",137,25RT02201,9,06-28-2025,06/28/2025,39.31,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10804
+OPENVENBILL25RT030502,cogs,40391,"Jasfer Industry Co., Limited",137,25RT030502,10,06-28-2025,06/28/2025,288.50,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10805
+OPENVENBILL25RT030706,cogs,40391,"Jasfer Industry Co., Limited",137,25RT030706,10,06-28-2025,06/28/2025,1183.35,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10806
+OPENVENBILL25JSF03053,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF03053,10,06-30-2025,06/30/2025,4816.64,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10808
+OPENVENBILL25JSF01007,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF01007,10,06-30-2025,06/30/2025,440.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10809
+OPENVENBILL25JSF05069,cogs,40391,"Jasfer Industry Co., Limited",137,25JSF05069,10,06-30-2025,06/30/2025,3265.82,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10810
+OPENVENBILL36587 - Invoice,cogs,40391,"Jasfer Industry Co., Limited",137,36587 - Invoice,15,06-30-2025,06/30/2025,1446.55,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10812
+OPENVENBILL40329 - Invoice,cogs,40391,"Jasfer Industry Co., Limited",137,40329 - Invoice,15,06-30-2025,06/30/2025,6517.91,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10813
+OPENVENBILL36505 - Invoice,cogs,40391,"Jasfer Industry Co., Limited",137,36505 - Invoice,15,06-30-2025,06/30/2025,3276.67,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10814
+OPENVENBILL24RT111401-1,cogs,40391,"Jasfer Industry Co., Limited",137,24RT111401-1,12,06-30-2025,06/30/2025,50645.94,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10828
+OPENVENBILL37618 - Invoice,cogs,40391,"Jasfer Industry Co., Limited",137,37618 - Invoice,15,06-30-2025,06/30/2025,13950.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10829
+OPENVENBILL42446-invoice,cogs,40391,"Jasfer Industry Co., Limited",137,42446-invoice,13,06-30-2025,06/30/2025,3131.91,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10830
+OPENVENBILL779533000000,cogs,40391,"Jasfer Industry Co., Limited",137,7.80E+11,12,06-30-2025,06/30/2025,868.82,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10831
+OPENVENBILLUSW2520549D01,cogs,40391,Koby Singletary,1944,USW2520549D01,13,02-25-2025,02/25/2025,282.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10916
+OPENVENBILLK.Singletary Reimbursable,cogs,40391,Koby Singletary,1944,K.Singletary Reimbursable,25,04-28-2025,04/28/2025,1560.64,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10917
+OPENVENBILLW-0625,cogs,40391,Kronos USA,2563,W-0625,6,06-25-2025,06/25/2025,-18135.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10918
+OPENVENBILLK2808,cogs,40391,Kuartz Surfaces and Kitchens,1262,K2808,5,06-17-2024,06/17/2024,1824.25,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10919
+OPENVENBILLK2926,cogs,40391,Kuartz Surfaces and Kitchens,1262,K2926,5,08-28-2024,08/28/2024,4080.27,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10920
+OPENVENBILL22325,cogs,40391,Lift Service Now,154,22325,5,09-11-2024,09/11/2024,4974.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10921
+OPENVENBILL22326,cogs,40391,Lift Service Now,154,22326,5,09-11-2024,09/11/2024,4816.11,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10922
+OPENVENBILL25760001,cogs,40391,Marmite Sp. z o.o. - Poland,1562,25760001,8,11-19-2024,11/19/2024,285.80,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10925
+OPENVENBILL25760438,cogs,40391,Marmite Sp. z o.o. - Poland,1562,25760438,8,05-12-2025,05/12/2025,2349.15,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10926
+OPENVENBILLW-0220,cogs,40391,MASOMEX GLOBAL,1266,W-0220,6,02-20-2025,02/20/2025,-1951.83,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10946
+OPENVENBILL24/09,cogs,40391,MASOMEX GLOBAL,1266,24-Sep,5,06-30-2025,06/30/2025,66.35,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10947
+OPENVENBILL41186415,cogs,40391,MDC Interior Solutions,1267,41186415,8,04-10-2025,04/10/2025,2019.56,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10948
+OPENVENBILL41188101,cogs,40391,MDC Interior Solutions,1267,41188101,8,06-22-2025,06/22/2025,-1748.55,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10949
+OPENVENBILLcredit from overpayment,cogs,40391,Mediterranean Shipping Co. USA Inc,167,credit from overpayment,23,03-03-2025,03/03/2025,-1247.44,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10950
+OPENVENBILLW-0811,cogs,40391,Mellowland Furnishing Inc.,168,W-0811,6,08-11-2023,08/11/2023,-90.03,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10951
+OPENVENBILLW-0817,cogs,40391,Mellowland Furnishing Inc.,168,W-0817,6,08-17-2023,08/17/2023,-513.70,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10952
+OPENVENBILLW-0116,cogs,40391,Mellowland Furnishing Inc.,168,W-0116,6,01-16-2024,01/16/2024,-102.74,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10953
+OPENVENBILL32045 - Invoice,cogs,40391,Mellowland Furnishing Inc.,168,32045 - Invoice,15,06-30-2025,06/30/2025,2752.50,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10954
+OPENVENBILL32541 - Invoice,cogs,40391,Mellowland Furnishing Inc.,168,32541 - Invoice,15,06-30-2025,06/30/2025,3283.03,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10955
+OPENVENBILL20230515015,cogs,40391,Midstream & Terminal,172,20230515015,11,05-15-2023,05/15/2023,33750.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10956
+OPENVENBILL680047,cogs,40391,"MileStone Florim USA, Inc.",1962,680047,6,01-15-2025,01/15/2025,2064.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10957
+OPENVENBILL90457176 - 60294,cogs,40391,"MileStone Florim USA, Inc.",1962,90457176 - 60294,16,06-30-2025,06/30/2025,23819.04,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10961
+OPENVENBILL14594728,cogs,40391,Milliken & Company,1269,14594728,8,12-19-2023,12/19/2023,7569.67,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10962
+OPENVENBILLPrePayment - PO60188,cogs,40391,Milliken & Company,1269,PrePayment - PO60188,20,06-13-2025,06/13/2025,-1026.14,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10963
+OPENVENBILL45453/VE,cogs,40391,MIRAGE GRANITO CERAMICO USA INC,1956,45453/VE,8,11-12-2024,11/12/2024,924.60,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10966
+OPENVENBILL6262/VE,cogs,40391,MIRAGE GRANITO CERAMICO USA INC,1956,6262/VE,7,02-18-2025,02/18/2025,924.49,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10978
+OPENVENBILL7302/VE,cogs,40391,MIRAGE GRANITO CERAMICO USA INC,1956,7302/VE,7,02-24-2025,02/24/2025,12700.80,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10981
+OPENVENBILL8906/VE,cogs,40391,MIRAGE GRANITO CERAMICO USA INC,1956,8906/VE,7,03-05-2025,03/05/2025,106.92,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10982
+OPENVENBILL9937/VE,cogs,40391,MIRAGE GRANITO CERAMICO USA INC,1956,9937/VE,7,03-12-2025,03/12/2025,2482.32,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10983
+OPENVENBILL15364/VE,cogs,40391,MIRAGE GRANITO CERAMICO USA INC,1956,15364/VE,8,04-10-2025,04/10/2025,12171.60,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10987
+OPENVENBILL19542/VE,cogs,40391,MIRAGE GRANITO CERAMICO USA INC,1956,19542/VE,8,05-08-2025,05/08/2025,2116.80,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10988
+OPENVENBILL24874/VE,cogs,40391,MIRAGE GRANITO CERAMICO USA INC,1956,24874/VE,8,06-05-2025,06/05/2025,13230.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10991
+OPENVENBILL24905/VE,cogs,40391,MIRAGE GRANITO CERAMICO USA INC,1956,24905/VE,8,06-05-2025,06/05/2025,13230.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10992
+OPENVENBILL24802/VE,cogs,40391,MIRAGE GRANITO CERAMICO USA INC,1956,24802/VE,8,06-05-2025,06/05/2025,8467.20,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10993
+OPENVENBILLS020359,cogs,40391,Modular Shower Walls,1270,S020359,7,01-01-2025,01/01/2025,3729.94,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10995
+OPENVENBILLS020365,cogs,40391,Modular Shower Walls,1270,S020365,7,02-01-2025,02/01/2025,3933.93,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10996
+OPENVENBILLS020971,cogs,40391,Modular Shower Walls,1270,S020971,7,03-28-2025,03/28/2025,19580.88,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10997
+OPENVENBILLS020972,cogs,40391,Modular Shower Walls,1270,S020972,7,03-28-2025,03/28/2025,22480.30,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10998
+OPENVENBILLS020973,cogs,40391,Modular Shower Walls,1270,S020973,7,03-28-2025,03/28/2025,14412.83,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,10999
+OPENVENBILLS020974-RPL,cogs,40391,Modular Shower Walls,1270,S020974-RPL,11,03-28-2025,03/28/2025,534.82,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11000
+OPENVENBILLS020975,cogs,40391,Modular Shower Walls,1270,S020975,7,03-28-2025,03/28/2025,1324.81,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11001
+OPENVENBILLS021038,cogs,40391,Modular Shower Walls,1270,S021038,7,04-07-2025,04/07/2025,627.03,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11002
+OPENVENBILLS021063,cogs,40391,Modular Shower Walls,1270,S021063,7,04-10-2025,04/10/2025,9332.40,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11003
+OPENVENBILLS021064,cogs,40391,Modular Shower Walls,1270,S021064,7,04-10-2025,04/10/2025,1054.05,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11004
+OPENVENBILLS021076,cogs,40391,Modular Shower Walls,1270,S021076,7,04-15-2025,04/15/2025,6585.59,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11005
+OPENVENBILLS021121,cogs,40391,Modular Shower Walls,1270,S021121,7,04-25-2025,04/25/2025,1572.59,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11006
+OPENVENBILLS021134,cogs,40391,Modular Shower Walls,1270,S021134,7,04-29-2025,04/29/2025,28904.40,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11007
+OPENVENBILLS021137,cogs,40391,Modular Shower Walls,1270,S021137,7,04-29-2025,04/29/2025,4390.92,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11008
+OPENVENBILLS021152,cogs,40391,Modular Shower Walls,1270,S021152,7,04-30-2025,04/30/2025,3914.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11009
+OPENVENBILLS021153,cogs,40391,Modular Shower Walls,1270,S021153,7,04-30-2025,04/30/2025,1777.60,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11010
+OPENVENBILLS021191,cogs,40391,Modular Shower Walls,1270,S021191,7,05-07-2025,05/07/2025,322.01,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11011
+OPENVENBILLS021249,cogs,40391,Modular Shower Walls,1270,S021249,7,05-16-2025,05/16/2025,566.02,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11012
+OPENVENBILLS021254,cogs,40391,Modular Shower Walls,1270,S021254,7,05-16-2025,05/16/2025,2542.55,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11013
+OPENVENBILLS021275,cogs,40391,Modular Shower Walls,1270,S021275,7,05-21-2025,05/21/2025,28.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11014
+OPENVENBILLS021295,cogs,40391,Modular Shower Walls,1270,S021295,7,05-23-2025,05/23/2025,161.44,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11015
+OPENVENBILLW-0623,cogs,40391,Modular Shower Walls,1270,W-0623,6,06-23-2025,06/23/2025,-88.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11016
+OPENVENBILLS021470,cogs,40391,Modular Shower Walls,1270,S021470,7,06-27-2025,06/27/2025,22737.33,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11017
+OPENVENBILLS021471,cogs,40391,Modular Shower Walls,1270,S021471,7,06-27-2025,06/27/2025,15360.60,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11018
+OPENVENBILL6282024,cogs,40391,Modular Vanity Tops,1271,6282024,7,06-28-2024,06/28/2024,353.66,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11021
+OPENVENBILL824013041 - PF,cogs,40391,Momentum Group,1971,824013041 - PF,14,11-06-2024,11/06/2024,-44.04,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11022
+OPENVENBILLPrePayment - PO1258/NetSuite,cogs,40391,Momentum Group,1971,PrePayment - PO1258/NetSuite,28,04-09-2025,04/09/2025,-1146.53,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11024
+OPENVENBILLW-0513,cogs,40391,Momentum Group,1971,W-0513,6,05-13-2025,05/13/2025,-532.70,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11025
+OPENVENBILLW-0604,cogs,40391,Momentum Group,1971,W-0604,6,06-04-2025,06/04/2025,-578.51,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11026
+OPENVENBILLW-0609,cogs,40391,Momentum Group,1971,W-0609,6,06-09-2025,06/09/2025,-533.44,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11027
+OPENVENBILLPrePayment - PO45773/NetSuite,cogs,40391,Monster displays,2411,PrePayment - PO45773/NetSuite,29,04-22-2025,04/22/2025,-2668.07,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11028
+OPENVENBILLPrePayment - PO60080/NetSuite,cogs,40391,Monster displays,2411,PrePayment - PO60080/NetSuite,29,05-11-2025,05/11/2025,-1104.19,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11029
+OPENVENBILL1118352890-IN,cogs,40391,"MS International, Inc.",2497,1118352890-IN,13,06-20-2025,06/20/2025,689.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11030
+OPENVENBILLW11262024,cogs,40391,Muraspec Decorative Solutions Limited,1274,W11262024,9,11-26-2024,11/26/2024,-8993.46,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11031
+OPENVENBILL110514,cogs,40391,"MW Logistics, LLC",176,110514,6,03-17-2025,03/17/2025,250.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11032
+OPENVENBILLPrePayment - PO60620/NetSuite,cogs,40391,"National Wallcovering, Inc.",1275,PrePayment - PO60620/NetSuite,29,04-19-2024,04/19/2024,-3986.78,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11033
+OPENVENBILLE/201,cogs,40391,Natucer Ceramica Natural,1276,E/201,5,03-24-2025,03/24/2025,2397.60,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11034
+OPENVENBILL45644,cogs,40391,OrientO,1946,12-18-2024,5,12-18-2024,12/18/2024,-210.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11035
+OPENVENBILLW-0606,cogs,40391,PADRON FLOORING & DESIGN CENTER,2558,W-0606,6,06-06-2025,06/06/2025,-3410.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11037
+OPENVENBILL6,cogs,40391,Pantarei S.R.L,1280,6,1,02-07-2024,02/07/2024,4339.51,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11040
+"OPENVENBILLW-0207 $234,289.27",cogs,40391,Pantarei S.R.L,1280,"W-0207 $234,289.27",18,02-07-2024,02/07/2024,-52670.48,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11041
+"OPENVENBILLW-0215 $140,370.71",cogs,40391,Pantarei S.R.L,1280,"W-0215 $140,370.71",18,02-15-2024,02/15/2024,-6000.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11042
+OPENVENBILL10,cogs,40391,Pantarei S.R.L,1280,10,2,02-16-2024,02/16/2024,552.85,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11043
+OPENVENBILL19,cogs,40391,Pantarei S.R.L,1280,19,2,04-04-2024,04/04/2024,996.61,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11044
+OPENVENBILL30,cogs,40391,Pantarei S.R.L,1280,30,2,05-28-2024,05/28/2024,1154.98,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11045
+OPENVENBILL26,cogs,40391,Pantarei S.R.L,1280,26,2,05-30-2024,05/30/2024,859.10,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11046
+OPENVENBILL27,cogs,40391,Pantarei S.R.L,1280,27,2,05-31-2024,05/31/2024,1139.03,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11047
+OPENVENBILL28,cogs,40391,Pantarei S.R.L,1280,28,2,06-04-2024,06/04/2024,859.10,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11048
+OPENVENBILLW-06142024,cogs,40391,Pantarei S.R.L,1280,W-06142024,10,06-14-2024,06/14/2024,-12654.21,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11049
+OPENVENBILL63,cogs,40391,Pantarei S.R.L,1280,63,2,06-20-2024,06/20/2024,3732.34,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11050
+OPENVENBILLPrePayment - PO36504/SPS,cogs,40391,Pantarei S.R.L,1280,PrePayment - PO36504/SPS,24,08-01-2024,08/01/2024,-33.19,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11057
+OPENVENBILLW-0920,cogs,40391,Pantarei S.R.L,1280,W-0920,6,09-20-2024,09/20/2024,-10537.96,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11058
+OPENVENBILL48,cogs,40391,Pantarei S.R.L,1280,48,2,09-25-2024,09/25/2024,3561.60,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11059
+OPENVENBILL68,cogs,40391,Pantarei S.R.L,1280,68,2,11-05-2024,11/05/2024,7500.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11060
+OPENVENBILL73,cogs,40391,Pantarei S.R.L,1280,73,2,11-22-2024,11/22/2024,2811.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11061
+OPENVENBILL81,cogs,40391,Pantarei S.R.L,1280,81,2,12-19-2024,12/19/2024,1558.38,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11062
+OPENVENBILL7,cogs,40391,Pantarei S.R.L,1280,7,1,03-13-2025,03/13/2025,3304.43,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11063
+OPENVENBILL9,cogs,40391,Pantarei S.R.L,1280,9,1,03-14-2025,03/14/2025,800.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11064
+OPENVENBILL39946 - Invoice,cogs,40391,Pantarei S.R.L,1280,39946 - Invoice,15,06-30-2025,06/30/2025,554.29,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11065
+OPENVENBILL35216 - Invoice,cogs,40391,Pantarei S.R.L,1280,35216 - Invoice,15,06-30-2025,06/30/2025,373.70,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11066
+OPENVENBILLW-06072024,cogs,40391,Papatya,1333,W-06072024,10,06-07-2024,06/07/2024,-25.90,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11067
+OPENVENBILLW-06122024,cogs,40391,Papatya,1333,W-06122024,10,06-12-2024,06/12/2024,-55.70,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11068
+OPENVENBILLW-0212,cogs,40391,PIERMARIA NEW FORM SRL,1281,W-0212,6,02-12-2025,02/12/2025,-3110.12,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11070
+OPENVENBILL23,cogs,40391,PIERMARIA NEW FORM SRL,1281,23,2,05-23-2025,05/23/2025,-3650.96,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11071
+OPENVENBILLPrePayment - PO60012/NetSuite,cogs,40391,Quartz America LLC,1690,PrePayment - PO60012/NetSuite,29,05-15-2025,05/15/2025,-3949.02,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11072
+OPENVENBILL210,cogs,40391,Ramon Garcia Mexico,1283,210,3,05-11-2023,05/11/2023,21041.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11074
+OPENVENBILLA2023 237,cogs,40391,Ramon Garcia Mexico,1283,A2023 237,9,06-07-2023,06/07/2023,45164.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11075
+OPENVENBILLA2023 2,cogs,40391,Ramon Garcia Mexico,1283,A2023 2,7,01-01-2024,01/01/2024,844.75,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11076
+OPENVENBILL20240106,cogs,40391,Ramon Garcia Mexico,1283,20240106,8,01-05-2024,01/05/2024,658.35,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11077
+OPENVENBILLW-0408,cogs,40391,"Raytop Industry Co., LTD",1284,W-0408,6,04-08-2022,04/08/2022,-5992.38,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11079
+OPENVENBILLW-0824,cogs,40391,"Raytop Industry Co., LTD",1284,W-0824,6,08-24-2022,08/24/2022,-10500.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11080
+OPENVENBILLW-0229,cogs,40391,"Raytop Industry Co., LTD",1284,W-0229,6,02-29-2024,02/29/2024,-4113.66,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11081
+OPENVENBILLSR411-6,cogs,40391,Richwood Hospitality Co. LTD,1285,SR411-6,7,05-31-2024,05/31/2024,7685.40,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11083
+"OPENVENBILLW-0710 $121,645.48",cogs,40391,Richwood Hospitality Co. LTD,1285,"W-0710 $121,645.48",18,07-10-2024,07/10/2024,-6064.03,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11084
+"OPENVENBILLSR262-04P,SR262-3",cogs,40391,Richwood Hospitality Co. LTD,1285,"SR262-04P,SR262-3",17,10-13-2024,10/13/2024,5724.48,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11085
+OPENVENBILLPrePayment - PO43955/SPS,cogs,40391,Richwood Hospitality Co. LTD,1285,PrePayment - PO43955/SPS,24,10-24-2024,10/24/2024,-822.86,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11086
+OPENVENBILLW-1219,cogs,40391,Richwood Hospitality Co. LTD,1285,W-1219,6,12-19-2024,12/19/2024,-534.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11097
+OPENVENBILLPrePayment - PO1262/NetSuite,cogs,40391,Richwood Hospitality Co. LTD,1285,PrePayment - PO1262/NetSuite,28,12-31-2024,12/31/2024,-3289.33,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11098
+OPENVENBILLW-0108,cogs,40391,Richwood Hospitality Co. LTD,1285,W-0108,6,01-08-2025,01/08/2025,-24479.56,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11099
+OPENVENBILLW-0113,cogs,40391,Richwood Hospitality Co. LTD,1285,W-0113,6,01-13-2025,01/13/2025,-7601.53,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11100
+OPENVENBILLSR431,cogs,40391,Richwood Hospitality Co. LTD,1285,SR431,5,01-19-2025,01/19/2025,280.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11101
+OPENVENBILLSR382-2P1,cogs,40391,Richwood Hospitality Co. LTD,1285,SR382-2P1,9,02-22-2025,02/22/2025,441.60,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11109
+"OPENVENBILLSR307-2,cntr3",cogs,40391,Richwood Hospitality Co. LTD,1285,"SR307-2,cntr3",13,03-26-2025,03/26/2025,730.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11122
+"OPENVENBILLSR307-2,cntr4,5,6",cogs,40391,Richwood Hospitality Co. LTD,1285,"SR307-2,cntr4,5,6",17,03-27-2025,03/27/2025,4000.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11123
+OPENVENBILLW-0407,cogs,40391,Richwood Hospitality Co. LTD,1285,W-0407,6,04-07-2025,04/07/2025,-12376.54,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11130
+"OPENVENBILLSR307-7,SR425",cogs,40391,Richwood Hospitality Co. LTD,1285,"SR307-7,SR425",13,04-09-2025,04/09/2025,689.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11131
+OPENVENBILLocean freight cost SR411-14P2,cogs,40391,Richwood Hospitality Co. LTD,1285,ocean freight cost SR411-14P2,29,05-07-2025,05/07/2025,446.52,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11166
+"OPENVENBILLSR173-5C,SR173-5K,SR382-3",cogs,40391,Richwood Hospitality Co. LTD,1285,"SR173-5C,SR173-5K,SR382-3",25,05-10-2025,05/10/2025,2600.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11183
+OPENVENBILLSR407-13,cogs,40391,Richwood Hospitality Co. LTD,1285,SR407-13,8,05-18-2025,05/18/2025,3360.14,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11196
+"OPENVENBILLGV048,cntr3",cogs,40391,Richwood Hospitality Co. LTD,1285,"GV048,cntr3",11,05-23-2025,05/23/2025,64.08,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11197
+OPENVENBILLSR405-3P,cogs,40391,Richwood Hospitality Co. LTD,1285,SR405-3P,8,05-23-2025,05/23/2025,924.86,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11198
+OPENVENBILLGV048,cogs,40391,Richwood Hospitality Co. LTD,1285,GV048,5,05-29-2025,05/29/2025,39392.93,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11207
+OPENVENBILLW-0206,cogs,40391,Richwood Hospitality Co. LTD,1285,W-0206,6,06-02-2025,06/02/2025,-2315.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11211
+OPENVENBILLSR273-35_2nd-1,cogs,40391,Richwood Hospitality Co. LTD,1285,SR273-35_2nd-1,14,06-30-2025,06/30/2025,5386.05,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11224
+OPENVENBILLSR405-2,cogs,40391,Richwood Hospitality Co. LTD,1285,SR405-2,7,06-30-2025,06/30/2025,919.10,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11225
+OPENVENBILLSR407-5,cogs,40391,Richwood Hospitality Co. LTD,1285,SR407-5,7,06-30-2025,06/30/2025,1323.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11226
+OPENVENBILLSR411-5P2,cogs,40391,Richwood Hospitality Co. LTD,1285,SR411-5P2,9,06-30-2025,06/30/2025,90.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11227
+OPENVENBILL999184577,cogs,40391,ShawInd,1964,999184577,9,04-29-2025,04/29/2025,42908.51,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11229
+OPENVENBILL999184610,cogs,40391,ShawInd,1964,999184610,9,04-30-2025,04/30/2025,36626.66,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11230
+OPENVENBILLW-0602,cogs,40391,ShawInd,1964,W-0602,6,06-02-2025,06/02/2025,-737.86,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11231
+OPENVENBILLW-0621,cogs,40391,ShawInd,1964,W-0621,6,06-21-2025,06/21/2025,-25755.06,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11232
+OPENVENBILL999186726,cogs,40391,ShawInd,1964,999186726,9,06-26-2025,06/26/2025,39437.82,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11233
+OPENVENBILL999151243,cogs,40391,"Shaw Integrated and Turf Solutions, Inc.",1287,999151243,9,09-14-2023,09/14/2023,5203.87,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11234
+OPENVENBILL999184573,cogs,40391,"Shaw Integrated and Turf Solutions, Inc.",1287,999184573,9,04-29-2025,04/29/2025,23854.80,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11235
+OPENVENBILL999185190,cogs,40391,"Shaw Integrated and Turf Solutions, Inc.",1287,999185190,9,05-14-2025,05/14/2025,21384.86,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11236
+OPENVENBILLSI178092,cogs,40391,SICIS THE ART FACTORY,2693,SI178092,8,05-15-2025,05/15/2025,4783.11,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11239
+OPENVENBILLN-1143438,cogs,40391,Signature Flooring,1972,N-1143438,9,06-30-2025,06/30/2025,2020.39,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11240
+OPENVENBILL3024504,cogs,40391,"Sponge Cushion, Inc.",1541,3024504,7,07-01-2023,07/01/2023,502.31,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11241
+OPENVENBILLPrePayment - PO592/NetSuite,cogs,40391,"Sponge Cushion, Inc.",1541,PrePayment - PO592/NetSuite,27,04-07-2025,04/07/2025,-862.70,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11243
+OPENVENBILL23012784,cogs,40391,"Stonepeak Ceramics, Inc.",228,23012784,8,03-22-2024,03/22/2024,941.94,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11244
+OPENVENBILLPrePayment - PO43225/SPS,cogs,40391,"Stonepeak Ceramics, Inc.",228,PrePayment - PO43225/SPS,24,06-16-2025,06/16/2025,-8548.63,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11248
+OPENVENBILLPrePayment - PO42793/SPS,cogs,40391,Tarkett Hospitality,1288,PrePayment - PO42793/SPS,24,04-03-2025,04/03/2025,-1366.16,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11253
+OPENVENBILLW-0423,cogs,40391,Tarkett Hospitality,1288,W-0423,6,04-23-2025,04/23/2025,-325.91,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11255
+OPENVENBILL27375,cogs,40391,"T.M. Leader Contract, S.L.",1289,27375,5,07-17-2024,07/17/2024,-676.20,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11256
+OPENVENBILLY21I1DWV-hotel,cogs,40391,Truist Card Services,252,Y21I1DWV-hotel,14,02-21-2025,02/21/2025,1008.51,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11259
+OPENVENBILL39753 - pi,cogs,40391,U.S. Vinyl Manufacturing Corp,1292,39753 - pi,10,08-01-2024,08/01/2024,720.82,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11260
+OPENVENBILLPrePayment - PO60195/NetSuite,cogs,40391,U.S. Vinyl Manufacturing Corp,1292,PrePayment - PO60195/NetSuite,29,04-24-2025,04/24/2025,-10595.30,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11261
+OPENVENBILLPrePayment - PO60028/NetSuite,cogs,40391,U.S. Vinyl Manufacturing Corp,1292,PrePayment - PO60028/NetSuite,29,06-18-2025,06/18/2025,-10595.30,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11266
+OPENVENBILLPrePayment - PO60340/NetSuite,cogs,40391,U.S. Vinyl Manufacturing Corp,1292,PrePayment - PO60340/NetSuite,29,06-25-2025,06/25/2025,-4881.37,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11267
+OPENVENBILL188009241,cogs,40391,Uline,255,188009241,9,01-16-2025,01/16/2025,827.38,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11268
+OPENVENBILL188009476,cogs,40391,Uline,255,188009476,9,01-16-2025,01/16/2025,767.50,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11269
+OPENVENBILL188169574,cogs,40391,Uline,255,188169574,9,01-21-2025,01/21/2025,620.59,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11270
+OPENVENBILL188248104,cogs,40391,Uline,255,188248104,9,01-22-2025,01/22/2025,767.50,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11271
+OPENVENBILL194719434,cogs,40391,Uline,255,194719434,9,06-27-2025,06/27/2025,226.80,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11272
+OPENVENBILL1343718,cogs,40391,Uniik Design Solutions,1291,1343718,7,03-17-2025,03/17/2025,4309.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11273
+OPENVENBILL1253518,cogs,40391,Uniik Design Solutions,1291,1253518,7,06-19-2025,06/19/2025,5340.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11274
+OPENVENBILL33048,cogs,40391,Unite Oak International Inc,258,33048,5,06-30-2025,06/30/2025,3220.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11275
+OPENVENBILL247514092,cogs,40391,United Rentals (North America) Inc.,261,247514092,9,05-02-2025,05/02/2025,927.45,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11276
+OPENVENBILLSR411-9_4th,cogs,40391,VEI MAY WOODEN APPLIANCES COMPANY LIMITED,1335,SR411-9_4th,11,07-29-2024,07/29/2024,6064.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11277
+OPENVENBILL5034680910,cogs,40391,Wells Fargo,271,5034680910,10,06-06-2025,06/06/2025,622.85,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11279
+OPENVENBILLPrePayment - PO60078/NetSuite,cogs,40391,WILSONART LLC,2646,PrePayment - PO60078/NetSuite,29,06-25-2025,06/25/2025,-1508.22,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11280
+OPENVENBILL41279,cogs,40391,"WOW USA, Inc.",2367,41279,5,03-24-2025,03/24/2025,3171.30,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11281
+OPENVENBILLW-0528,cogs,40391,"WOW USA, Inc.",2367,W-0528,6,05-28-2025,05/28/2025,-846.50,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11282
+OPENVENBILLW-0617,cogs,40391,"WOW USA, Inc.",2367,W-0617,6,06-17-2025,06/17/2025,-2223.95,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11283
+OPENVENBILL2062025,cogs,40391,WRIGHTE,1951,2062025,7,02-06-2025,02/06/2025,243.34,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11284
+OPENVENBILL33229323,cogs,40391,Wyndham Hotels & Resorts Inc.,276,33229323,8,10-31-2024,10/31/2024,5000.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11285
+OPENVENBILLGV2024066-D,cogs,40391,"Xiamen Deyuan Panmin Trading Co., LTD",1295,GV2024066-D,11,04-17-2025,04/17/2025,925.76,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11287
+OPENVENBILLPrePayment,cogs,40391,"Xiamen Deyuan Panmin Trading Co., LTD",1295,PrePayment,10,05-02-2025,05/02/2025,-18732.54,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11288
+OPENVENBILLW-1105,cogs,40391,"Yesenye Furniture Co., Ltd",1296,W-1105,6,11-05-2024,11/05/2024,-3983.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11289
+OPENVENBILLZB202305011USA,cogs,40391,ZBOM Cabinets Corp.,1297,ZB202305011USA,14,04-01-2024,04/01/2024,7592.08,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11290
+OPENVENBILLZB202304012USA,cogs,40391,ZBOM Cabinets Corp.,1297,ZB202304012USA,14,04-10-2024,04/10/2024,4224.98,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11291
+OPENVENBILLZB202406008USA,cogs,40391,ZBOM Cabinets Corp.,1297,ZB202406008USA,14,08-26-2024,08/26/2024,2255.20,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11292
+OPENVENBILL36106,cogs,40391,ZBOM Cabinets Corp.,1297,36106,5,12-19-2024,12/19/2024,-18000.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11294
+OPENVENBILLZB202405015USA,cogs,40391,ZBOM Cabinets Corp.,1297,ZB202405015USA,14,01-01-2025,01/01/2025,8650.52,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11295
+OPENVENBILLW-0310,cogs,40391,ZBOM Cabinets Corp.,1297,W-0310,6,03-10-2025,03/10/2025,-6266.98,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11297
+OPENVENBILLZB202407028USA-1,cogs,40391,ZBOM Cabinets Corp.,1297,ZB202407028USA-1,16,03-14-2025,03/14/2025,3635.00,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11298
+OPENVENBILL46009,cogs,40391,ZBOM Cabinets Corp.,1297,46009,5,05-20-2025,05/20/2025,-2232.30,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11301
+OPENVENBILLZB202503027USA,cogs,40391,ZBOM Cabinets Corp.,1297,ZB202503027USA,14,06-03-2025,06/03/2025,6368.57,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11304
+OPENVENBILLLaxmi-0664,cogs,40391,ZBOM Cabinets Corp.,1297,Laxmi-0664,10,06-05-2025,06/05/2025,-3747.42,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11305
+OPENVENBILLZB202406008USA-5,cogs,40391,ZBOM Cabinets Corp.,1297,ZB202406008USA-5,16,06-30-2025,06/30/2025,4059.05,Import SPS data by Invoice in NetSuite,3,Graniti Vicentia LLC,A20001,CW-001,17,2,11313
